@@ -1,0 +1,10 @@
+[System: 192.168.1.56] DEBUG | 06-20-2025 16:45:57.153 | General Service|:: CompanyIndex:7 SpName: spRPT_GetReport 
+ 2
+ ,0
+ ,'1'
+ ,'1'
+ ,1
+[System: 192.168.1.56] DEBUG | 06-20-2025 16:45:57.169 | General Service|:: CompanyIndex:7 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNywxIiwibmJmIjoxNzUwNDE4MTUwLCJleHAiOjE3NTA0NDY5NTAsImlhdCI6MTc1MDQxODE1MH0.tzpxeK3HZrFYFQ3KtNLNQgXe13Utyh4wbHorjpSWmKo'''
+ ,1
+ ,1

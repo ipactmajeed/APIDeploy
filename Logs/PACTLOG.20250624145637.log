@@ -1,0 +1,647 @@
+[Sys Thread: 1] INFO | 06-24-2025 14:56:37.530 | SessionManager :: InitOnLoad() :: Entering...
+[Sys Thread: 1] INFO | 06-24-2025 14:56:37.530 | Installed Printers Count :3
+[Sys Thread: 1] INFO | 06-24-2025 14:56:37.530 | IsExportPDFWithPrintOption : True - XPS Printer Name : Microsoft Print to PDF
+[Sys Thread: 1] INFO | 06-24-2025 14:56:37.530 | SessionManager :: InitOnLoad() :: Exiting...
+[System: 192.168.1.56] INFO | 06-24-2025 14:56:37.858 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 14:56:37.874 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 14:56:37.874 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 14:56:37.874 | Common:: IsBase64 Checking START
+[System: 192.168.1.56] INFO | 06-24-2025 14:56:37.874 | Administration:: Entering GetClientUserDetails
+[System: 192.168.1.56] INFO | 06-24-2025 14:56:37.983 | Administration:: Entering LDAPChecking
+[System: 192.168.1.56] INFO | 06-24-2025 14:56:37.983 | isValidUser:: True
+[System: 192.168.1.56] INFO | 06-24-2025 14:56:37.983 | AdminController:: Exiting GetUserDetails
+[System: 192.168.1.56] INFO | 06-24-2025 14:56:38.139 | Common:: IsBase64 Checking START
+[System: 192.168.1.56] INFO | 06-24-2025 14:56:38.155 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 14:56:38.155 | Administration:: Entering LDAPChecking
+[System: 192.168.1.56] INFO | 06-24-2025 14:56:38.155 | isValidUser:: True
+[System: 192.168.1.56] INFO | 06-24-2025 14:56:38.155 | AdminController:: Exiting LDAPUserCheck
+[System: 192.168.1.56] INFO | 06-24-2025 14:56:41.185 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 14:56:41.185 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 14:56:41.185 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 14:56:41.185 | Common:: IsBase64 Checking START
+[System: 192.168.1.56] INFO | 06-24-2025 14:56:41.185 | Administration:: Entering GetClientUserDetails
+[System: 192.168.1.56] INFO | 06-24-2025 14:56:41.357 | AdminController:: Exiting GetUserDetails
+[System: 192.168.1.56] INFO | 06-24-2025 14:56:41.451 | Common:: IsBase64 Checking START
+[System: 192.168.1.56] INFO | 06-24-2025 14:56:41.451 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 14:56:41.451 | Administration:: Entering LDAPChecking
+[System: 192.168.1.56] INFO | 06-24-2025 14:56:41.451 | isValidUser:: True
+[System: 192.168.1.56] INFO | 06-24-2025 14:56:41.451 | AdminController:: Exiting LDAPUserCheck
+[System: 192.168.1.56] ERROR | 06-24-2025 14:56:41.576 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 14:56:41.592 | Administration:: Entering InitLoginSession
+[System: 192.168.1.56] INFO | 06-24-2025 14:56:41.607 | Administration:: Entering AllowSession  1
+[System: 192.168.1.56] INFO | 06-24-2025 14:56:41.607 | Administration:: Entering AllowSession  end
+[System: 192.168.1.56] ERROR | 06-24-2025 14:56:41.607 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 14:56:41.717 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:03:16.052 | RibbonGenerator:: GetRibbonViewWeb
+[System: 192.168.1.56] INFO | 06-24-2025 15:03:16.052 | RibbonGenerator:: Inside GetRibbonView
+[System: 192.168.1.56] ERROR | 06-24-2025 15:03:16.067 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:03:16.333 | RibbonGenerator:: Success: GetRibbonView
+[System: 192.168.1.56] ERROR | 06-24-2025 15:03:16.348 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:03:16.631 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:03:16.646 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:03:16.678 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:03:16.693 | Administration:: Entering GetUserDetails
+[System: 192.168.1.56] INFO | 06-24-2025 15:03:16.740 | Administration:: Exiting GetUserDetails
+[System: 192.168.1.56] ERROR | 06-24-2025 15:03:16.740 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:03:16.834 | Administration:: Entering GetUserDetails
+[System: 192.168.1.56] INFO | 06-24-2025 15:03:16.896 | Administration:: Exiting GetUserDetails
+[System: 192.168.1.56] ERROR | 06-24-2025 15:03:16.896 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:03:16.974 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:03:16.974 | ReportLayout:: GetDataSet START
+[System: 192.168.1.56] INFO | 06-24-2025 15:03:17.053 | ReportLayout:: GetDataSet END
+[System: 192.168.1.56] ERROR | 06-24-2025 15:03:17.053 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:03:17.115 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:03:17.115 | ReportLayout:: GetDataSet START
+[System: 192.168.1.56] INFO | 06-24-2025 15:03:17.115 | ReportLayout:: GetDataSet END
+[System: 192.168.1.56] ERROR | 06-24-2025 15:03:17.131 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:03:17.146 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:03:17.146 | ReportLayout:: GetDataSet START
+[System: 192.168.1.56] INFO | 06-24-2025 15:03:17.177 | ReportLayout:: GetDataSet END
+[System: 192.168.1.56] ERROR | 06-24-2025 15:03:17.177 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:03:17.193 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:03:17.193 | ReportLayout:: GetDataSet START
+[System: 192.168.1.56] INFO | 06-24-2025 15:03:17.193 | ReportLayout:: GetDataSet END
+[System: 192.168.1.56] ERROR | 06-24-2025 15:03:17.193 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:03:17.224 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:03:17.224 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:03:17.224 | Common:: DecodeBase64 START
+[System: 192.168.1.56] ERROR | 06-24-2025 15:03:17.365 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:03:17.647 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:03:17.757 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:03:31.021 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:03:31.053 | GetCostCenterSummary:: GetCostCenterSummary
+[System: 192.168.1.56] ERROR | 06-24-2025 15:03:31.099 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:03:44.274 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:03:44.462 | Common controller:: Inside BulkEditDetals
+[System: 192.168.1.56] INFO | 06-24-2025 15:03:44.477 | Common controller::Exiting BulkEditDetals
+[System: 192.168.1.56] ERROR | 06-24-2025 15:03:44.477 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:03:44.493 | Common controller:: Inside BulkEditDetals
+[System: 192.168.1.56] INFO | 06-24-2025 15:03:44.509 | Common controller::Exiting BulkEditDetals
+[System: 192.168.1.56] ERROR | 06-24-2025 15:03:44.509 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:03:44.524 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:03:44.556 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:03:44.571 | setAuditPrint:: setAuditPrint
+[System: 192.168.1.56] ERROR | 06-24-2025 15:03:44.587 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:03:44.790 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:03:44.852 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:03:44.884 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:03:44.931 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:03:44.946 | GetCostCenterSummary:: GetCostCenterSummary
+[System: 192.168.1.56] ERROR | 06-24-2025 15:03:45.024 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:03:45.087 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:03:45.102 | GetCostCenterSummary:: GetCostCenterSummary
+[System: 192.168.1.56] ERROR | 06-24-2025 15:03:45.149 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:03:45.181 | GetCostCenterSummary:: GetCostCenterSummary
+[System: 192.168.1.56] ERROR | 06-24-2025 15:03:45.243 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:03:45.306 | GetCostCenterSummary:: GetCostCenterSummary
+[System: 192.168.1.56] ERROR | 06-24-2025 15:03:45.352 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:03:49.922 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:03:49.922 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:03:49.937 | Common:: DecodeBase64 START
+[System: 192.168.1.56] ERROR | 06-24-2025 15:03:49.953 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:04:17.223 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:04:17.223 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:04:17.223 | Common:: DecodeBase64 START
+[System: 192.168.1.56] ERROR | 06-24-2025 15:04:17.484 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:05:45.661 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:05:45.661 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:05:45.661 | Common:: DecodeBase64 START
+[System: 192.168.1.56] ERROR | 06-24-2025 15:05:45.677 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:05:46.654 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:05:46.654 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:05:46.669 | Common:: DecodeBase64 START
+[System: 192.168.1.56] ERROR | 06-24-2025 15:05:46.825 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:12:38.291 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:12:38.291 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:12:38.291 | Common:: DecodeBase64 START
+[System: 192.168.1.56] ERROR | 06-24-2025 15:12:38.307 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:12:38.354 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:12:38.572 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:12:47.787 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:12:47.802 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:12:47.802 | Common:: DecodeBase64 START
+[System: 192.168.1.56] ERROR | 06-24-2025 15:12:47.802 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:12:54.557 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:12:54.557 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:12:54.557 | Common:: DecodeBase64 START
+[System: 192.168.1.56] ERROR | 06-24-2025 15:12:54.557 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:13:16.067 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:13:17.223 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:13:17.223 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:13:17.223 | Common:: DecodeBase64 START
+[System: 192.168.1.56] ERROR | 06-24-2025 15:13:17.364 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:13:22.467 | Common controller:: Inside BulkEditDetals
+[System: 192.168.1.56] INFO | 06-24-2025 15:13:22.467 | Common controller::Exiting BulkEditDetals
+[System: 192.168.1.56] ERROR | 06-24-2025 15:13:22.467 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:13:22.483 | Common controller:: Inside BulkEditDetals
+[System: 192.168.1.56] INFO | 06-24-2025 15:13:22.499 | Common controller::Exiting BulkEditDetals
+[System: 192.168.1.56] ERROR | 06-24-2025 15:13:22.499 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:13:22.530 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:13:22.608 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:13:22.639 | setAuditPrint:: setAuditPrint
+[System: 192.168.1.56] ERROR | 06-24-2025 15:13:22.639 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:13:22.686 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:13:22.717 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:13:22.764 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:13:22.780 | GetCostCenterSummary:: GetCostCenterSummary
+[System: 192.168.1.56] ERROR | 06-24-2025 15:13:22.874 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:13:22.936 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:13:22.952 | GetCostCenterSummary:: GetCostCenterSummary
+[System: 192.168.1.56] ERROR | 06-24-2025 15:13:22.983 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:13:22.999 | GetCostCenterSummary:: GetCostCenterSummary
+[System: 192.168.1.56] ERROR | 06-24-2025 15:13:23.092 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:13:23.139 | GetCostCenterSummary:: GetCostCenterSummary
+[System: 192.168.1.56] ERROR | 06-24-2025 15:13:23.170 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:13:25.498 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:13:25.498 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:13:25.498 | Common:: DecodeBase64 START
+[System: 192.168.1.56] ERROR | 06-24-2025 15:13:25.514 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:13:38.916 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:13:38.916 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:13:38.916 | Common:: DecodeBase64 START
+[System: 192.168.1.56] ERROR | 06-24-2025 15:13:38.932 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:13:51.603 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:13:51.603 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:13:51.603 | Common:: DecodeBase64 START
+[System: 192.168.1.56] ERROR | 06-24-2025 15:13:51.618 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:13:58.229 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:13:58.229 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:13:58.229 | Common:: DecodeBase64 START
+[System: 192.168.1.56] ERROR | 06-24-2025 15:13:58.245 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:14:05.424 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:14:05.440 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:14:05.440 | Common:: DecodeBase64 START
+[System: 192.168.1.56] ERROR | 06-24-2025 15:14:05.455 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:14:17.224 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:14:17.224 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:14:17.224 | Common:: DecodeBase64 START
+[System: 192.168.1.56] ERROR | 06-24-2025 15:14:17.348 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:14:17.646 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:14:17.646 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:14:17.646 | Common:: DecodeBase64 START
+[System: 192.168.1.56] ERROR | 06-24-2025 15:14:17.661 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:14:21.113 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:14:21.113 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:14:21.113 | Common:: DecodeBase64 START
+[System: 192.168.1.56] ERROR | 06-24-2025 15:14:21.113 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:20:57.751 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:20:57.751 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:20:57.751 | Common:: DecodeBase64 START
+[System: 192.168.1.56] ERROR | 06-24-2025 15:20:58.001 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:20:58.251 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:21:04.297 | Common controller:: Inside BulkEditDetals
+[System: 192.168.1.56] INFO | 06-24-2025 15:21:04.297 | Common controller::Exiting BulkEditDetals
+[System: 192.168.1.56] ERROR | 06-24-2025 15:21:04.297 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:21:04.312 | Common controller:: Inside BulkEditDetals
+[System: 192.168.1.56] INFO | 06-24-2025 15:21:04.328 | Common controller::Exiting BulkEditDetals
+[System: 192.168.1.56] ERROR | 06-24-2025 15:21:04.328 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:21:04.359 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:21:04.390 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:21:04.406 | setAuditPrint:: setAuditPrint
+[System: 192.168.1.56] ERROR | 06-24-2025 15:21:04.406 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:21:04.437 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:21:04.468 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:21:04.515 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:21:04.531 | GetCostCenterSummary:: GetCostCenterSummary
+[System: 192.168.1.56] ERROR | 06-24-2025 15:21:04.593 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:21:04.640 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:21:04.672 | GetCostCenterSummary:: GetCostCenterSummary
+[System: 192.168.1.56] ERROR | 06-24-2025 15:21:04.687 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:21:04.703 | GetCostCenterSummary:: GetCostCenterSummary
+[System: 192.168.1.56] ERROR | 06-24-2025 15:21:04.765 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:21:04.797 | GetCostCenterSummary:: GetCostCenterSummary
+[System: 192.168.1.56] ERROR | 06-24-2025 15:21:04.812 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:22:41.492 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:22:41.492 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:22:41.492 | Common:: DecodeBase64 START
+[System: 192.168.1.56] ERROR | 06-24-2025 15:22:41.617 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:31:31.528 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:31:31.559 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:31:31.559 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:31:31.559 | Common:: DecodeBase64 START
+[System: 192.168.1.56] ERROR | 06-24-2025 15:31:31.684 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:31:31.825 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:38:09.350 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:38:09.350 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:38:09.350 | Common:: DecodeBase64 START
+[System: 192.168.1.56] ERROR | 06-24-2025 15:38:12.045 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:38:13.919 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:38:27.957 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:38:27.957 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:38:27.957 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:38:27.957 | Common:: IsBase64 Checking START
+[System: 192.168.1.56] INFO | 06-24-2025 15:38:27.957 | Administration:: Entering GetClientUserDetails
+[System: 192.168.1.56] INFO | 06-24-2025 15:38:29.316 | Administration:: Entering LDAPChecking
+[System: 192.168.1.56] INFO | 06-24-2025 15:38:29.316 | isValidUser:: True
+[System: 192.168.1.56] INFO | 06-24-2025 15:38:29.316 | AdminController:: Exiting GetUserDetails
+[System: 192.168.1.56] INFO | 06-24-2025 15:38:31.566 | Common:: IsBase64 Checking START
+[System: 192.168.1.56] INFO | 06-24-2025 15:38:31.566 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:38:31.566 | Administration:: Entering LDAPChecking
+[System: 192.168.1.56] INFO | 06-24-2025 15:38:31.566 | isValidUser:: True
+[System: 192.168.1.56] INFO | 06-24-2025 15:38:31.566 | AdminController:: Exiting LDAPUserCheck
+[System: 192.168.1.56] INFO | 06-24-2025 15:38:37.310 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:38:37.310 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:38:37.310 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:38:37.310 | Common:: IsBase64 Checking START
+[System: 192.168.1.56] INFO | 06-24-2025 15:38:37.310 | Administration:: Entering GetClientUserDetails
+[System: 192.168.1.56] INFO | 06-24-2025 15:38:38.763 | AdminController:: Exiting GetUserDetails
+[System: 192.168.1.56] INFO | 06-24-2025 15:38:40.513 | Common:: IsBase64 Checking START
+[System: 192.168.1.56] INFO | 06-24-2025 15:38:40.513 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:38:40.513 | Administration:: Entering LDAPChecking
+[System: 192.168.1.56] INFO | 06-24-2025 15:38:40.513 | isValidUser:: True
+[System: 192.168.1.56] INFO | 06-24-2025 15:38:40.513 | AdminController:: Exiting LDAPUserCheck
+[System: 192.168.1.56] ERROR | 06-24-2025 15:38:43.715 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:38:44.028 | Administration:: Entering InitLoginSession
+[System: 192.168.1.56] INFO | 06-24-2025 15:38:44.106 | Administration:: Entering AllowSession  1
+[System: 192.168.1.56] INFO | 06-24-2025 15:38:44.106 | Administration:: Entering AllowSession  end
+[System: 192.168.1.56] ERROR | 06-24-2025 15:38:44.106 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:38:44.184 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:38:46.952 | RibbonGenerator:: GetRibbonViewWeb
+[System: 192.168.1.56] INFO | 06-24-2025 15:38:46.952 | RibbonGenerator:: Inside GetRibbonView
+[System: 192.168.1.56] ERROR | 06-24-2025 15:38:48.296 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:38:48.639 | RibbonGenerator:: Success: GetRibbonView
+[System: 192.168.1.56] ERROR | 06-24-2025 15:38:48.639 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:38:49.577 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:38:49.640 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:38:49.671 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:38:49.686 | Administration:: Entering GetUserDetails
+[System: 192.168.1.56] INFO | 06-24-2025 15:38:49.733 | Administration:: Exiting GetUserDetails
+[System: 192.168.1.56] ERROR | 06-24-2025 15:38:49.749 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:38:49.796 | Administration:: Entering GetUserDetails
+[System: 192.168.1.56] INFO | 06-24-2025 15:38:49.843 | Administration:: Exiting GetUserDetails
+[System: 192.168.1.56] ERROR | 06-24-2025 15:38:49.858 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:38:49.921 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:38:49.921 | ReportLayout:: GetDataSet START
+[System: 192.168.1.56] INFO | 06-24-2025 15:38:49.983 | ReportLayout:: GetDataSet END
+[System: 192.168.1.56] ERROR | 06-24-2025 15:38:49.983 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:38:50.046 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:38:50.046 | ReportLayout:: GetDataSet START
+[System: 192.168.1.56] INFO | 06-24-2025 15:38:50.046 | ReportLayout:: GetDataSet END
+[System: 192.168.1.56] ERROR | 06-24-2025 15:38:50.061 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:38:50.061 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:38:50.061 | ReportLayout:: GetDataSet START
+[System: 192.168.1.56] INFO | 06-24-2025 15:38:50.093 | ReportLayout:: GetDataSet END
+[System: 192.168.1.56] ERROR | 06-24-2025 15:38:50.093 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:38:50.108 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:38:50.108 | ReportLayout:: GetDataSet START
+[System: 192.168.1.56] INFO | 06-24-2025 15:38:50.108 | ReportLayout:: GetDataSet END
+[System: 192.168.1.56] ERROR | 06-24-2025 15:38:50.108 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:38:50.124 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:38:50.124 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:38:50.124 | Common:: DecodeBase64 START
+[System: 192.168.1.56] ERROR | 06-24-2025 15:38:50.264 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:38:51.530 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:38:51.764 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:38:57.650 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:38:57.666 | GetCostCenterSummary:: GetCostCenterSummary
+[System: 192.168.1.56] ERROR | 06-24-2025 15:38:57.697 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:39:00.407 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:39:00.547 | Common controller:: Inside BulkEditDetals
+[System: 192.168.1.56] INFO | 06-24-2025 15:39:00.563 | Common controller::Exiting BulkEditDetals
+[System: 192.168.1.56] ERROR | 06-24-2025 15:39:00.563 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:39:00.578 | Common controller:: Inside BulkEditDetals
+[System: 192.168.1.56] INFO | 06-24-2025 15:39:00.594 | Common controller::Exiting BulkEditDetals
+[System: 192.168.1.56] ERROR | 06-24-2025 15:39:00.594 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:39:00.625 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:39:00.672 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:39:00.703 | setAuditPrint:: setAuditPrint
+[System: 192.168.1.56] ERROR | 06-24-2025 15:39:00.703 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:39:00.906 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:39:00.953 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:39:00.969 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:39:01.000 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:39:01.016 | GetCostCenterSummary:: GetCostCenterSummary
+[System: 192.168.1.56] ERROR | 06-24-2025 15:39:01.078 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:39:01.141 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:39:01.141 | GetCostCenterSummary:: GetCostCenterSummary
+[System: 192.168.1.56] ERROR | 06-24-2025 15:39:01.157 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:39:01.188 | GetCostCenterSummary:: GetCostCenterSummary
+[System: 192.168.1.56] ERROR | 06-24-2025 15:39:01.250 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:39:01.281 | GetCostCenterSummary:: GetCostCenterSummary
+[System: 192.168.1.56] ERROR | 06-24-2025 15:39:01.313 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:39:05.500 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:39:05.500 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:39:05.500 | Common:: DecodeBase64 START
+[System: 192.168.1.56] ERROR | 06-24-2025 15:39:05.515 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:39:52.845 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:39:52.845 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:39:52.845 | Common:: DecodeBase64 START
+[System: 192.168.1.56] ERROR | 06-24-2025 15:39:52.860 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:40:09.010 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:40:09.010 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:40:09.010 | Common:: DecodeBase64 START
+[System: 192.168.1.56] ERROR | 06-24-2025 15:40:09.119 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:43:23.547 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:43:23.547 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:43:23.547 | Common:: DecodeBase64 START
+[System: 192.168.1.56] ERROR | 06-24-2025 15:43:23.562 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:49:41.348 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:49:41.348 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:49:41.363 | Common:: DecodeBase64 START
+[System: 192.168.1.56] ERROR | 06-24-2025 15:49:41.379 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:49:41.488 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:49:50.127 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:49:50.127 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:49:50.127 | Common:: DecodeBase64 START
+[System: 192.168.1.56] ERROR | 06-24-2025 15:49:50.252 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:50:50.141 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:50:50.141 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:50:50.141 | Common:: DecodeBase64 START
+[System: 192.168.1.56] ERROR | 06-24-2025 15:50:50.438 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:51:50.133 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:51:50.133 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:51:50.133 | Common:: DecodeBase64 START
+[System: 192.168.1.56] ERROR | 06-24-2025 15:51:50.258 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:52:50.130 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:52:50.130 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:52:50.130 | Common:: DecodeBase64 START
+[System: 192.168.1.56] ERROR | 06-24-2025 15:52:50.254 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:53:44.859 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:53:47.268 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:55:18.002 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:55:18.002 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:55:18.002 | Common:: DecodeBase64 START
+[System: 192.168.1.56] ERROR | 06-24-2025 15:55:18.273 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:55:49.701 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:55:49.701 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:55:49.701 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:55:49.701 | Common:: IsBase64 Checking START
+[System: 192.168.1.56] INFO | 06-24-2025 15:55:49.701 | Administration:: Entering GetClientUserDetails
+[System: 192.168.1.56] INFO | 06-24-2025 15:55:49.779 | Administration:: Entering LDAPChecking
+[System: 192.168.1.56] INFO | 06-24-2025 15:55:49.779 | isValidUser:: True
+[System: 192.168.1.56] INFO | 06-24-2025 15:55:49.779 | AdminController:: Exiting GetUserDetails
+[System: 192.168.1.56] INFO | 06-24-2025 15:55:49.826 | Common:: IsBase64 Checking START
+[System: 192.168.1.56] INFO | 06-24-2025 15:55:49.826 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:55:49.826 | Administration:: Entering LDAPChecking
+[System: 192.168.1.56] INFO | 06-24-2025 15:55:49.826 | isValidUser:: True
+[System: 192.168.1.56] INFO | 06-24-2025 15:55:49.826 | AdminController:: Exiting LDAPUserCheck
+[System: 192.168.1.56] INFO | 06-24-2025 15:55:52.856 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:55:52.856 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:55:52.856 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:55:52.856 | Common:: IsBase64 Checking START
+[System: 192.168.1.56] INFO | 06-24-2025 15:55:52.856 | Administration:: Entering GetClientUserDetails
+[System: 192.168.1.56] INFO | 06-24-2025 15:55:52.903 | AdminController:: Exiting GetUserDetails
+[System: 192.168.1.56] INFO | 06-24-2025 15:55:52.996 | Common:: IsBase64 Checking START
+[System: 192.168.1.56] INFO | 06-24-2025 15:55:52.996 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:55:52.996 | Administration:: Entering LDAPChecking
+[System: 192.168.1.56] INFO | 06-24-2025 15:55:52.996 | isValidUser:: True
+[System: 192.168.1.56] INFO | 06-24-2025 15:55:52.996 | AdminController:: Exiting LDAPUserCheck
+[System: 192.168.1.56] ERROR | 06-24-2025 15:55:53.043 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:55:53.059 | Administration:: Entering InitLoginSession
+[System: 192.168.1.56] INFO | 06-24-2025 15:55:53.075 | Administration:: Entering AllowSession  1
+[System: 192.168.1.56] INFO | 06-24-2025 15:55:53.075 | Administration:: Entering AllowSession  end
+[System: 192.168.1.56] ERROR | 06-24-2025 15:55:53.090 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:55:53.121 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:55:55.715 | RibbonGenerator:: GetRibbonViewWeb
+[System: 192.168.1.56] INFO | 06-24-2025 15:55:55.715 | RibbonGenerator:: Inside GetRibbonView
+[System: 192.168.1.56] ERROR | 06-24-2025 15:55:55.715 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:55:55.996 | RibbonGenerator:: Success: GetRibbonView
+[System: 192.168.1.56] ERROR | 06-24-2025 15:55:55.996 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:55:56.262 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:55:56.309 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:55:56.340 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:55:56.355 | Administration:: Entering GetUserDetails
+[System: 192.168.1.56] INFO | 06-24-2025 15:55:56.402 | Administration:: Exiting GetUserDetails
+[System: 192.168.1.56] ERROR | 06-24-2025 15:55:56.418 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:55:56.481 | Administration:: Entering GetUserDetails
+[System: 192.168.1.56] INFO | 06-24-2025 15:55:56.527 | Administration:: Exiting GetUserDetails
+[System: 192.168.1.56] ERROR | 06-24-2025 15:55:56.527 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:55:56.605 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:55:56.605 | ReportLayout:: GetDataSet START
+[System: 192.168.1.56] INFO | 06-24-2025 15:55:56.668 | ReportLayout:: GetDataSet END
+[System: 192.168.1.56] ERROR | 06-24-2025 15:55:56.668 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:55:56.730 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:55:56.730 | ReportLayout:: GetDataSet START
+[System: 192.168.1.56] INFO | 06-24-2025 15:55:56.730 | ReportLayout:: GetDataSet END
+[System: 192.168.1.56] ERROR | 06-24-2025 15:55:56.746 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:55:56.746 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:55:56.746 | ReportLayout:: GetDataSet START
+[System: 192.168.1.56] INFO | 06-24-2025 15:55:56.777 | ReportLayout:: GetDataSet END
+[System: 192.168.1.56] ERROR | 06-24-2025 15:55:56.777 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:55:56.793 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:55:56.793 | ReportLayout:: GetDataSet START
+[System: 192.168.1.56] INFO | 06-24-2025 15:55:56.793 | ReportLayout:: GetDataSet END
+[System: 192.168.1.56] ERROR | 06-24-2025 15:55:56.793 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:55:56.809 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:55:56.809 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:55:56.809 | Common:: DecodeBase64 START
+[System: 192.168.1.56] ERROR | 06-24-2025 15:55:56.949 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:55:57.277 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:55:57.386 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:56:01.019 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:56:01.019 | GetCostCenterSummary:: GetCostCenterSummary
+[System: 192.168.1.56] ERROR | 06-24-2025 15:56:01.051 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:56:02.863 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:56:03.936 | Common controller:: Inside BulkEditDetals
+[System: 192.168.1.56] INFO | 06-24-2025 15:56:03.936 | Common controller::Exiting BulkEditDetals
+[System: 192.168.1.56] ERROR | 06-24-2025 15:56:03.936 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:56:03.951 | Common controller:: Inside BulkEditDetals
+[System: 192.168.1.56] INFO | 06-24-2025 15:56:03.967 | Common controller::Exiting BulkEditDetals
+[System: 192.168.1.56] ERROR | 06-24-2025 15:56:03.967 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:56:03.998 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:56:04.014 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:56:04.030 | setAuditPrint:: setAuditPrint
+[System: 192.168.1.56] ERROR | 06-24-2025 15:56:04.030 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:56:04.248 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:56:04.279 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:56:04.358 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:56:04.404 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:56:04.420 | GetCostCenterSummary:: GetCostCenterSummary
+[System: 192.168.1.56] ERROR | 06-24-2025 15:56:04.498 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:56:04.561 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:56:04.576 | GetCostCenterSummary:: GetCostCenterSummary
+[System: 192.168.1.56] ERROR | 06-24-2025 15:56:04.592 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:56:04.623 | GetCostCenterSummary:: GetCostCenterSummary
+[System: 192.168.1.56] ERROR | 06-24-2025 15:56:04.686 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 15:56:04.732 | GetCostCenterSummary:: GetCostCenterSummary
+[System: 192.168.1.56] ERROR | 06-24-2025 15:56:04.748 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:56:07.299 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:56:07.299 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:56:07.299 | Common:: DecodeBase64 START
+[System: 192.168.1.56] ERROR | 06-24-2025 15:56:07.314 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:56:18.551 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:56:18.551 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:56:18.551 | Common:: DecodeBase64 START
+[System: 192.168.1.56] ERROR | 06-24-2025 15:56:18.567 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:57:27.104 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:57:27.104 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:57:27.104 | Common:: DecodeBase64 START
+[System: 192.168.1.56] ERROR | 06-24-2025 15:57:27.229 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 15:57:50.163 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:57:50.163 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 15:57:50.163 | Common:: DecodeBase64 START
+[System: 192.168.1.56] ERROR | 06-24-2025 15:57:50.179 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 16:02:22.443 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 16:02:22.443 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 16:02:22.443 | Common:: DecodeBase64 START
+[System: 192.168.1.56] ERROR | 06-24-2025 16:02:22.490 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 16:02:22.568 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 16:02:29.005 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 16:02:29.005 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 16:02:29.005 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 16:02:29.005 | Common:: IsBase64 Checking START
+[System: 192.168.1.56] INFO | 06-24-2025 16:02:29.005 | Administration:: Entering GetClientUserDetails
+[System: 192.168.1.56] INFO | 06-24-2025 16:02:29.067 | Administration:: Entering LDAPChecking
+[System: 192.168.1.56] INFO | 06-24-2025 16:02:29.067 | isValidUser:: True
+[System: 192.168.1.56] INFO | 06-24-2025 16:02:29.067 | AdminController:: Exiting GetUserDetails
+[System: 192.168.1.56] INFO | 06-24-2025 16:02:29.130 | Common:: IsBase64 Checking START
+[System: 192.168.1.56] INFO | 06-24-2025 16:02:29.130 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 16:02:29.130 | Administration:: Entering LDAPChecking
+[System: 192.168.1.56] INFO | 06-24-2025 16:02:29.130 | isValidUser:: True
+[System: 192.168.1.56] INFO | 06-24-2025 16:02:29.130 | AdminController:: Exiting LDAPUserCheck
+[System: 192.168.1.56] INFO | 06-24-2025 16:02:51.890 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 16:02:51.890 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 16:02:51.890 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 16:02:51.890 | Common:: IsBase64 Checking START
+[System: 192.168.1.56] INFO | 06-24-2025 16:02:51.890 | Administration:: Entering GetClientUserDetails
+[System: 192.168.1.56] INFO | 06-24-2025 16:02:51.937 | AdminController:: Exiting GetUserDetails
+[System: 192.168.1.56] INFO | 06-24-2025 16:02:52.015 | Common:: IsBase64 Checking START
+[System: 192.168.1.56] INFO | 06-24-2025 16:02:52.015 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 16:02:52.015 | Administration:: Entering LDAPChecking
+[System: 192.168.1.56] INFO | 06-24-2025 16:02:52.015 | isValidUser:: True
+[System: 192.168.1.56] INFO | 06-24-2025 16:02:52.015 | AdminController:: Exiting LDAPUserCheck
+[System: 192.168.1.56] ERROR | 06-24-2025 16:02:52.077 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 16:02:52.093 | Administration:: Entering InitLoginSession
+[System: 192.168.1.56] INFO | 06-24-2025 16:02:52.109 | Administration:: Entering AllowSession  1
+[System: 192.168.1.56] INFO | 06-24-2025 16:02:52.124 | Administration:: Entering AllowSession  end
+[System: 192.168.1.56] ERROR | 06-24-2025 16:02:52.124 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 16:02:52.171 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 16:02:55.695 | RibbonGenerator:: GetRibbonViewWeb
+[System: 192.168.1.56] INFO | 06-24-2025 16:02:55.695 | RibbonGenerator:: Inside GetRibbonView
+[System: 192.168.1.56] ERROR | 06-24-2025 16:02:55.710 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 16:02:55.976 | RibbonGenerator:: Success: GetRibbonView
+[System: 192.168.1.56] ERROR | 06-24-2025 16:02:55.991 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 16:02:56.272 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 16:02:56.304 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 16:02:56.335 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 16:02:56.351 | Administration:: Entering GetUserDetails
+[System: 192.168.1.56] INFO | 06-24-2025 16:02:56.413 | Administration:: Exiting GetUserDetails
+[System: 192.168.1.56] ERROR | 06-24-2025 16:02:56.413 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 16:02:56.476 | Administration:: Entering GetUserDetails
+[System: 192.168.1.56] INFO | 06-24-2025 16:02:56.522 | Administration:: Exiting GetUserDetails
+[System: 192.168.1.56] ERROR | 06-24-2025 16:02:56.538 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 16:02:56.601 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 16:02:56.601 | ReportLayout:: GetDataSet START
+[System: 192.168.1.56] INFO | 06-24-2025 16:02:56.647 | ReportLayout:: GetDataSet END
+[System: 192.168.1.56] ERROR | 06-24-2025 16:02:56.647 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 16:02:56.710 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 16:02:56.710 | ReportLayout:: GetDataSet START
+[System: 192.168.1.56] INFO | 06-24-2025 16:02:56.710 | ReportLayout:: GetDataSet END
+[System: 192.168.1.56] ERROR | 06-24-2025 16:02:56.710 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 16:02:56.710 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 16:02:56.710 | ReportLayout:: GetDataSet START
+[System: 192.168.1.56] INFO | 06-24-2025 16:02:56.725 | ReportLayout:: GetDataSet END
+[System: 192.168.1.56] ERROR | 06-24-2025 16:02:56.725 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 16:02:56.757 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 16:02:56.757 | ReportLayout:: GetDataSet START
+[System: 192.168.1.56] INFO | 06-24-2025 16:02:56.757 | ReportLayout:: GetDataSet END
+[System: 192.168.1.56] ERROR | 06-24-2025 16:02:56.757 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 16:02:56.772 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 16:02:56.772 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 16:02:56.772 | Common:: DecodeBase64 START
+[System: 192.168.1.56] ERROR | 06-24-2025 16:02:57.038 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 16:02:57.194 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 16:02:57.303 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 16:03:56.788 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 16:03:56.788 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 16:03:56.788 | Common:: DecodeBase64 START
+[System: 192.168.1.56] ERROR | 06-24-2025 16:03:56.928 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 16:04:06.875 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 16:04:06.890 | GetCostCenterSummary:: GetCostCenterSummary
+[System: 192.168.1.56] ERROR | 06-24-2025 16:04:06.922 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 16:04:56.787 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 16:04:56.787 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 16:04:56.787 | Common:: DecodeBase64 START
+[System: 192.168.1.56] ERROR | 06-24-2025 16:04:56.912 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 16:05:56.782 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 16:05:56.782 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 16:05:56.782 | Common:: DecodeBase64 START
+[System: 192.168.1.56] ERROR | 06-24-2025 16:05:56.907 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 16:06:56.786 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 16:06:56.786 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 16:06:56.786 | Common:: DecodeBase64 START
+[System: 192.168.1.56] ERROR | 06-24-2025 16:06:56.896 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 16:07:55.708 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 16:07:56.775 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 16:07:56.790 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 16:07:56.790 | Common:: DecodeBase64 START
+[System: 192.168.1.56] ERROR | 06-24-2025 16:07:56.915 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 16:08:56.787 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 16:08:56.787 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 16:08:56.787 | Common:: DecodeBase64 START
+[System: 192.168.1.56] ERROR | 06-24-2025 16:08:56.896 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 16:09:56.774 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 16:09:56.790 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 16:09:56.790 | Common:: DecodeBase64 START
+[System: 192.168.1.56] ERROR | 06-24-2025 16:09:56.899 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 16:10:54.030 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 16:10:54.233 | Common controller:: Inside BulkEditDetals
+[System: 192.168.1.56] INFO | 06-24-2025 16:10:54.248 | Common controller::Exiting BulkEditDetals
+[System: 192.168.1.56] ERROR | 06-24-2025 16:10:54.248 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 16:10:54.264 | Common controller:: Inside BulkEditDetals
+[System: 192.168.1.56] INFO | 06-24-2025 16:10:54.264 | Common controller::Exiting BulkEditDetals
+[System: 192.168.1.56] ERROR | 06-24-2025 16:10:54.280 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 16:10:54.295 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 16:10:54.327 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 16:10:54.342 | setAuditPrint:: setAuditPrint
+[System: 192.168.1.56] ERROR | 06-24-2025 16:10:54.358 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 16:10:54.561 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 16:10:54.623 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 16:10:54.655 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 16:10:54.686 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 16:10:54.701 | GetCostCenterSummary:: GetCostCenterSummary
+[System: 192.168.1.56] ERROR | 06-24-2025 16:10:54.795 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 16:10:54.858 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 16:10:54.873 | GetCostCenterSummary:: GetCostCenterSummary
+[System: 192.168.1.56] ERROR | 06-24-2025 16:10:54.905 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 16:10:54.920 | GetCostCenterSummary:: GetCostCenterSummary
+[System: 192.168.1.56] ERROR | 06-24-2025 16:10:54.998 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 16:10:55.045 | GetCostCenterSummary:: GetCostCenterSummary
+[System: 192.168.1.56] ERROR | 06-24-2025 16:10:55.076 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 16:10:56.779 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 16:10:56.779 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 16:10:56.779 | Common:: DecodeBase64 START
+[System: 192.168.1.56] ERROR | 06-24-2025 16:10:56.904 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 16:11:03.193 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 16:11:03.193 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 16:11:03.193 | Common:: DecodeBase64 START
+[System: 192.168.1.56] ERROR | 06-24-2025 16:11:03.209 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 16:11:52.760 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 16:11:52.760 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 16:11:52.760 | Common:: DecodeBase64 START
+[System: 192.168.1.56] ERROR | 06-24-2025 16:11:52.776 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 16:13:15.127 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 16:13:15.127 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 16:13:15.127 | Common:: DecodeBase64 START
+[System: 192.168.1.56] ERROR | 06-24-2025 16:13:15.158 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 16:13:15.237 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 16:13:18.714 | Common controller:: Inside BulkEditDetals
+[System: 192.168.1.56] INFO | 06-24-2025 16:13:18.714 | Common controller::Exiting BulkEditDetals
+[System: 192.168.1.56] ERROR | 06-24-2025 16:13:18.729 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 16:13:18.729 | Common controller:: Inside BulkEditDetals
+[System: 192.168.1.56] INFO | 06-24-2025 16:13:18.745 | Common controller::Exiting BulkEditDetals
+[System: 192.168.1.56] ERROR | 06-24-2025 16:13:18.745 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 16:13:18.776 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 16:13:18.792 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 16:13:18.807 | setAuditPrint:: setAuditPrint
+[System: 192.168.1.56] ERROR | 06-24-2025 16:13:18.823 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 16:13:18.839 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 16:13:18.876 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 16:13:18.920 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 16:13:18.936 | GetCostCenterSummary:: GetCostCenterSummary
+[System: 192.168.1.56] ERROR | 06-24-2025 16:13:19.014 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 16:13:19.092 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 16:13:19.108 | GetCostCenterSummary:: GetCostCenterSummary
+[System: 192.168.1.56] ERROR | 06-24-2025 16:13:19.124 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 16:13:19.155 | GetCostCenterSummary:: GetCostCenterSummary
+[System: 192.168.1.56] ERROR | 06-24-2025 16:13:19.233 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 16:13:19.280 | GetCostCenterSummary:: GetCostCenterSummary
+[System: 192.168.1.56] ERROR | 06-24-2025 16:13:19.311 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 16:13:26.021 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 16:13:26.021 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 16:13:26.021 | Common:: DecodeBase64 START
+[System: 192.168.1.56] ERROR | 06-24-2025 16:13:26.037 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 16:13:33.563 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 16:13:33.578 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 16:13:33.578 | Common:: DecodeBase64 START
+[System: 192.168.1.56] ERROR | 06-24-2025 16:13:33.594 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK

@@ -1,0 +1,923 @@
+[Sys Thread: 1] INFO | 06-17-2025 16:38:17.582 | SessionManager :: InitOnLoad() :: Entering...
+[Sys Thread: 1] INFO | 06-17-2025 16:38:17.582 | Installed Printers Count :3
+[Sys Thread: 1] INFO | 06-17-2025 16:38:17.582 | IsExportPDFWithPrintOption : True - XPS Printer Name : Microsoft Print to PDF
+[Sys Thread: 1] INFO | 06-17-2025 16:38:17.582 | SessionManager :: InitOnLoad() :: Exiting...
+[System: 192.168.1.99] INFO | 06-17-2025 16:38:20.573 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:38:20.573 | Common:: deCodeLevel1 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:38:20.573 | Common:: DecodeBase64 START
+[System: 192.168.1.99] ERROR | 06-17-2025 16:38:20.729 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-17-2025 16:38:32.876 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 06-17-2025 16:38:32.876 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:38:32.876 | Administration:: Entering GetClientUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:38:32.954 | Administration:: Entering LDAPChecking
+[System: 192.168.1.99] INFO | 06-17-2025 16:38:32.954 | isValidUser:: True
+[System: 192.168.1.99] INFO | 06-17-2025 16:38:32.954 | AdminController:: Exiting GetUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:38:33.016 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 06-17-2025 16:38:33.016 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:38:33.016 | Administration:: Entering LDAPChecking
+[System: 192.168.1.99] INFO | 06-17-2025 16:38:33.016 | isValidUser:: True
+[System: 192.168.1.99] INFO | 06-17-2025 16:38:33.016 | AdminController:: Exiting LDAPUserCheck
+[System: 192.168.1.99] INFO | 06-17-2025 16:38:40.736 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 06-17-2025 16:38:40.736 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:38:40.736 | Administration:: Entering GetClientUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:38:40.814 | AdminController:: Exiting GetUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:38:40.829 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 06-17-2025 16:38:40.829 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:38:40.829 | Administration:: Entering LDAPChecking
+[System: 192.168.1.99] INFO | 06-17-2025 16:38:40.829 | isValidUser:: True
+[System: 192.168.1.99] INFO | 06-17-2025 16:38:40.829 | AdminController:: Exiting LDAPUserCheck
+[System: 192.168.1.99] ERROR | 06-17-2025 16:38:40.876 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-17-2025 16:38:40.892 | Administration:: Entering InitLoginSession
+[System: 192.168.1.99] INFO | 06-17-2025 16:38:40.923 | Administration:: Entering AllowSession  1
+[System: 192.168.1.99] INFO | 06-17-2025 16:38:40.923 | Administration:: Entering AllowSession  end
+[System: 192.168.1.99] ERROR | 06-17-2025 16:38:40.923 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:38:41.032 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:38:41.860 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:38:41.892 | RibbonGenerator:: GetRibbonViewWeb
+[System: 192.168.1.99] ERROR | 06-17-2025 16:38:41.892 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-17-2025 16:38:41.892 | RibbonGenerator:: Inside GetRibbonView
+[System: 192.168.1.99] INFO | 06-17-2025 16:38:42.126 | RibbonGenerator:: Success: GetRibbonView
+[System: 192.168.1.99] ERROR | 06-17-2025 16:38:42.126 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:38:42.360 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:38:42.391 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:38:42.407 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-17-2025 16:38:42.423 | Administration:: Entering GetUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:38:42.470 | Administration:: Exiting GetUserDetails
+[System: 192.168.1.99] ERROR | 06-17-2025 16:38:42.470 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:38:42.470 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-17-2025 16:38:42.532 | Administration:: Entering GetUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:38:42.563 | Administration:: Exiting GetUserDetails
+[System: 192.168.1.99] ERROR | 06-17-2025 16:38:42.563 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-17-2025 16:38:42.626 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:38:42.626 | ReportLayout:: GetDataSet START
+[System: 192.168.1.99] INFO | 06-17-2025 16:38:42.688 | ReportLayout:: GetDataSet END
+[System: 192.168.1.99] ERROR | 06-17-2025 16:38:42.688 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-17-2025 16:38:42.719 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:38:42.719 | ReportLayout:: GetDataSet START
+[System: 192.168.1.99] INFO | 06-17-2025 16:38:42.735 | ReportLayout:: GetDataSet END
+[System: 192.168.1.99] ERROR | 06-17-2025 16:38:42.735 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-17-2025 16:38:42.735 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:38:42.735 | ReportLayout:: GetDataSet START
+[System: 192.168.1.99] INFO | 06-17-2025 16:38:42.766 | ReportLayout:: GetDataSet END
+[System: 192.168.1.99] ERROR | 06-17-2025 16:38:42.766 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-17-2025 16:38:42.782 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:38:42.782 | Common:: deCodeLevel1 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:38:42.782 | Common:: DecodeBase64 START
+[System: 192.168.1.99] ERROR | 06-17-2025 16:38:42.845 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:38:43.145 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:38:43.254 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:38:43.301 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:38:43.348 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:38:52.135 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:38:52.166 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:38:52.182 | setAuditPrint:: setAuditPrint
+[System: 192.168.1.99] ERROR | 06-17-2025 16:38:52.197 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:38:52.338 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:38:52.385 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:38:52.400 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:38:52.432 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:38:52.463 | GetCostCenterSummary:: GetCostCenterSummary
+[System: 192.168.1.99] ERROR | 06-17-2025 16:38:52.807 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:38:52.838 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:38:52.853 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-17-2025 16:38:52.853 | Administration:: Inside getRoles
+[System: 192.168.1.99] ERROR | 06-17-2025 16:38:52.869 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:38:52.885 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:38:52.900 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:38:52.916 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:38:52.916 | GetCostCenterSummary:: GetCostCenterSummary
+[System: 192.168.1.99] ERROR | 06-17-2025 16:38:53.166 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:38:53.197 | GetCostCenterSummary:: GetCostCenterSummary
+[System: 192.168.1.99] ERROR | 06-17-2025 16:38:53.386 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:38:53.417 | GetCostCenterSummary:: GetCostCenterSummary
+[System: 192.168.1.99] ERROR | 06-17-2025 16:38:53.542 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:38:53.573 | GetCostCenterSummary:: GetCostCenterSummary
+[System: 192.168.1.99] ERROR | 06-17-2025 16:38:53.636 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:38:55.004 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-17-2025 16:38:55.019 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:38:55.019 | Common:: deCodeLevel1 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:38:55.019 | Common:: DecodeBase64 START
+[System: 192.168.1.99] ERROR | 06-17-2025 16:38:55.066 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:38:55.129 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-17-2025 16:38:57.836 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 06-17-2025 16:38:57.836 | Administration:: Entering GetUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:38:57.883 | Administration:: Exiting GetUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:38:57.883 | Administration:: Entering GetUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:38:57.898 | Administration:: Exiting GetUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:38:57.898 | NotificationHandler:: Inside GetGlobalPreferences
+[System: 192.168.1.99] INFO | 06-17-2025 16:38:57.930 | NotificationHandler:: Success: GetGlobalPreferences
+[System: 192.168.1.99] INFO | 06-17-2025 16:38:57.992 | InitReportObject:: Report DataRow appending below.
+[System: 192.168.1.99] INFO | 06-17-2025 16:38:57.992 | InitReportObject:: Deserialized Report DataRow Object.
+[System: 192.168.1.99] INFO | 06-17-2025 16:38:57.992 | InitReportObject:: DataRow Append Successfully.
+[System: 192.168.1.99] INFO | 06-17-2025 16:38:58.896 | Loading Resources
+[System: 192.168.1.99] DEBUG | 06-17-2025 16:38:58.896 | WebUIResources CNT: 3240
+[System: 192.168.1.99] DEBUG | 06-17-2025 16:38:58.896 | WebUIResources CNT: 3174
+[System: 192.168.1.99] DEBUG | 06-17-2025 16:38:58.911 | WebUIResources CNT: 3228
+[System: 192.168.1.73] INFO | 06-17-2025 16:39:00.587 | Common:: DecodeBase64 START
+[System: 192.168.1.73] INFO | 06-17-2025 16:39:00.587 | Common:: deCodeLevel1 START
+[System: 192.168.1.73] INFO | 06-17-2025 16:39:00.587 | Common:: DecodeBase64 START
+[System: 192.168.1.99] ERROR | 06-17-2025 16:39:00.587 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:39:00.619 | setAuditPrint:: setAuditPrint
+[System: 192.168.1.99] ERROR | 06-17-2025 16:39:00.634 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.73] ERROR | 06-17-2025 16:39:00.634 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:39:11.120 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:39:11.151 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:39:11.151 | setAuditPrint:: setAuditPrint
+[System: 192.168.1.99] ERROR | 06-17-2025 16:39:11.167 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:39:11.182 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:39:11.214 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:39:11.245 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:39:11.245 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:39:11.260 | GetCostCenterSummary:: GetCostCenterSummary
+[System: 192.168.1.99] ERROR | 06-17-2025 16:39:11.557 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:39:11.588 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:39:11.604 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-17-2025 16:39:11.620 | Administration:: Inside getRoles
+[System: 192.168.1.99] ERROR | 06-17-2025 16:39:11.620 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:39:11.635 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:39:11.651 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:39:11.667 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:39:11.667 | GetCostCenterSummary:: GetCostCenterSummary
+[System: 192.168.1.99] ERROR | 06-17-2025 16:39:11.920 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:39:11.951 | GetCostCenterSummary:: GetCostCenterSummary
+[System: 192.168.1.99] ERROR | 06-17-2025 16:39:12.138 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:39:12.170 | GetCostCenterSummary:: GetCostCenterSummary
+[System: 192.168.1.99] ERROR | 06-17-2025 16:39:12.310 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:39:12.342 | GetCostCenterSummary:: GetCostCenterSummary
+[System: 192.168.1.99] ERROR | 06-17-2025 16:39:12.404 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:39:14.458 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-17-2025 16:39:14.458 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:39:14.458 | Common:: deCodeLevel1 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:39:14.458 | Common:: DecodeBase64 START
+[System: 192.168.1.99] ERROR | 06-17-2025 16:39:14.520 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:39:14.536 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:39:16.151 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-17-2025 16:39:20.281 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 06-17-2025 16:39:20.281 | Administration:: Entering GetUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:39:20.327 | Administration:: Exiting GetUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:39:20.327 | Administration:: Entering GetUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:39:20.343 | Administration:: Exiting GetUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:39:20.343 | NotificationHandler:: Inside GetGlobalPreferences
+[System: 192.168.1.99] INFO | 06-17-2025 16:39:20.374 | NotificationHandler:: Success: GetGlobalPreferences
+[System: 192.168.1.99] INFO | 06-17-2025 16:39:20.374 | InitReportObject:: Report DataRow appending below.
+[System: 192.168.1.99] INFO | 06-17-2025 16:39:20.374 | InitReportObject:: Deserialized Report DataRow Object.
+[System: 192.168.1.99] INFO | 06-17-2025 16:39:20.374 | InitReportObject:: DataRow Append Successfully.
+[System: 192.168.1.99] ERROR | 06-17-2025 16:39:20.897 | Export Excell
+Microsoft Office Excel cannot open or save any more documents because there is not enough available memory or disk space. 
+
+• To make more memory available, close workbooks or programs you no longer need. 
+
+• To free disk space, delete files you no longer need from the disk you are saving to.
+   at Microsoft.Office.Interop.Excel.Workbooks.Add(Object Template)
+   at PACT.COMMON.PRINT.ReportExportToExcel.Export(Boolean AskSaveDialog, String SelectedFile, String SelectedSheet, Boolean DontPrintHeaderFooter, Boolean IsBulkExport)
+[System: 192.168.1.99] ERROR | 06-17-2025 16:39:20.897 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:39:20.897 | setAuditPrint:: setAuditPrint
+[System: 192.168.1.99] ERROR | 06-17-2025 16:39:20.912 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-17-2025 16:39:21.147 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:39:21.147 | Common:: deCodeLevel1 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:39:21.147 | Common:: DecodeBase64 START
+[System: 192.168.1.99] ERROR | 06-17-2025 16:39:21.366 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-17-2025 16:39:42.795 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:39:42.795 | Common:: deCodeLevel1 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:39:42.795 | Common:: DecodeBase64 START
+[System: 192.168.1.99] ERROR | 06-17-2025 16:39:42.889 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.73] INFO | 06-17-2025 16:40:00.572 | Common:: DecodeBase64 START
+[System: 192.168.1.73] INFO | 06-17-2025 16:40:00.587 | Common:: deCodeLevel1 START
+[System: 192.168.1.73] INFO | 06-17-2025 16:40:00.587 | Common:: DecodeBase64 START
+[System: 192.168.1.73] ERROR | 06-17-2025 16:40:00.618 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-17-2025 16:40:06.850 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 06-17-2025 16:40:06.866 | Administration:: Entering GetUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:40:06.913 | Administration:: Exiting GetUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:40:06.913 | Administration:: Entering GetUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:40:06.928 | Administration:: Exiting GetUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:40:06.928 | NotificationHandler:: Inside GetGlobalPreferences
+[System: 192.168.1.99] INFO | 06-17-2025 16:40:06.960 | NotificationHandler:: Success: GetGlobalPreferences
+[System: 192.168.1.99] INFO | 06-17-2025 16:40:06.960 | InitReportObject:: Report DataRow appending below.
+[System: 192.168.1.99] INFO | 06-17-2025 16:40:06.960 | InitReportObject:: Deserialized Report DataRow Object.
+[System: 192.168.1.99] INFO | 06-17-2025 16:40:06.960 | InitReportObject:: DataRow Append Successfully.
+[System: 192.168.1.99] ERROR | 06-17-2025 16:40:07.139 | Export Excell
+Microsoft Office Excel cannot open or save any more documents because there is not enough available memory or disk space. 
+
+• To make more memory available, close workbooks or programs you no longer need. 
+
+• To free disk space, delete files you no longer need from the disk you are saving to.
+   at Microsoft.Office.Interop.Excel.Workbooks.Add(Object Template)
+   at PACT.COMMON.PRINT.ReportExportToExcel.Export(Boolean AskSaveDialog, String SelectedFile, String SelectedSheet, Boolean DontPrintHeaderFooter, Boolean IsBulkExport)
+[System: 192.168.1.99] ERROR | 06-17-2025 16:40:07.139 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:40:07.139 | setAuditPrint:: setAuditPrint
+[System: 192.168.1.99] ERROR | 06-17-2025 16:40:07.405 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-17-2025 16:40:18.720 | CustomExceptionFiltere  ==>    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at PactRevenUWebapi2._0.Controllers.PactRequestTokenController.GetClientUserDetails(RequestObj Reqobj)
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_2.<GetExecutor>b__2(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+[System: 192.168.1.99] INFO | 06-17-2025 16:40:20.157 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 06-17-2025 16:40:20.157 | Administration:: Entering GetUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:40:20.219 | Administration:: Exiting GetUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:40:20.219 | Administration:: Entering GetUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:40:20.251 | Administration:: Exiting GetUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:40:20.251 | NotificationHandler:: Inside GetGlobalPreferences
+[System: 192.168.1.99] INFO | 06-17-2025 16:40:20.282 | NotificationHandler:: Success: GetGlobalPreferences
+[System: 192.168.1.99] INFO | 06-17-2025 16:40:20.282 | InitReportObject:: Report DataRow appending below.
+[System: 192.168.1.99] INFO | 06-17-2025 16:40:20.282 | InitReportObject:: Deserialized Report DataRow Object.
+[System: 192.168.1.99] INFO | 06-17-2025 16:40:20.282 | InitReportObject:: DataRow Append Successfully.
+[System: 192.168.1.99] DEBUG | 06-17-2025 16:40:21.063 | Excel Export Time: 0 Seconds
+0Seconds - Total Export Time
+[System: 192.168.1.56] ERROR | 06-17-2025 16:40:21.719 | CustomExceptionFiltere  ==>    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at PactRevenUWebapi2._0.Controllers.PactRequestTokenController.GetClientUserDetails(RequestObj Reqobj)
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_2.<GetExecutor>b__2(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+[System: 192.168.1.99] ERROR | 06-17-2025 16:40:21.985 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:40:21.985 | setAuditPrint:: setAuditPrint
+[System: 192.168.1.99] ERROR | 06-17-2025 16:40:21.985 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-17-2025 16:40:22.203 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:40:22.203 | Common:: deCodeLevel1 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:40:22.203 | Common:: DecodeBase64 START
+[System: 192.168.1.99] ERROR | 06-17-2025 16:40:22.282 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-17-2025 16:40:29.026 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 06-17-2025 16:40:29.026 | Administration:: Entering GetUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:40:29.089 | Administration:: Exiting GetUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:40:29.089 | Administration:: Entering GetUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:40:29.104 | Administration:: Exiting GetUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:40:29.104 | NotificationHandler:: Inside GetGlobalPreferences
+[System: 192.168.1.99] INFO | 06-17-2025 16:40:29.151 | NotificationHandler:: Success: GetGlobalPreferences
+[System: 192.168.1.99] INFO | 06-17-2025 16:40:29.151 | InitReportObject:: Report DataRow appending below.
+[System: 192.168.1.99] INFO | 06-17-2025 16:40:29.151 | InitReportObject:: Deserialized Report DataRow Object.
+[System: 192.168.1.99] INFO | 06-17-2025 16:40:29.151 | InitReportObject:: DataRow Append Successfully.
+[System: 192.168.1.99] DEBUG | 06-17-2025 16:40:29.182 | Excel Export Time: 0 Seconds
+0Seconds - Total Export Time
+[System: 192.168.1.99] ERROR | 06-17-2025 16:40:29.182 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:40:29.198 | setAuditPrint:: setAuditPrint
+[System: 192.168.1.99] ERROR | 06-17-2025 16:40:29.198 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-17-2025 16:40:31.041 | CustomExceptionFiltere  ==>    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at PactRevenUWebapi2._0.Controllers.PactRequestTokenController.GetClientUserDetails(RequestObj Reqobj)
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_2.<GetExecutor>b__2(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+[System: 192.168.1.99] INFO | 06-17-2025 16:40:35.172 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 06-17-2025 16:40:35.172 | Administration:: Entering GetUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:40:35.235 | Administration:: Exiting GetUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:40:35.235 | Administration:: Entering GetUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:40:35.250 | Administration:: Exiting GetUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:40:35.250 | NotificationHandler:: Inside GetGlobalPreferences
+[System: 192.168.1.99] INFO | 06-17-2025 16:40:35.281 | NotificationHandler:: Success: GetGlobalPreferences
+[System: 192.168.1.99] INFO | 06-17-2025 16:40:35.281 | InitReportObject:: Report DataRow appending below.
+[System: 192.168.1.99] INFO | 06-17-2025 16:40:35.281 | InitReportObject:: Deserialized Report DataRow Object.
+[System: 192.168.1.99] INFO | 06-17-2025 16:40:35.281 | InitReportObject:: DataRow Append Successfully.
+[System: 192.168.1.99] DEBUG | 06-17-2025 16:40:35.297 | Excel Export Time: 0 Seconds
+0Seconds - Total Export Time
+[System: 192.168.1.99] ERROR | 06-17-2025 16:40:35.313 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:40:35.313 | setAuditPrint:: setAuditPrint
+[System: 192.168.1.99] ERROR | 06-17-2025 16:40:35.313 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-17-2025 16:40:40.461 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 06-17-2025 16:40:40.461 | Administration:: Entering GetUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:40:40.523 | Administration:: Exiting GetUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:40:40.523 | Administration:: Entering GetUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:40:40.539 | Administration:: Exiting GetUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:40:40.539 | NotificationHandler:: Inside GetGlobalPreferences
+[System: 192.168.1.99] INFO | 06-17-2025 16:40:40.570 | NotificationHandler:: Success: GetGlobalPreferences
+[System: 192.168.1.99] INFO | 06-17-2025 16:40:40.570 | InitReportObject:: Report DataRow appending below.
+[System: 192.168.1.99] INFO | 06-17-2025 16:40:40.570 | InitReportObject:: Deserialized Report DataRow Object.
+[System: 192.168.1.99] INFO | 06-17-2025 16:40:40.570 | InitReportObject:: DataRow Append Successfully.
+[System: 192.168.1.56] ERROR | 06-17-2025 16:40:41.276 | CustomExceptionFiltere  ==>    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at PactRevenUWebapi2._0.Controllers.PactRequestTokenController.GetClientUserDetails(RequestObj Reqobj)
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_2.<GetExecutor>b__2(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+[System: 192.168.1.56] ERROR | 06-17-2025 16:40:41.799 | CustomExceptionFiltere  ==>    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at PactRevenUWebapi2._0.Controllers.PactRequestTokenController.GetClientUserDetails(RequestObj Reqobj)
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_2.<GetExecutor>b__2(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+[System: 192.168.1.56] ERROR | 06-17-2025 16:40:42.033 | CustomExceptionFiltere  ==>    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at PactRevenUWebapi2._0.Controllers.PactRequestTokenController.GetClientUserDetails(RequestObj Reqobj)
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_2.<GetExecutor>b__2(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+[System: 192.168.1.99] INFO | 06-17-2025 16:40:42.783 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:40:42.783 | Common:: deCodeLevel1 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:40:42.783 | Common:: DecodeBase64 START
+[System: 192.168.1.99] ERROR | 06-17-2025 16:40:42.861 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:40:43.002 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:40:43.017 | setAuditPrint:: setAuditPrint
+[System: 192.168.1.99] ERROR | 06-17-2025 16:40:43.017 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.73] ERROR | 06-17-2025 16:41:00.600 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.73] INFO | 06-17-2025 16:41:00.600 | Common:: DecodeBase64 START
+[System: 192.168.1.73] INFO | 06-17-2025 16:41:00.616 | Common:: deCodeLevel1 START
+[System: 192.168.1.73] INFO | 06-17-2025 16:41:00.616 | Common:: DecodeBase64 START
+[System: 192.168.1.73] ERROR | 06-17-2025 16:41:00.648 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-17-2025 16:41:01.350 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 06-17-2025 16:41:01.350 | Administration:: Entering GetUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:41:01.397 | Administration:: Exiting GetUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:41:01.397 | Administration:: Entering GetUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:41:01.413 | Administration:: Exiting GetUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:41:01.413 | NotificationHandler:: Inside GetGlobalPreferences
+[System: 192.168.1.99] INFO | 06-17-2025 16:41:01.444 | NotificationHandler:: Success: GetGlobalPreferences
+[System: 192.168.1.99] INFO | 06-17-2025 16:41:01.444 | InitReportObject:: Report DataRow appending below.
+[System: 192.168.1.99] INFO | 06-17-2025 16:41:01.444 | InitReportObject:: Deserialized Report DataRow Object.
+[System: 192.168.1.99] INFO | 06-17-2025 16:41:01.444 | InitReportObject:: DataRow Append Successfully.
+[System: 192.168.1.99] ERROR | 06-17-2025 16:41:04.229 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:41:04.229 | setAuditPrint:: setAuditPrint
+[System: 192.168.1.99] ERROR | 06-17-2025 16:41:04.276 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-17-2025 16:41:23.213 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:41:23.213 | Common:: deCodeLevel1 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:41:23.213 | Common:: DecodeBase64 START
+[System: 192.168.1.99] ERROR | 06-17-2025 16:41:23.291 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:41:42.660 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:41:42.691 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:41:42.691 | setAuditPrint:: setAuditPrint
+[System: 192.168.1.99] ERROR | 06-17-2025 16:41:42.707 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:41:42.738 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:41:42.769 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:41:42.816 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:41:42.832 | GetCostCenterSummary:: GetCostCenterSummary
+[System: 192.168.1.99] ERROR | 06-17-2025 16:41:43.144 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:41:43.176 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:41:43.191 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-17-2025 16:41:43.191 | Administration:: Inside getRoles
+[System: 192.168.1.99] ERROR | 06-17-2025 16:41:43.207 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:41:43.222 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:41:43.222 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:41:43.238 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:41:43.254 | GetCostCenterSummary:: GetCostCenterSummary
+[System: 192.168.1.99] ERROR | 06-17-2025 16:41:43.504 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:41:43.535 | GetCostCenterSummary:: GetCostCenterSummary
+[System: 192.168.1.99] ERROR | 06-17-2025 16:41:43.722 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:41:43.754 | GetCostCenterSummary:: GetCostCenterSummary
+[System: 192.168.1.99] ERROR | 06-17-2025 16:41:43.895 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:41:43.926 | GetCostCenterSummary:: GetCostCenterSummary
+[System: 192.168.1.99] ERROR | 06-17-2025 16:41:43.988 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-17-2025 16:41:44.207 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:41:44.207 | Common:: deCodeLevel1 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:41:44.207 | Common:: DecodeBase64 START
+[System: 192.168.1.99] ERROR | 06-17-2025 16:41:44.285 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.73] INFO | 06-17-2025 16:42:00.580 | Common:: DecodeBase64 START
+[System: 192.168.1.73] INFO | 06-17-2025 16:42:00.580 | Common:: deCodeLevel1 START
+[System: 192.168.1.73] INFO | 06-17-2025 16:42:00.580 | Common:: DecodeBase64 START
+[System: 192.168.1.73] ERROR | 06-17-2025 16:42:00.627 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-17-2025 16:42:11.926 | CustomExceptionFiltere  ==>    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at PactRevenUWebapi2._0.Controllers.PactRequestTokenController.GetClientUserDetails(RequestObj Reqobj)
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_2.<GetExecutor>b__2(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+[System: 192.168.1.99] ERROR | 06-17-2025 16:42:17.496 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-17-2025 16:42:17.512 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:42:17.512 | Common:: deCodeLevel1 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:42:17.512 | Common:: DecodeBase64 START
+[System: 192.168.1.99] ERROR | 06-17-2025 16:42:17.574 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:42:17.652 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-17-2025 16:42:24.202 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:42:24.202 | Common:: deCodeLevel1 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:42:24.202 | Common:: DecodeBase64 START
+[System: 192.168.1.99] ERROR | 06-17-2025 16:42:24.280 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-17-2025 16:42:27.386 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 06-17-2025 16:42:27.386 | Administration:: Entering GetUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:42:27.449 | Administration:: Exiting GetUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:42:27.449 | Administration:: Entering GetUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:42:27.449 | Administration:: Exiting GetUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:42:27.464 | NotificationHandler:: Inside GetGlobalPreferences
+[System: 192.168.1.99] INFO | 06-17-2025 16:42:27.480 | NotificationHandler:: Success: GetGlobalPreferences
+[System: 192.168.1.99] INFO | 06-17-2025 16:42:27.495 | InitReportObject:: Report DataRow appending below.
+[System: 192.168.1.99] INFO | 06-17-2025 16:42:27.495 | InitReportObject:: Deserialized Report DataRow Object.
+[System: 192.168.1.99] INFO | 06-17-2025 16:42:27.495 | InitReportObject:: DataRow Append Successfully.
+[System: 192.168.1.99] ERROR | 06-17-2025 16:42:29.927 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:42:29.942 | setAuditPrint:: setAuditPrint
+[System: 192.168.1.99] ERROR | 06-17-2025 16:42:29.942 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-17-2025 16:42:37.859 | CustomExceptionFiltere  ==>    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at PactRevenUWebapi2._0.Controllers.PactRequestTokenController.GetClientUserDetails(RequestObj Reqobj)
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_2.<GetExecutor>b__2(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+[System: 192.168.1.99] INFO | 06-17-2025 16:42:42.797 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:42:42.797 | Common:: deCodeLevel1 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:42:42.797 | Common:: DecodeBase64 START
+[System: 192.168.1.99] ERROR | 06-17-2025 16:42:42.875 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-17-2025 16:42:52.043 | CustomExceptionFiltere  ==>    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at PactRevenUWebapi2._0.Controllers.PactRequestTokenController.GetClientUserDetails(RequestObj Reqobj)
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_2.<GetExecutor>b__2(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+[System: 192.168.1.73] INFO | 06-17-2025 16:43:00.578 | Common:: DecodeBase64 START
+[System: 192.168.1.73] INFO | 06-17-2025 16:43:00.578 | Common:: deCodeLevel1 START
+[System: 192.168.1.73] INFO | 06-17-2025 16:43:00.578 | Common:: DecodeBase64 START
+[System: 192.168.1.73] ERROR | 06-17-2025 16:43:00.625 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-17-2025 16:43:03.390 | CustomExceptionFiltere  ==>    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at PactRevenUWebapi2._0.Controllers.PactRequestTokenController.GetClientUserDetails(RequestObj Reqobj)
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_2.<GetExecutor>b__2(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+[System: 192.168.1.99] INFO | 06-17-2025 16:43:25.199 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:43:25.199 | Common:: deCodeLevel1 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:43:25.199 | Common:: DecodeBase64 START
+[System: 192.168.1.99] ERROR | 06-17-2025 16:43:25.277 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:43:41.910 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-17-2025 16:43:42.786 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:43:42.786 | Common:: deCodeLevel1 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:43:42.786 | Common:: DecodeBase64 START
+[System: 192.168.1.99] ERROR | 06-17-2025 16:43:42.864 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.73] INFO | 06-17-2025 16:44:00.584 | Common:: DecodeBase64 START
+[System: 192.168.1.73] INFO | 06-17-2025 16:44:00.584 | Common:: deCodeLevel1 START
+[System: 192.168.1.73] INFO | 06-17-2025 16:44:00.584 | Common:: DecodeBase64 START
+[System: 192.168.1.73] ERROR | 06-17-2025 16:44:00.631 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:44:16.216 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:44:19.965 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-17-2025 16:44:19.996 | token History IN 
+[System: 192.168.1.99] INFO | 06-17-2025 16:44:19.996 | Administration:: Inside TokenHistroy
+[System: 192.168.1.99] INFO | 06-17-2025 16:44:20.012 | token History OUT 
+[System: 192.168.1.99] INFO | 06-17-2025 16:44:20.012 | deleteAttachments IN 
+[System: 192.168.1.99] INFO | 06-17-2025 16:44:20.012 | attachmentFolderpath IN D:\PACTRevenUWEBAPI\Attachments\
+[System: 192.168.1.99] INFO | 06-17-2025 16:44:20.012 | thValue IN 2000
+[System: 192.168.1.99] INFO | 06-17-2025 16:44:20.012 | directory.GetFiles() IN 
+[System: 192.168.1.99] INFO | 06-17-2025 16:44:20.012 | directory.GetDirectories() IN 
+[System: 192.168.1.99] INFO | 06-17-2025 16:44:20.012 | Attachment folder content Deleted successfully
+[System: 192.168.1.99] INFO | 06-17-2025 16:44:26.137 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:44:26.137 | Common:: deCodeLevel1 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:44:26.137 | Common:: DecodeBase64 START
+[System: 192.168.1.99] ERROR | 06-17-2025 16:44:26.215 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-17-2025 16:44:33.377 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 06-17-2025 16:44:33.377 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:44:33.392 | Administration:: Entering GetClientUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:44:33.439 | Administration:: Entering LDAPChecking
+[System: 192.168.1.99] INFO | 06-17-2025 16:44:33.439 | isValidUser:: True
+[System: 192.168.1.99] INFO | 06-17-2025 16:44:33.439 | AdminController:: Exiting GetUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:44:33.455 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 06-17-2025 16:44:33.455 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:44:33.455 | Administration:: Entering LDAPChecking
+[System: 192.168.1.99] INFO | 06-17-2025 16:44:33.455 | isValidUser:: True
+[System: 192.168.1.99] INFO | 06-17-2025 16:44:33.455 | AdminController:: Exiting LDAPUserCheck
+[System: 192.168.1.99] INFO | 06-17-2025 16:44:53.133 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 06-17-2025 16:44:53.133 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:44:53.133 | Administration:: Entering GetClientUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:44:53.164 | AdminController:: Exiting GetUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:44:53.164 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 06-17-2025 16:44:53.180 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:44:53.180 | Administration:: Entering LDAPChecking
+[System: 192.168.1.99] INFO | 06-17-2025 16:44:53.180 | isValidUser:: True
+[System: 192.168.1.99] INFO | 06-17-2025 16:44:53.180 | AdminController:: Exiting LDAPUserCheck
+[System: 192.168.1.99] ERROR | 06-17-2025 16:44:53.227 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-17-2025 16:44:53.227 | Administration:: Entering InitLoginSession
+[System: 192.168.1.99] INFO | 06-17-2025 16:44:53.258 | Administration:: Entering AllowSession  1
+[System: 192.168.1.99] INFO | 06-17-2025 16:44:53.258 | Administration:: Entering AllowSession  end
+[System: 192.168.1.99] ERROR | 06-17-2025 16:44:53.258 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:44:53.274 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.73] INFO | 06-17-2025 16:45:00.579 | Common:: DecodeBase64 START
+[System: 192.168.1.73] INFO | 06-17-2025 16:45:00.579 | Common:: deCodeLevel1 START
+[System: 192.168.1.73] INFO | 06-17-2025 16:45:00.579 | Common:: DecodeBase64 START
+[System: 192.168.1.73] ERROR | 06-17-2025 16:45:00.626 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:45:02.616 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:45:02.632 | RibbonGenerator:: GetRibbonViewWeb
+[System: 192.168.1.99] INFO | 06-17-2025 16:45:02.632 | RibbonGenerator:: Inside GetRibbonView
+[System: 192.168.1.99] ERROR | 06-17-2025 16:45:02.647 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-17-2025 16:45:02.976 | RibbonGenerator:: Success: GetRibbonView
+[System: 192.168.1.99] ERROR | 06-17-2025 16:45:02.976 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:45:03.201 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:45:03.232 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:45:03.247 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-17-2025 16:45:03.279 | Administration:: Entering GetUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:45:03.310 | Administration:: Exiting GetUserDetails
+[System: 192.168.1.99] ERROR | 06-17-2025 16:45:03.310 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:45:03.310 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-17-2025 16:45:03.372 | Administration:: Entering GetUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:45:03.404 | Administration:: Exiting GetUserDetails
+[System: 192.168.1.99] ERROR | 06-17-2025 16:45:03.404 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-17-2025 16:45:03.450 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:45:03.450 | ReportLayout:: GetDataSet START
+[System: 192.168.1.99] INFO | 06-17-2025 16:45:03.513 | ReportLayout:: GetDataSet END
+[System: 192.168.1.99] ERROR | 06-17-2025 16:45:03.528 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-17-2025 16:45:03.575 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:45:03.575 | ReportLayout:: GetDataSet START
+[System: 192.168.1.99] INFO | 06-17-2025 16:45:03.575 | ReportLayout:: GetDataSet END
+[System: 192.168.1.99] ERROR | 06-17-2025 16:45:03.575 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-17-2025 16:45:03.591 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:45:03.591 | ReportLayout:: GetDataSet START
+[System: 192.168.1.99] INFO | 06-17-2025 16:45:03.638 | ReportLayout:: GetDataSet END
+[System: 192.168.1.99] ERROR | 06-17-2025 16:45:03.638 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-17-2025 16:45:03.654 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:45:03.654 | Common:: deCodeLevel1 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:45:03.654 | Common:: DecodeBase64 START
+[System: 192.168.1.99] ERROR | 06-17-2025 16:45:03.732 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:45:04.044 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:45:04.138 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:45:04.185 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:45:04.247 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:45:10.685 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:45:10.716 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:45:10.732 | setAuditPrint:: setAuditPrint
+[System: 192.168.1.99] ERROR | 06-17-2025 16:45:10.732 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:45:10.888 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:45:10.919 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:45:10.950 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:45:10.982 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:45:10.997 | GetCostCenterSummary:: GetCostCenterSummary
+[System: 192.168.1.99] ERROR | 06-17-2025 16:45:11.310 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:45:11.341 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:45:11.372 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-17-2025 16:45:11.372 | Administration:: Inside getRoles
+[System: 192.168.1.99] ERROR | 06-17-2025 16:45:11.388 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:45:11.419 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:45:11.435 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:45:11.450 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:45:11.482 | GetCostCenterSummary:: GetCostCenterSummary
+[System: 192.168.1.99] ERROR | 06-17-2025 16:45:11.732 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:45:11.763 | GetCostCenterSummary:: GetCostCenterSummary
+[System: 192.168.1.99] ERROR | 06-17-2025 16:45:11.950 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:45:11.981 | GetCostCenterSummary:: GetCostCenterSummary
+[System: 192.168.1.99] ERROR | 06-17-2025 16:45:12.138 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:45:12.169 | GetCostCenterSummary:: GetCostCenterSummary
+[System: 192.168.1.99] ERROR | 06-17-2025 16:45:12.231 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:45:24.547 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-17-2025 16:45:24.547 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:45:24.547 | Common:: deCodeLevel1 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:45:24.562 | Common:: DecodeBase64 START
+[System: 192.168.1.99] ERROR | 06-17-2025 16:45:24.609 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:45:24.640 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-17-2025 16:45:27.209 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:45:27.209 | Common:: deCodeLevel1 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:45:27.209 | Common:: DecodeBase64 START
+[System: 192.168.1.99] ERROR | 06-17-2025 16:45:27.287 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-17-2025 16:45:30.699 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 06-17-2025 16:45:30.699 | Administration:: Entering GetUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:45:30.762 | Administration:: Exiting GetUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:45:30.762 | Administration:: Entering GetUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:45:30.777 | Administration:: Exiting GetUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:45:30.777 | NotificationHandler:: Inside GetGlobalPreferences
+[System: 192.168.1.99] INFO | 06-17-2025 16:45:30.808 | NotificationHandler:: Success: GetGlobalPreferences
+[System: 192.168.1.99] INFO | 06-17-2025 16:45:30.824 | InitReportObject:: Report DataRow appending below.
+[System: 192.168.1.99] INFO | 06-17-2025 16:45:30.824 | InitReportObject:: Deserialized Report DataRow Object.
+[System: 192.168.1.99] INFO | 06-17-2025 16:45:30.824 | InitReportObject:: DataRow Append Successfully.
+[System: 192.168.1.99] ERROR | 06-17-2025 16:45:30.965 | Export Excell
+Microsoft Office Excel cannot open or save any more documents because there is not enough available memory or disk space. 
+
+• To make more memory available, close workbooks or programs you no longer need. 
+
+• To free disk space, delete files you no longer need from the disk you are saving to.
+   at Microsoft.Office.Interop.Excel.Workbooks.Add(Object Template)
+   at PACT.COMMON.PRINT.ReportExportToExcel.Export(Boolean AskSaveDialog, String SelectedFile, String SelectedSheet, Boolean DontPrintHeaderFooter, Boolean IsBulkExport)
+[System: 192.168.1.99] ERROR | 06-17-2025 16:45:30.980 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:45:30.980 | setAuditPrint:: setAuditPrint
+[System: 192.168.1.99] ERROR | 06-17-2025 16:45:30.996 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-17-2025 16:45:35.155 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 06-17-2025 16:45:35.155 | Administration:: Entering GetUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:45:35.218 | Administration:: Exiting GetUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:45:35.218 | Administration:: Entering GetUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:45:35.234 | Administration:: Exiting GetUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:45:35.234 | NotificationHandler:: Inside GetGlobalPreferences
+[System: 192.168.1.99] INFO | 06-17-2025 16:45:35.280 | NotificationHandler:: Success: GetGlobalPreferences
+[System: 192.168.1.99] INFO | 06-17-2025 16:45:35.280 | InitReportObject:: Report DataRow appending below.
+[System: 192.168.1.99] INFO | 06-17-2025 16:45:35.280 | InitReportObject:: Deserialized Report DataRow Object.
+[System: 192.168.1.99] INFO | 06-17-2025 16:45:35.280 | InitReportObject:: DataRow Append Successfully.
+[System: 192.168.1.99] ERROR | 06-17-2025 16:45:37.577 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:45:37.592 | setAuditPrint:: setAuditPrint
+[System: 192.168.1.99] ERROR | 06-17-2025 16:45:37.592 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.73] ERROR | 06-17-2025 16:46:00.587 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.73] INFO | 06-17-2025 16:46:00.603 | Common:: DecodeBase64 START
+[System: 192.168.1.73] INFO | 06-17-2025 16:46:00.603 | Common:: deCodeLevel1 START
+[System: 192.168.1.73] INFO | 06-17-2025 16:46:00.603 | Common:: DecodeBase64 START
+[System: 192.168.1.73] ERROR | 06-17-2025 16:46:00.634 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-17-2025 16:46:01.618 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 06-17-2025 16:46:01.618 | Administration:: Entering GetUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:46:01.696 | Administration:: Exiting GetUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:46:01.696 | Administration:: Entering GetUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:46:01.712 | Administration:: Exiting GetUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:46:01.712 | NotificationHandler:: Inside GetGlobalPreferences
+[System: 192.168.1.99] INFO | 06-17-2025 16:46:01.743 | NotificationHandler:: Success: GetGlobalPreferences
+[System: 192.168.1.99] INFO | 06-17-2025 16:46:01.743 | InitReportObject:: Report DataRow appending below.
+[System: 192.168.1.99] INFO | 06-17-2025 16:46:01.743 | InitReportObject:: Deserialized Report DataRow Object.
+[System: 192.168.1.99] INFO | 06-17-2025 16:46:01.743 | InitReportObject:: DataRow Append Successfully.
+[System: 192.168.1.99] INFO | 06-17-2025 16:46:03.668 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:46:03.668 | Common:: deCodeLevel1 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:46:03.668 | Common:: DecodeBase64 START
+[System: 192.168.1.99] ERROR | 06-17-2025 16:46:03.746 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:46:04.168 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:46:04.168 | setAuditPrint:: setAuditPrint
+[System: 192.168.1.99] ERROR | 06-17-2025 16:46:04.184 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-17-2025 16:46:28.204 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:46:28.204 | Common:: deCodeLevel1 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:46:28.204 | Common:: DecodeBase64 START
+[System: 192.168.1.99] ERROR | 06-17-2025 16:46:28.282 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-17-2025 16:46:45.219 | CustomExceptionFiltere  ==>    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at PactRevenUWebapi2._0.Controllers.PactRequestTokenController.GetClientUserDetails(RequestObj Reqobj)
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_2.<GetExecutor>b__2(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+[System: 192.168.1.73] INFO | 06-17-2025 16:47:00.580 | Common:: DecodeBase64 START
+[System: 192.168.1.73] INFO | 06-17-2025 16:47:00.580 | Common:: deCodeLevel1 START
+[System: 192.168.1.73] INFO | 06-17-2025 16:47:00.580 | Common:: DecodeBase64 START
+[System: 192.168.1.73] ERROR | 06-17-2025 16:47:00.627 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-17-2025 16:47:03.649 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:47:03.649 | Common:: deCodeLevel1 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:47:03.649 | Common:: DecodeBase64 START
+[System: 192.168.1.99] ERROR | 06-17-2025 16:47:03.743 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-17-2025 16:47:29.205 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:47:29.205 | Common:: deCodeLevel1 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:47:29.205 | Common:: DecodeBase64 START
+[System: 192.168.1.99] ERROR | 06-17-2025 16:47:29.283 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-17-2025 16:47:46.826 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 06-17-2025 16:47:46.826 | Administration:: Entering GetUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:47:46.873 | Administration:: Exiting GetUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:47:46.873 | Administration:: Entering GetUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:47:46.889 | Administration:: Exiting GetUserDetails
+[System: 192.168.1.99] INFO | 06-17-2025 16:47:46.889 | NotificationHandler:: Inside GetGlobalPreferences
+[System: 192.168.1.99] INFO | 06-17-2025 16:47:46.920 | NotificationHandler:: Success: GetGlobalPreferences
+[System: 192.168.1.99] INFO | 06-17-2025 16:47:46.920 | InitReportObject:: Report DataRow appending below.
+[System: 192.168.1.99] INFO | 06-17-2025 16:47:46.920 | InitReportObject:: Deserialized Report DataRow Object.
+[System: 192.168.1.99] INFO | 06-17-2025 16:47:46.920 | InitReportObject:: DataRow Append Successfully.
+[System: 192.168.1.99] ERROR | 06-17-2025 16:47:47.091 | Export Excell
+Microsoft Office Excel cannot open or save any more documents because there is not enough available memory or disk space. 
+
+• To make more memory available, close workbooks or programs you no longer need. 
+
+• To free disk space, delete files you no longer need from the disk you are saving to.
+   at Microsoft.Office.Interop.Excel.Workbooks.Add(Object Template)
+   at PACT.COMMON.PRINT.ReportExportToExcel.Export(Boolean AskSaveDialog, String SelectedFile, String SelectedSheet, Boolean DontPrintHeaderFooter, Boolean IsBulkExport)
+[System: 192.168.1.99] ERROR | 06-17-2025 16:47:47.091 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:47:47.107 | setAuditPrint:: setAuditPrint
+[System: 192.168.1.99] ERROR | 06-17-2025 16:47:47.123 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.73] INFO | 06-17-2025 16:48:00.571 | Common:: DecodeBase64 START
+[System: 192.168.1.73] INFO | 06-17-2025 16:48:00.571 | Common:: deCodeLevel1 START
+[System: 192.168.1.73] INFO | 06-17-2025 16:48:00.571 | Common:: DecodeBase64 START
+[System: 192.168.1.73] ERROR | 06-17-2025 16:48:00.617 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-17-2025 16:48:03.655 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:48:03.655 | Common:: deCodeLevel1 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:48:03.655 | Common:: DecodeBase64 START
+[System: 192.168.1.99] ERROR | 06-17-2025 16:48:03.748 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-17-2025 16:48:30.202 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:48:30.202 | Common:: deCodeLevel1 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:48:30.202 | Common:: DecodeBase64 START
+[System: 192.168.1.99] ERROR | 06-17-2025 16:48:30.280 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-17-2025 16:48:33.608 | CustomExceptionFiltere  ==>    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at PactRevenUWebapi2._0.Controllers.PactRequestTokenController.GetClientUserDetails(RequestObj Reqobj)
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_2.<GetExecutor>b__2(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+[System: 192.168.1.56] ERROR | 06-17-2025 16:48:53.837 | CustomExceptionFiltere  ==>    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at PactRevenUWebapi2._0.Controllers.PactRequestTokenController.GetClientUserDetails(RequestObj Reqobj)
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_2.<GetExecutor>b__2(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+[System: 192.168.1.73] INFO | 06-17-2025 16:49:00.578 | Common:: DecodeBase64 START
+[System: 192.168.1.73] INFO | 06-17-2025 16:49:00.578 | Common:: deCodeLevel1 START
+[System: 192.168.1.73] INFO | 06-17-2025 16:49:00.578 | Common:: DecodeBase64 START
+[System: 192.168.1.73] ERROR | 06-17-2025 16:49:00.609 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-17-2025 16:49:03.656 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:49:03.656 | Common:: deCodeLevel1 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:49:03.656 | Common:: DecodeBase64 START
+[System: 192.168.1.99] ERROR | 06-17-2025 16:49:03.749 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:49:31.197 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-17-2025 16:49:31.213 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:49:31.213 | Common:: deCodeLevel1 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:49:31.229 | Common:: DecodeBase64 START
+[System: 192.168.1.99] ERROR | 06-17-2025 16:49:31.307 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.73] INFO | 06-17-2025 16:50:00.564 | Common:: DecodeBase64 START
+[System: 192.168.1.73] INFO | 06-17-2025 16:50:00.564 | Common:: deCodeLevel1 START
+[System: 192.168.1.73] INFO | 06-17-2025 16:50:00.564 | Common:: DecodeBase64 START
+[System: 192.168.1.73] ERROR | 06-17-2025 16:50:00.610 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 06-17-2025 16:50:02.648 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-17-2025 16:50:03.648 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:50:03.648 | Common:: deCodeLevel1 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:50:03.648 | Common:: DecodeBase64 START
+[System: 192.168.1.99] ERROR | 06-17-2025 16:50:03.757 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-17-2025 16:50:32.197 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:50:32.197 | Common:: deCodeLevel1 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:50:32.197 | Common:: DecodeBase64 START
+[System: 192.168.1.99] ERROR | 06-17-2025 16:50:32.275 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.73] ERROR | 06-17-2025 16:51:00.596 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.73] ERROR | 06-17-2025 16:51:00.628 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.73] INFO | 06-17-2025 16:51:00.643 | Common:: DecodeBase64 START
+[System: 192.168.1.73] INFO | 06-17-2025 16:51:00.643 | Common:: deCodeLevel1 START
+[System: 192.168.1.73] INFO | 06-17-2025 16:51:00.643 | Common:: DecodeBase64 START
+[System: 192.168.1.73] ERROR | 06-17-2025 16:51:00.690 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-17-2025 16:51:03.658 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:51:03.658 | Common:: deCodeLevel1 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:51:03.658 | Common:: DecodeBase64 START
+[System: 192.168.1.99] ERROR | 06-17-2025 16:51:03.736 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-17-2025 16:51:33.197 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:51:33.197 | Common:: deCodeLevel1 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:51:33.197 | Common:: DecodeBase64 START
+[System: 192.168.1.99] ERROR | 06-17-2025 16:51:33.275 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.73] ERROR | 06-17-2025 16:51:33.962 | CustomExceptionFiltere  ==>    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at PactRevenUWebapi2._0.Controllers.PactRequestTokenController.GetClientUserDetails(RequestObj Reqobj)
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_2.<GetExecutor>b__2(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+[System: 192.168.1.73] ERROR | 06-17-2025 16:51:35.275 | CustomExceptionFiltere  ==>    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at PactRevenUWebapi2._0.Controllers.PactRequestTokenController.GetClientUserDetails(RequestObj Reqobj)
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_2.<GetExecutor>b__2(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+[System: 192.168.1.73] INFO | 06-17-2025 16:52:00.571 | Common:: DecodeBase64 START
+[System: 192.168.1.73] INFO | 06-17-2025 16:52:00.571 | Common:: deCodeLevel1 START
+[System: 192.168.1.73] INFO | 06-17-2025 16:52:00.571 | Common:: DecodeBase64 START
+[System: 192.168.1.73] ERROR | 06-17-2025 16:52:00.618 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-17-2025 16:52:03.657 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:52:03.657 | Common:: deCodeLevel1 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:52:03.657 | Common:: DecodeBase64 START
+[System: 192.168.1.99] ERROR | 06-17-2025 16:52:03.735 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-17-2025 16:52:34.202 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:52:34.202 | Common:: deCodeLevel1 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:52:34.202 | Common:: DecodeBase64 START
+[System: 192.168.1.99] ERROR | 06-17-2025 16:52:34.281 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.73] INFO | 06-17-2025 16:53:00.569 | Common:: DecodeBase64 START
+[System: 192.168.1.73] INFO | 06-17-2025 16:53:00.569 | Common:: deCodeLevel1 START
+[System: 192.168.1.73] INFO | 06-17-2025 16:53:00.569 | Common:: DecodeBase64 START
+[System: 192.168.1.73] ERROR | 06-17-2025 16:53:00.616 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-17-2025 16:53:03.654 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:53:03.654 | Common:: deCodeLevel1 START
+[System: 192.168.1.99] INFO | 06-17-2025 16:53:03.654 | Common:: DecodeBase64 START
+[System: 192.168.1.99] ERROR | 06-17-2025 16:53:03.747 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK

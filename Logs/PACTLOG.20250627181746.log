@@ -1,0 +1,12 @@
+[Sys Thread: 8] INFO | 06-27-2025 18:17:46.479 | SessionManager :: InitOnLoad() :: Entering...
+[Sys Thread: 8] INFO | 06-27-2025 18:17:46.479 | Installed Printers Count :3
+[Sys Thread: 8] INFO | 06-27-2025 18:17:46.479 | IsExportPDFWithPrintOption : True - XPS Printer Name : Microsoft Print to PDF
+[Sys Thread: 8] INFO | 06-27-2025 18:17:46.479 | SessionManager :: InitOnLoad() :: Exiting...
+[System: 192.168.1.181] INFO | 06-27-2025 18:17:46.948 | Common:: DecodeBase64 START
+[System: 192.168.1.181] INFO | 06-27-2025 18:17:46.948 | Common:: deCodeLevel1 START
+[System: 192.168.1.181] INFO | 06-27-2025 18:17:46.948 | Common:: DecodeBase64 START
+[System: 192.168.1.181] ERROR | 06-27-2025 18:17:47.151 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.79] INFO | 06-27-2025 18:18:26.057 | Common:: DecodeBase64 START
+[System: 192.168.1.79] INFO | 06-27-2025 18:18:26.057 | Common:: deCodeLevel1 START
+[System: 192.168.1.79] INFO | 06-27-2025 18:18:26.057 | Common:: DecodeBase64 START
+[System: 192.168.1.79] ERROR | 06-27-2025 18:18:26.291 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK

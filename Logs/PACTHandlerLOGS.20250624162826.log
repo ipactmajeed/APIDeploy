@@ -1,0 +1,8 @@
+[System: 192.168.1.56] DEBUG | 06-24-2025 16:28:31.226 | General Service|:: CompanyIndex:7 SpName: spCOM_ConfigValues 
+ 1
+ ,'NotifTime'
+ ,''
+[System: 192.168.1.56] DEBUG | 06-24-2025 16:28:31.226 | General Service|:: CompanyIndex:7 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNywxIiwibmJmIjoxNzUwNzYxMTcxLCJleHAiOjE3NTA3ODk5NzEsImlhdCI6MTc1MDc2MTE3MX0.lmWUaOvsKfJUUYn7zucMucGA3aDN3Yh25xOiCU48AAs'''
+ ,1
+ ,1

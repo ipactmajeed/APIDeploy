@@ -1,0 +1,26 @@
+[Sys Thread: 52] INFO | 06-26-2025 17:05:53.944 | SessionManager :: InitOnLoad() :: Entering...
+[Sys Thread: 52] INFO | 06-26-2025 17:05:53.944 | Installed Printers Count :3
+[Sys Thread: 52] INFO | 06-26-2025 17:05:53.944 | IsExportPDFWithPrintOption : True - XPS Printer Name : Microsoft Print to PDF
+[Sys Thread: 52] INFO | 06-26-2025 17:05:53.944 | SessionManager :: InitOnLoad() :: Exiting...
+[System: 192.168.1.56] INFO | 06-26-2025 17:05:54.366 | Common controller:: Inside BulkEditDetals
+[System: 192.168.1.56] INFO | 06-26-2025 17:05:54.413 | Common controller::Exiting BulkEditDetals
+[System: 192.168.1.56] ERROR | 06-26-2025 17:05:54.413 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-26-2025 17:05:54.460 | Common controller:: Inside BulkEditDetals
+[System: 192.168.1.56] INFO | 06-26-2025 17:05:54.460 | Common controller::Exiting BulkEditDetals
+[System: 192.168.1.56] ERROR | 06-26-2025 17:05:54.460 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-26-2025 17:05:54.491 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-26-2025 17:05:54.522 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-26-2025 17:05:54.538 | setAuditPrint:: setAuditPrint
+[System: 192.168.1.56] ERROR | 06-26-2025 17:05:54.553 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-26-2025 17:05:54.569 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-26-2025 17:05:54.600 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-26-2025 17:05:54.632 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-26-2025 17:05:54.678 | GetCostCenterSummary:: GetCostCenterSummary
+[System: 192.168.1.56] ERROR | 06-26-2025 17:05:54.756 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-26-2025 17:05:54.819 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-26-2025 17:05:54.835 | GetCostCenterSummary:: GetCostCenterSummary
+[System: 192.168.1.56] ERROR | 06-26-2025 17:05:54.850 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-26-2025 17:05:54.866 | GetCostCenterSummary:: GetCostCenterSummary
+[System: 192.168.1.56] ERROR | 06-26-2025 17:05:54.944 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-26-2025 17:05:54.975 | GetCostCenterSummary:: GetCostCenterSummary
+[System: 192.168.1.56] ERROR | 06-26-2025 17:05:55.022 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK

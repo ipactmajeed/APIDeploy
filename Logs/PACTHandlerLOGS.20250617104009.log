@@ -1,0 +1,8 @@
+[System: 192.168.1.76] ERROR | 06-17-2025 10:40:10.692 | General Service|:: CompanyIndex:0 SpName: spADM_GetDataSetParameters :
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNywxIiwibmJmIjoxNzUwMDc5MTI4LCJleHAiOjE3NTAxMDc5MjgsImlhdCI6MTc1MDA3OTEyOH0.BMbKNvIlzodbG0g_Qn5prH1fP_LQneY3MzM-pbsm3W8'''
+ ,1
+ ,1|Could not find stored procedure 'spADM_GetDataSet'.
+[System: 192.168.1.76] ERROR | 06-17-2025 10:41:08.646 | General Service|:: CompanyIndex:0 SpName: spADM_GetDataSetParameters :
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNywxIiwibmJmIjoxNzUwMDc5MTI4LCJleHAiOjE3NTAxMDc5MjgsImlhdCI6MTc1MDA3OTEyOH0.BMbKNvIlzodbG0g_Qn5prH1fP_LQneY3MzM-pbsm3W8'''
+ ,1
+ ,1|Could not find stored procedure 'spADM_GetDataSet'.

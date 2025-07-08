@@ -1,0 +1,183 @@
+[System: 192.168.1.56] DEBUG | 06-26-2025 17:05:54.413 | General Service|:: CompanyIndex:7 SpName: spADM_BulkEditDetails 
+ 6
+ ,104
+ ,0
+ ,''
+ ,''
+ ,''
+ ,''
+ ,'admin'
+ ,1
+ ,1
+ ,1
+[System: 192.168.1.56] DEBUG | 06-26-2025 17:05:54.413 | General Service|:: CompanyIndex:7 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNywxIiwibmJmIjoxNzUwOTM3NjAwLCJleHAiOjE3NTA5NjY0MDAsImlhdCI6MTc1MDkzNzYwMH0.6h8sa0n8ox3T3l-AIEZ3YytIgC5FTyn9OWVVxslgMmQ'''
+ ,1
+ ,1
+[System: 192.168.1.56] DEBUG | 06-26-2025 17:05:54.460 | General Service|:: CompanyIndex:7 SpName: spADM_BulkEditDetails 
+ 2
+ ,0
+ ,2
+ ,''
+ ,''
+ ,''
+ ,''
+ ,'admin'
+ ,1
+ ,1
+ ,1
+[System: 192.168.1.56] DEBUG | 06-26-2025 17:05:54.460 | General Service|:: CompanyIndex:7 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNywxIiwibmJmIjoxNzUwOTM3NjAwLCJleHAiOjE3NTA5NjY0MDAsImlhdCI6MTc1MDkzNzYwMH0.6h8sa0n8ox3T3l-AIEZ3YytIgC5FTyn9OWVVxslgMmQ'''
+ ,1
+ ,1
+[System: 192.168.1.56] DEBUG | 06-26-2025 17:05:54.491 | General Service|:: CompanyIndex:7 SpName: spADM_GetDataSet 
+ 'SELECT StaticReportType FROM ADM_RevenUReports WITH(NOLOCK) WHERE ReportID=90871'
+ ,1
+ ,1
+[System: 192.168.1.56] DEBUG | 06-26-2025 17:05:54.491 | General Service|:: CompanyIndex:7 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNywxIiwibmJmIjoxNzUwOTM3NjAwLCJleHAiOjE3NTA5NjY0MDAsImlhdCI6MTc1MDkzNzYwMH0.6h8sa0n8ox3T3l-AIEZ3YytIgC5FTyn9OWVVxslgMmQ'''
+ ,1
+ ,1
+[System: 192.168.1.56] DEBUG | 06-26-2025 17:05:54.522 | General Service|:: CompanyIndex:7 SpName: spRPT_GetReport 
+ 0
+ ,90871
+ ,'1'
+ ,'1'
+ ,1
+[System: 192.168.1.56] DEBUG | 06-26-2025 17:05:54.522 | General Service|:: CompanyIndex:7 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNywxIiwibmJmIjoxNzUwOTM3NjAwLCJleHAiOjE3NTA5NjY0MDAsImlhdCI6MTc1MDkzNzYwMH0.6h8sa0n8ox3T3l-AIEZ3YytIgC5FTyn9OWVVxslgMmQ'''
+ ,1
+ ,1
+[System: 192.168.1.56] DEBUG | 06-26-2025 17:05:54.538 | General Service|:: CompanyIndex:7 SpName: spDOC_GetVPTPrintCopies 
+ 4
+ ,50
+ ,90871
+ ,2
+ ,4
+ ,'View~98cab7ee-e70b-42d5-b339-b5ed4057d2e2'
+ ,'admin'
+ ,1
+[System: 192.168.1.56] DEBUG | 06-26-2025 17:05:54.553 | General Service|:: CompanyIndex:7 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNywxIiwibmJmIjoxNzUwOTM3NjAwLCJleHAiOjE3NTA5NjY0MDAsImlhdCI6MTc1MDkzNzYwMH0.6h8sa0n8ox3T3l-AIEZ3YytIgC5FTyn9OWVVxslgMmQ'''
+ ,1
+ ,1
+[System: 192.168.1.56] DEBUG | 06-26-2025 17:05:54.569 | General Service|:: CompanyIndex:7 SpName: spRPT_GetReportFields 
+ 2
+ ,0
+ ,'1'
+ ,1
+[System: 192.168.1.56] DEBUG | 06-26-2025 17:05:54.569 | General Service|:: CompanyIndex:7 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNywxIiwibmJmIjoxNzUwOTM3NjAwLCJleHAiOjE3NTA5NjY0MDAsImlhdCI6MTc1MDkzNzYwMH0.6h8sa0n8ox3T3l-AIEZ3YytIgC5FTyn9OWVVxslgMmQ'''
+ ,1
+ ,1
+[System: 192.168.1.56] DEBUG | 06-26-2025 17:05:54.600 | General Service|:: CompanyIndex:7 SpName: spRPT_GetReportFields 
+ 110
+ ,0
+ ,'1'
+ ,1
+[System: 192.168.1.56] DEBUG | 06-26-2025 17:05:54.600 | General Service|:: CompanyIndex:7 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNywxIiwibmJmIjoxNzUwOTM3NjAwLCJleHAiOjE3NTA5NjY0MDAsImlhdCI6MTc1MDkzNzYwMH0.6h8sa0n8ox3T3l-AIEZ3YytIgC5FTyn9OWVVxslgMmQ'''
+ ,1
+ ,1
+[System: 192.168.1.56] DEBUG | 06-26-2025 17:05:54.632 | General Service|:: CompanyIndex:7 SpName: spADM_GetCostCenterGridViewList 
+ 2
+ ,1
+ ,1
+ ,1
+[System: 192.168.1.56] DEBUG | 06-26-2025 17:05:54.632 | General Service|:: CompanyIndex:7 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNywxIiwibmJmIjoxNzUwOTM3NjAwLCJleHAiOjE3NTA5NjY0MDAsImlhdCI6MTc1MDkzNzYwMH0.6h8sa0n8ox3T3l-AIEZ3YytIgC5FTyn9OWVVxslgMmQ'''
+ ,1
+ ,1
+[System: 192.168.1.56] DEBUG | 06-26-2025 17:05:54.756 | General Service|:: CompanyIndex:7 SpName: spCom_GetCostCenterSummary 
+ 126
+ ,-1
+ ,1000
+ ,''
+ ,''
+ ,''
+ ,0
+ ,'26-Jun-2025'
+ ,NULL
+ ,''
+ ,1
+ ,1
+ ,0
+ ,0
+ ,False
+ ,1
+[System: 192.168.1.56] DEBUG | 06-26-2025 17:05:54.756 | General Service|:: CompanyIndex:7 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNywxIiwibmJmIjoxNzUwOTM3NjAwLCJleHAiOjE3NTA5NjY0MDAsImlhdCI6MTc1MDkzNzYwMH0.6h8sa0n8ox3T3l-AIEZ3YytIgC5FTyn9OWVVxslgMmQ'''
+ ,1
+ ,1
+[System: 192.168.1.56] DEBUG | 06-26-2025 17:05:54.819 | General Service|:: CompanyIndex:7 SpName: spADM_GetCostCenterGridViewList 
+ 50002
+ ,1
+ ,1
+ ,1
+[System: 192.168.1.56] DEBUG | 06-26-2025 17:05:54.819 | General Service|:: CompanyIndex:7 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNywxIiwibmJmIjoxNzUwOTM3NjAwLCJleHAiOjE3NTA5NjY0MDAsImlhdCI6MTc1MDkzNzYwMH0.6h8sa0n8ox3T3l-AIEZ3YytIgC5FTyn9OWVVxslgMmQ'''
+ ,1
+ ,1
+[System: 192.168.1.56] DEBUG | 06-26-2025 17:05:54.850 | General Service|:: CompanyIndex:7 SpName: spCom_GetCostCenterSummary 
+ 60
+ ,-1
+ ,1000
+ ,''
+ ,''
+ ,''
+ ,0
+ ,'26-Jun-2025'
+ ,NULL
+ ,''
+ ,1
+ ,1
+ ,0
+ ,0
+ ,False
+ ,1
+[System: 192.168.1.56] DEBUG | 06-26-2025 17:05:54.850 | General Service|:: CompanyIndex:7 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNywxIiwibmJmIjoxNzUwOTM3NjAwLCJleHAiOjE3NTA5NjY0MDAsImlhdCI6MTc1MDkzNzYwMH0.6h8sa0n8ox3T3l-AIEZ3YytIgC5FTyn9OWVVxslgMmQ'''
+ ,1
+ ,1
+[System: 192.168.1.56] DEBUG | 06-26-2025 17:05:54.928 | General Service|:: CompanyIndex:7 SpName: spCom_GetCostCenterSummary 
+ 126
+ ,1000
+ ,1000
+ ,''
+ ,''
+ ,''
+ ,1995
+ ,'26-Jun-2025'
+ ,NULL
+ ,''
+ ,1
+ ,1
+ ,0
+ ,0
+ ,False
+ ,1
+[System: 192.168.1.56] DEBUG | 06-26-2025 17:05:54.928 | General Service|:: CompanyIndex:7 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNywxIiwibmJmIjoxNzUwOTM3NjAwLCJleHAiOjE3NTA5NjY0MDAsImlhdCI6MTc1MDkzNzYwMH0.6h8sa0n8ox3T3l-AIEZ3YytIgC5FTyn9OWVVxslgMmQ'''
+ ,1
+ ,1
+[System: 192.168.1.56] DEBUG | 06-26-2025 17:05:55.007 | General Service|:: CompanyIndex:7 SpName: spCom_GetCostCenterSummary 
+ 126
+ ,2000
+ ,1000
+ ,''
+ ,''
+ ,''
+ ,3995
+ ,'26-Jun-2025'
+ ,NULL
+ ,''
+ ,1
+ ,1
+ ,0
+ ,0
+ ,False
+ ,1
+[System: 192.168.1.56] DEBUG | 06-26-2025 17:05:55.022 | General Service|:: CompanyIndex:7 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNywxIiwibmJmIjoxNzUwOTM3NjAwLCJleHAiOjE3NTA5NjY0MDAsImlhdCI6MTc1MDkzNzYwMH0.6h8sa0n8ox3T3l-AIEZ3YytIgC5FTyn9OWVVxslgMmQ'''
+ ,1
+ ,1

@@ -1,0 +1,34 @@
+[Sys Thread: 52] INFO | 06-26-2025 17:03:15.390 | SessionManager :: InitOnLoad() :: Entering...
+[Sys Thread: 52] INFO | 06-26-2025 17:03:15.390 | Installed Printers Count :3
+[Sys Thread: 52] INFO | 06-26-2025 17:03:15.390 | IsExportPDFWithPrintOption : True - XPS Printer Name : Microsoft Print to PDF
+[Sys Thread: 52] INFO | 06-26-2025 17:03:15.390 | SessionManager :: InitOnLoad() :: Exiting...
+[System: 192.168.1.56] INFO | 06-26-2025 17:03:18.217 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-26-2025 17:03:18.217 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-26-2025 17:03:18.217 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-26-2025 17:03:18.217 | Common:: IsBase64 Checking START
+[System: 192.168.1.56] INFO | 06-26-2025 17:03:18.217 | Administration:: Entering GetClientUserDetails
+[System: 192.168.1.56] INFO | 06-26-2025 17:03:18.295 | Administration:: Entering LDAPChecking
+[System: 192.168.1.56] INFO | 06-26-2025 17:03:18.295 | isValidUser:: True
+[System: 192.168.1.56] INFO | 06-26-2025 17:03:18.295 | AdminController:: Exiting GetUserDetails
+[System: 192.168.1.56] INFO | 06-26-2025 17:03:18.389 | Common:: IsBase64 Checking START
+[System: 192.168.1.56] INFO | 06-26-2025 17:03:18.389 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-26-2025 17:03:18.389 | Administration:: Entering LDAPChecking
+[System: 192.168.1.56] INFO | 06-26-2025 17:03:18.389 | isValidUser:: True
+[System: 192.168.1.56] INFO | 06-26-2025 17:03:18.389 | AdminController:: Exiting LDAPUserCheck
+[System: 192.168.1.56] INFO | 06-26-2025 17:03:20.764 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-26-2025 17:03:20.764 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-26-2025 17:03:20.764 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-26-2025 17:03:20.764 | Common:: IsBase64 Checking START
+[System: 192.168.1.56] INFO | 06-26-2025 17:03:20.764 | Administration:: Entering GetClientUserDetails
+[System: 192.168.1.56] INFO | 06-26-2025 17:03:20.920 | AdminController:: Exiting GetUserDetails
+[System: 192.168.1.56] INFO | 06-26-2025 17:03:20.982 | Common:: IsBase64 Checking START
+[System: 192.168.1.56] INFO | 06-26-2025 17:03:20.982 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-26-2025 17:03:20.982 | Administration:: Entering LDAPChecking
+[System: 192.168.1.56] INFO | 06-26-2025 17:03:20.982 | isValidUser:: True
+[System: 192.168.1.56] INFO | 06-26-2025 17:03:20.982 | AdminController:: Exiting LDAPUserCheck
+[System: 192.168.1.56] ERROR | 06-26-2025 17:03:21.029 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-26-2025 17:03:21.045 | Administration:: Entering InitLoginSession
+[System: 192.168.1.56] INFO | 06-26-2025 17:03:21.076 | Administration:: Entering AllowSession  1
+[System: 192.168.1.56] INFO | 06-26-2025 17:03:21.076 | Administration:: Entering AllowSession  end
+[System: 192.168.1.56] ERROR | 06-26-2025 17:03:21.076 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-26-2025 17:03:21.232 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK

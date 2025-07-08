@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "pact-erp-ef3e5",
+  "private_key_id": "d683e689ecd10b8b587fb648a34910a809517abe",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC83wGJ9yzmjCbl\n/KGX9ja1OJ9xWgcWyyJ6rOJkq2zOiuLaIRgiJduLnC+GPflt7r1gTDuOz66LhsiM\nMUnTQI9qfABGD2GThn3SZjjkz/uZkt3x1hdP5lVS/OZdMMIVO7CgzX6f5Yc3QW0v\n9bdU0ShQ7p+yD0SEORtR4wGz9ZW4Sso+kSrM3vy0PbjxAV7X9tcteBd40AEvKnMU\nmQEvvSwyc0f3UbLbRNyZxvcOekBjHssP5MO0LenZrodlZKXNhioriVDWQ8VC90mK\nz63tQeD2uu7141MuPKj/U2E7Hd9+JA86E+WG/2bfc3qNsTMp0C4VWdF27YcJ7WyO\nVIYlUulbAgMBAAECggEACVLrsoc/R4piXow1i1jzo8f4fGdjXjQHrw1bMnkRVV5J\n4KwtktH89UwalIKkDlHw4Lt4B+QndmqK+qYcQjo3r5wQ2g88U+9vGrSX2Rk4udYk\nRXdk4zmNu3ESC5uymSBp5yZTOqA20qV/jGnm87WiSzcx2bUjPsZ1m3nyGujkIUWJ\n/0SZydguPmgRw4TiPJ7j42r7k1RzFJaCQ0fsO54TzTcbsnjxSRVlnjy6kXd1FEau\n6LwFeEAZeznsDY2hbEyOwmEZ7b6HlpuB0kPvTJ8dP5a2k60kadL8qmm/b2iILlft\nziK2zOxoga/G1Qc+iDJIDyzGTIB0oC57FoQyYF7xcQKBgQC+1O6svhcEoHzb4fNJ\n0qll53X+mfwHyiqeBu4MCdfAgXkEGOMz2eLu/TvtVF0jYYBiwZLUxBEX1Efj0Ixc\n0w2e69Q13O4cdWREVm7HJRTiIBXx09+mOeou0C0QDeVvTADkg4lFhlRx6AVaqtUW\n5D5p53Yh8gSHvey4ehfJejEmLQKBgQD9XqsB2NHGE1v9iH0x3KXdi/CO2XIJPkKM\nKxaOG/RXpjJ6ZMpNQl7QJxebrFf+KwwJFXyKNws5C02xLg72lkxpyI3jGLzkldXf\n3/8VQ6IB16ZY43lbD7HP5imZgxn7EofoxPRDgZnOImZUQcCpejQB/lj+EdqBzg01\n32/+MWJKpwKBgQCcCdivfy+rJN9znCom7w58uOqOqLKgW/rFBL2ZMmMskbG2W/NL\n7pnU+VQLF7SgvZURK184gqnHZljyOxDKxfiZPhRjhqdctdCq4FHsnLGaxMms16ZE\ncY6/gJGYUwSMIQWJ1NRl+RULnsDiBlX/RdqTFiROVWrG49GwdoUExdlycQKBgQDU\nj0g9221ZlEI3d/s4CploPQ+KeCgwUvg3aaqZfCBILBjrD4WcvVKXpEQtCLAlfm2x\nbUI3HiifKbl7LF3HR55BnMxUOhu2VXHBSMVSTJQsoYNfzS6xU4BkHv7FV/RC62/z\nutAFlkO3aKqagzMju27IQV7df5LmFTyF9raY9Us1vwKBgBOUUT9MiuX1u8XwZHid\nsiXTleTcQLRkEIpcubSr0Si7SlXd0V7gb14wlS2xbaYraj0pKBNke3QJOL5py4s9\nJX616olqtfrFsXU9iwjvAbpx8LgMsO0aXYX3/Qm9Td9ix7lgO3es4q1GZVIHbm/q\nJJxHekRt8reKn7H2oCLNOh5C\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-5e5ju@pact-erp-ef3e5.iam.gserviceaccount.com",
+  "client_id": "118117184215656960302",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-5e5ju%40pact-erp-ef3e5.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

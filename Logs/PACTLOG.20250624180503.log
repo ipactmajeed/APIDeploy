@@ -1,0 +1,297 @@
+[Sys Thread: 63] INFO | 06-24-2025 18:05:03.405 | SessionManager :: InitOnLoad() :: Entering...
+[Sys Thread: 63] INFO | 06-24-2025 18:05:03.421 | Installed Printers Count :3
+[Sys Thread: 63] INFO | 06-24-2025 18:05:03.421 | IsExportPDFWithPrintOption : True - XPS Printer Name : Microsoft Print to PDF
+[Sys Thread: 63] INFO | 06-24-2025 18:05:03.421 | SessionManager :: InitOnLoad() :: Exiting...
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:03.796 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:03.796 | Common:: deCodeLevel1 START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:03.796 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:03.796 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:03.796 | Administration:: Entering GetClientUserDetails
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:03.843 | Administration:: Entering LDAPChecking
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:03.858 | isValidUser:: True
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:03.858 | AdminController:: Exiting GetUserDetails
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:03.999 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:03.999 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:03.999 | Administration:: Entering LDAPChecking
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:03.999 | isValidUser:: True
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:03.999 | AdminController:: Exiting LDAPUserCheck
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:08.896 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:08.896 | Common:: deCodeLevel1 START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:08.896 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:08.896 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:08.896 | Administration:: Entering GetClientUserDetails
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:08.911 | Administration:: Entering LDAPChecking
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:08.911 | isValidUser:: False
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:08.911 | AdminController:: Exiting GetUserDetails
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:08.927 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:08.927 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:08.927 | Administration:: Entering LDAPChecking
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:08.927 | isValidUser:: True
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:08.927 | AdminController:: Exiting LDAPUserCheck
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:08.927 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:08.927 | Common:: deCodeLevel1 START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:08.927 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:08.927 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:08.927 | Administration:: Entering GetClientUserDetails
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:09.099 | AdminController:: Exiting GetUserDetails
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:09.161 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:09.161 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:09.161 | Administration:: Entering LDAPChecking
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:09.161 | isValidUser:: True
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:09.161 | AdminController:: Exiting LDAPUserCheck
+[System: 192.168.1.99] ERROR | 06-24-2025 18:05:09.302 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:09.333 | Administration:: Entering InitLoginSession
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:09.333 | Administration:: Entering AllowSession  1
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:09.333 | Administration:: Entering AllowSession  end
+[System: 192.168.1.99] ERROR | 06-24-2025 18:05:09.333 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:12.130 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:12.130 | Common:: deCodeLevel1 START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:12.130 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:12.130 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:12.130 | Administration:: Entering GetClientUserDetails
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:12.161 | AdminController:: Exiting GetUserDetails
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:12.224 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:12.224 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:12.224 | Administration:: Entering LDAPChecking
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:12.224 | isValidUser:: True
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:12.224 | AdminController:: Exiting LDAPUserCheck
+[System: 192.168.1.99] ERROR | 06-24-2025 18:05:12.239 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:12.255 | Administration:: Entering InitLoginSession
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:12.255 | Administration:: Entering AllowSession  1
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:12.255 | Administration:: Entering AllowSession  end
+[System: 192.168.1.99] ERROR | 06-24-2025 18:05:12.270 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:13.867 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:13.867 | Common:: deCodeLevel1 START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:13.867 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:13.867 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:13.867 | Administration:: Entering GetClientUserDetails
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:13.898 | AdminController:: Exiting GetUserDetails
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:13.945 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:13.960 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:13.960 | Administration:: Entering LDAPChecking
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:13.960 | isValidUser:: True
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:13.960 | AdminController:: Exiting LDAPUserCheck
+[System: 192.168.1.99] ERROR | 06-24-2025 18:05:13.992 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:13.992 | Administration:: Entering InitLoginSession
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:14.007 | Administration:: Entering AllowSession  1
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:14.007 | Administration:: Entering AllowSession  end
+[System: 192.168.1.99] ERROR | 06-24-2025 18:05:14.007 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:16.414 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:16.414 | Common:: deCodeLevel1 START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:16.414 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:16.414 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:16.414 | Administration:: Entering GetClientUserDetails
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:16.445 | AdminController:: Exiting GetUserDetails
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:16.507 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:16.507 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:16.507 | Administration:: Entering LDAPChecking
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:16.507 | isValidUser:: True
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:16.507 | AdminController:: Exiting LDAPUserCheck
+[System: 192.168.1.99] ERROR | 06-24-2025 18:05:16.539 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:16.539 | Administration:: Entering InitLoginSession
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:16.554 | Administration:: Entering AllowSession  1
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:16.554 | Administration:: Entering AllowSession  end
+[System: 192.168.1.99] ERROR | 06-24-2025 18:05:16.554 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:22.928 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:22.928 | Common:: deCodeLevel1 START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:22.928 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:22.928 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:22.928 | Administration:: Entering GetClientUserDetails
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:22.959 | AdminController:: Exiting GetUserDetails
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:23.022 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:23.022 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:23.022 | Administration:: Entering LDAPChecking
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:23.022 | isValidUser:: True
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:23.022 | AdminController:: Exiting LDAPUserCheck
+[System: 192.168.1.99] ERROR | 06-24-2025 18:05:23.053 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:23.053 | Administration:: Entering InitLoginSession
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:23.069 | Administration:: Entering AllowSession  1
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:23.069 | Administration:: Entering AllowSession  end
+[System: 192.168.1.99] ERROR | 06-24-2025 18:05:23.069 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:40.879 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:40.879 | Common:: deCodeLevel1 START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:40.879 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:40.879 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:40.879 | Administration:: Entering GetClientUserDetails
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:40.910 | AdminController:: Exiting GetUserDetails
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:40.973 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:40.973 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:40.973 | Administration:: Entering LDAPChecking
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:40.973 | isValidUser:: False
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:40.973 | AdminController:: Exiting LDAPUserCheck
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:44.179 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:44.179 | Common:: deCodeLevel1 START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:44.179 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:44.179 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:44.179 | Administration:: Entering GetClientUserDetails
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:44.225 | AdminController:: Exiting GetUserDetails
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:44.272 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:44.272 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:44.272 | Administration:: Entering LDAPChecking
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:44.288 | isValidUser:: True
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:44.288 | AdminController:: Exiting LDAPUserCheck
+[System: 192.168.1.99] ERROR | 06-24-2025 18:05:44.319 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:44.319 | Administration:: Entering InitLoginSession
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:44.335 | Administration:: Entering AllowSession  1
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:44.335 | Administration:: Entering AllowSession  end
+[System: 192.168.1.99] ERROR | 06-24-2025 18:05:44.335 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.241 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.241 | Common:: deCodeLevel1 START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.241 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.241 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.241 | Administration:: Entering GetClientUserDetails
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.272 | AdminController:: Exiting GetUserDetails
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.319 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.319 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.319 | Administration:: Entering LDAPChecking
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.319 | isValidUser:: True
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.319 | AdminController:: Exiting LDAPUserCheck
+[System: 192.168.1.99] ERROR | 06-24-2025 18:05:45.334 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.350 | Administration:: Entering InitLoginSession
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.350 | Administration:: Entering AllowSession  1
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.350 | Administration:: Entering AllowSession  end
+[System: 192.168.1.99] ERROR | 06-24-2025 18:05:45.350 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.413 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.413 | Common:: deCodeLevel1 START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.413 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.413 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.413 | Administration:: Entering GetClientUserDetails
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.428 | AdminController:: Exiting GetUserDetails
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.491 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.491 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.491 | Administration:: Entering LDAPChecking
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.491 | isValidUser:: True
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.491 | AdminController:: Exiting LDAPUserCheck
+[System: 192.168.1.99] ERROR | 06-24-2025 18:05:45.506 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.506 | Administration:: Entering InitLoginSession
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.522 | Administration:: Entering AllowSession  1
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.522 | Administration:: Entering AllowSession  end
+[System: 192.168.1.99] ERROR | 06-24-2025 18:05:45.522 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.569 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.569 | Common:: deCodeLevel1 START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.569 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.569 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.569 | Administration:: Entering GetClientUserDetails
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.600 | AdminController:: Exiting GetUserDetails
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.647 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.662 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.662 | Administration:: Entering LDAPChecking
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.662 | isValidUser:: True
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.662 | AdminController:: Exiting LDAPUserCheck
+[System: 192.168.1.99] ERROR | 06-24-2025 18:05:45.694 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.694 | Administration:: Entering InitLoginSession
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.709 | Administration:: Entering AllowSession  1
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.709 | Administration:: Entering AllowSession  end
+[System: 192.168.1.99] ERROR | 06-24-2025 18:05:45.709 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.725 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.725 | Common:: deCodeLevel1 START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.725 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.725 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.725 | Administration:: Entering GetClientUserDetails
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.756 | AdminController:: Exiting GetUserDetails
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.819 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.819 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.819 | Administration:: Entering LDAPChecking
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.819 | isValidUser:: True
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.819 | AdminController:: Exiting LDAPUserCheck
+[System: 192.168.1.99] ERROR | 06-24-2025 18:05:45.850 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.850 | Administration:: Entering InitLoginSession
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.866 | Administration:: Entering AllowSession  1
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.866 | Administration:: Entering AllowSession  end
+[System: 192.168.1.99] ERROR | 06-24-2025 18:05:45.866 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.897 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.897 | Common:: deCodeLevel1 START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.897 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.897 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.897 | Administration:: Entering GetClientUserDetails
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.928 | AdminController:: Exiting GetUserDetails
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.975 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.975 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.975 | Administration:: Entering LDAPChecking
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.975 | isValidUser:: True
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:45.975 | AdminController:: Exiting LDAPUserCheck
+[System: 192.168.1.99] ERROR | 06-24-2025 18:05:45.991 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:46.006 | Administration:: Entering InitLoginSession
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:46.006 | Administration:: Entering AllowSession  1
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:46.006 | Administration:: Entering AllowSession  end
+[System: 192.168.1.99] ERROR | 06-24-2025 18:05:46.022 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:51.119 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:51.119 | Common:: deCodeLevel1 START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:51.119 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:51.119 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:51.119 | Administration:: Entering GetClientUserDetails
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:51.166 | AdminController:: Exiting GetUserDetails
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:51.228 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:51.228 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:51.228 | Administration:: Entering LDAPChecking
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:51.228 | isValidUser:: True
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:51.228 | AdminController:: Exiting LDAPUserCheck
+[System: 192.168.1.99] ERROR | 06-24-2025 18:05:51.244 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:51.244 | Administration:: Entering InitLoginSession
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:51.260 | Administration:: Entering AllowSession  1
+[System: 192.168.1.99] INFO | 06-24-2025 18:05:51.260 | Administration:: Entering AllowSession  end
+[System: 192.168.1.99] ERROR | 06-24-2025 18:05:51.260 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 18:06:35.616 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 18:06:35.616 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 18:06:35.616 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 18:06:35.616 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 18:06:35.616 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 18:06:35.616 | Common:: DecodeBase64 START
+[System: 192.168.1.56] ERROR | 06-24-2025 18:06:36.339 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] ERROR | 06-24-2025 18:06:36.932 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 18:06:59.359 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 18:06:59.359 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 18:06:59.359 | Common:: DecodeBase64 START
+[System: 192.168.1.56] ERROR | 06-24-2025 18:06:59.391 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.56] INFO | 06-24-2025 18:08:01.282 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 18:08:01.282 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 18:08:01.282 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 18:08:01.282 | Common:: IsBase64 Checking START
+[System: 192.168.1.56] INFO | 06-24-2025 18:08:01.282 | Administration:: Entering GetClientUserDetails
+[System: 192.168.1.56] INFO | 06-24-2025 18:08:01.297 | Administration:: Entering LDAPChecking
+[System: 192.168.1.56] INFO | 06-24-2025 18:08:01.297 | isValidUser:: True
+[System: 192.168.1.56] INFO | 06-24-2025 18:08:01.297 | AdminController:: Exiting GetUserDetails
+[System: 192.168.1.56] INFO | 06-24-2025 18:08:01.313 | Common:: IsBase64 Checking START
+[System: 192.168.1.56] INFO | 06-24-2025 18:08:01.313 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 18:08:01.313 | Administration:: Entering LDAPChecking
+[System: 192.168.1.56] INFO | 06-24-2025 18:08:01.313 | isValidUser:: True
+[System: 192.168.1.56] INFO | 06-24-2025 18:08:01.313 | AdminController:: Exiting LDAPUserCheck
+[System: 192.168.1.56] INFO | 06-24-2025 18:08:38.225 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 18:08:38.225 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 18:08:38.225 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 18:08:38.225 | Common:: IsBase64 Checking START
+[System: 192.168.1.56] INFO | 06-24-2025 18:08:38.225 | Administration:: Entering GetClientUserDetails
+[System: 192.168.1.56] INFO | 06-24-2025 18:08:38.240 | Administration:: Entering LDAPChecking
+[System: 192.168.1.56] INFO | 06-24-2025 18:08:38.240 | isValidUser:: True
+[System: 192.168.1.56] INFO | 06-24-2025 18:08:38.240 | AdminController:: Exiting GetUserDetails
+[System: 192.168.1.56] INFO | 06-24-2025 18:08:38.256 | Common:: IsBase64 Checking START
+[System: 192.168.1.56] INFO | 06-24-2025 18:08:38.256 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 18:08:38.256 | Administration:: Entering LDAPChecking
+[System: 192.168.1.56] INFO | 06-24-2025 18:08:38.256 | isValidUser:: True
+[System: 192.168.1.56] INFO | 06-24-2025 18:08:38.256 | AdminController:: Exiting LDAPUserCheck
+[System: 192.168.1.56] INFO | 06-24-2025 18:09:29.539 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 18:09:29.539 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 18:09:29.539 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 18:09:29.539 | Common:: IsBase64 Checking START
+[System: 192.168.1.56] INFO | 06-24-2025 18:09:29.539 | Administration:: Entering GetClientUserDetails
+[System: 192.168.1.56] INFO | 06-24-2025 18:09:29.555 | Administration:: Entering LDAPChecking
+[System: 192.168.1.56] INFO | 06-24-2025 18:09:29.555 | isValidUser:: True
+[System: 192.168.1.56] INFO | 06-24-2025 18:09:29.555 | AdminController:: Exiting GetUserDetails
+[System: 192.168.1.56] INFO | 06-24-2025 18:09:29.570 | Common:: IsBase64 Checking START
+[System: 192.168.1.56] INFO | 06-24-2025 18:09:29.570 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 18:09:29.570 | Administration:: Entering LDAPChecking
+[System: 192.168.1.56] INFO | 06-24-2025 18:09:29.570 | isValidUser:: True
+[System: 192.168.1.56] INFO | 06-24-2025 18:09:29.570 | AdminController:: Exiting LDAPUserCheck
+[System: 192.168.1.56] INFO | 06-24-2025 18:12:20.068 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 18:12:20.068 | Common:: deCodeLevel1 START
+[System: 192.168.1.56] INFO | 06-24-2025 18:12:20.068 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 18:12:20.068 | Common:: IsBase64 Checking START
+[System: 192.168.1.56] INFO | 06-24-2025 18:12:20.068 | Administration:: Entering GetClientUserDetails
+[System: 192.168.1.56] INFO | 06-24-2025 18:12:20.084 | Administration:: Entering LDAPChecking
+[System: 192.168.1.56] INFO | 06-24-2025 18:12:20.084 | isValidUser:: True
+[System: 192.168.1.56] INFO | 06-24-2025 18:12:20.084 | AdminController:: Exiting GetUserDetails
+[System: 192.168.1.56] INFO | 06-24-2025 18:12:20.115 | Common:: IsBase64 Checking START
+[System: 192.168.1.56] INFO | 06-24-2025 18:12:20.115 | Common:: DecodeBase64 START
+[System: 192.168.1.56] INFO | 06-24-2025 18:12:20.115 | Administration:: Entering LDAPChecking
+[System: 192.168.1.56] INFO | 06-24-2025 18:12:20.115 | isValidUser:: True
+[System: 192.168.1.56] INFO | 06-24-2025 18:12:20.115 | AdminController:: Exiting LDAPUserCheck

@@ -1,0 +1,8 @@
+Please Note the following tag need to add in web api config file for Newtonsoft version upgrade.
+
+we are using newtonsoft version 13 throught the pact application.
+ 	<dependentAssembly>
+        <assemblyIdentity name="Newtonsoft.Json" culture="neutral" publicKeyToken="30ad4fe6b2a6aeed" />
+        <!--<bindingRedirect oldVersion="0.0.0.0-11.0.0.0" newVersion="11.0.0.0" />-->
+        <bindingRedirect oldVersion="0.0.0.0-11.0.0.0" newVersion="13.0.0.0" />
+      </dependentAssembly>

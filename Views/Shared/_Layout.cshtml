@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>PACT RevenU API</title>
+    @*@Styles.Render("~/Content/css")*@
+    @*@Scripts.Render("~/bundles/modernizr")
+</head>*@
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top" style="background-color: #222;
+    border-color: #080808;top: 0;
+    border-width: 0 0 1px; position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;">
+        <div class="container" style="padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;width: 1170px;">
+            @*<div class="navbar-header" style="margin-right: 0;
+        margin-left: 0;float: left;">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>*@
+            <div class="navbar-collapse collapse" style="border-color: #101010;max-height: 340px;float: left;
+        margin: 0;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;">
+                <ul class="nav navbar-nav" style="padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;float: left;">
+                    <li style="float: left;position: relative;
+    display: block;text-align: -webkit-match-parent;
+    unicode-bidi: isolate;">@Html.ActionLink("Home", "Index", "Home",  null, new { Style = "color:#fff;background-color: transparent" })</li>
+                    @*<li>@Html.ActionLink("API", "Index", "Help", new { area = "" }, null)</li>*@
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container body-content" style="padding-left: 15px;
+    padding-right: 15px;width: 1170px; padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+        </footer>
+    </div>
+
+    @*@Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)*@
+</body>
+</html>
