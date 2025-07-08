@@ -1,0 +1,53 @@
+[System: 192.168.1.181] DEBUG | 07-04-2025 17:43:33.908 | General Service|:: CompanyIndex:1 SpName: spCOM_ConfigValues 
+ 1
+ ,'NotifTime'
+ ,''
+[System: 192.168.1.181] DEBUG | 07-04-2025 17:43:33.923 | General Service|:: CompanyIndex:1 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsMSwxIiwibmJmIjoxNzUxNjI3NDc2LCJleHAiOjE3NTE2NTYyNzYsImlhdCI6MTc1MTYyNzQ3Nn0.nyj8RiMh5pZSBXNC9--WP-NqqPFf_meke1UeXaVOy24'''
+ ,1
+ ,1
+ message=Invalid object name 'COM_TokenHistory'.
+[System: 192.168.1.181] DEBUG | 07-04-2025 17:43:33.923 | General Service|:: CompanyIndex:1 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsMSwxIiwibmJmIjoxNzUxNjI3NDc2LCJleHAiOjE3NTE2NTYyNzYsImlhdCI6MTc1MTYyNzQ3Nn0.nyj8RiMh5pZSBXNC9--WP-NqqPFf_meke1UeXaVOy24'''
+ ,1
+ ,1
+ message=Problem in processing your request, Please contact administrator.
+[System: 192.168.1.181] INFO | 07-04-2025 17:43:33.923 | OnStartup: Logger Instance Created Successfully
+[System: 192.168.1.181] INFO | 07-04-2025 17:43:33.923 | OnStartup: Application Starting...
+[System: 192.168.1.181] ERROR | 07-04-2025 17:43:33.923 | General Service|:: CompanyIndex:1 SpName: spADM_GetDataSetParameters :
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsMSwxIiwibmJmIjoxNzUxNjI3NDc2LCJleHAiOjE3NTE2NTYyNzYsImlhdCI6MTc1MTYyNzQ3Nn0.nyj8RiMh5pZSBXNC9--WP-NqqPFf_meke1UeXaVOy24'''
+ ,1
+ ,1|Invalid object name 'COM_TokenHistory'.
+[System: 192.168.1.181] DEBUG | 07-04-2025 17:44:30.503 | General Service|:: CompanyIndex:0 SpName: spADM_Login 
+ 4
+ ,''
+ ,''
+ ,''
+ ,'declare @AllowSession bit,@GUID nvarchar(50)
+set @AllowSession=0
+set @GUID=''475348ef-d470-4758-aad5-6ef11b92316b''
+if exists(select [GUID] from ADM_Login with(nolock) where [GUID]=@GUID)
+begin
+    update ADM_Login  set LastAccessTime=convert(float,getdate()) where [GUID]=@GUID
+    set @AllowSession=1
+end
+select @AllowSession AllowSession
+'
+ ,''
+ ,0
+[System: 192.168.1.181] DEBUG | 07-04-2025 17:44:30.518 | General Service|:: CompanyIndex:1 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsMSwxIiwibmJmIjoxNzUxNjI3NDc2LCJleHAiOjE3NTE2NTYyNzYsImlhdCI6MTc1MTYyNzQ3Nn0.nyj8RiMh5pZSBXNC9--WP-NqqPFf_meke1UeXaVOy24'''
+ ,1
+ ,1
+ message=Invalid object name 'COM_TokenHistory'.
+[System: 192.168.1.181] DEBUG | 07-04-2025 17:44:30.534 | General Service|:: CompanyIndex:1 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsMSwxIiwibmJmIjoxNzUxNjI3NDc2LCJleHAiOjE3NTE2NTYyNzYsImlhdCI6MTc1MTYyNzQ3Nn0.nyj8RiMh5pZSBXNC9--WP-NqqPFf_meke1UeXaVOy24'''
+ ,1
+ ,1
+ message=Problem in processing your request, Please contact administrator.
+[System: 192.168.1.181] INFO | 07-04-2025 17:44:30.534 | OnStartup: Logger Instance Created Successfully
+[System: 192.168.1.181] INFO | 07-04-2025 17:44:30.534 | OnStartup: Application Starting...
+[System: 192.168.1.181] ERROR | 07-04-2025 17:44:30.534 | General Service|:: CompanyIndex:1 SpName: spADM_GetDataSetParameters :
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsMSwxIiwibmJmIjoxNzUxNjI3NDc2LCJleHAiOjE3NTE2NTYyNzYsImlhdCI6MTc1MTYyNzQ3Nn0.nyj8RiMh5pZSBXNC9--WP-NqqPFf_meke1UeXaVOy24'''
+ ,1
+ ,1|Invalid object name 'COM_TokenHistory'.

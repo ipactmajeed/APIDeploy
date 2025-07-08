@@ -1,0 +1,354 @@
+[Sys Thread: 7] INFO | 07-03-2025 11:10:15.518 | SessionManager :: InitOnLoad() :: Entering...
+[Sys Thread: 7] INFO | 07-03-2025 11:10:15.518 | Installed Printers Count :3
+[Sys Thread: 7] INFO | 07-03-2025 11:10:15.518 | IsExportPDFWithPrintOption : True - XPS Printer Name : Microsoft Print to PDF
+[Sys Thread: 7] INFO | 07-03-2025 11:10:15.518 | SessionManager :: InitOnLoad() :: Exiting...
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:15.893 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:15.893 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:15.893 | Administration:: Entering GetClientUserDetails
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:15.939 | Administration:: Entering LDAPChecking
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:15.939 | isValidUser:: True
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:15.939 | AdminController:: Exiting GetUserDetails
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:16.049 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:16.049 | Common:: deCodeLevel1 START
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:16.049 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:16.049 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:16.049 | Administration:: Entering GetClientUserDetails
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:16.049 | Administration:: Entering LDAPChecking
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:16.049 | isValidUser:: True
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:16.049 | AdminController:: Exiting GetUserDetails
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:16.111 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:16.111 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:16.111 | Administration:: Entering LDAPChecking
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:16.111 | isValidUser:: True
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:16.111 | AdminController:: Exiting LDAPUserCheck
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:23.901 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:23.901 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:23.901 | Administration:: Entering GetClientUserDetails
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:23.917 | Administration:: Entering LDAPChecking
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:23.917 | isValidUser:: True
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:23.917 | AdminController:: Exiting GetUserDetails
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:23.932 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:23.932 | Common:: deCodeLevel1 START
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:23.932 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:23.932 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:23.932 | Administration:: Entering GetClientUserDetails
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:23.932 | Administration:: Entering LDAPChecking
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:23.932 | isValidUser:: True
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:23.948 | AdminController:: Exiting GetUserDetails
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:23.948 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:23.948 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:23.948 | Administration:: Entering LDAPChecking
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:23.948 | isValidUser:: True
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:23.948 | AdminController:: Exiting LDAPUserCheck
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:23.979 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:23.979 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:23.979 | Administration:: Entering GetClientUserDetails
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:24.135 | AdminController:: Exiting GetUserDetails
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:24.166 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:24.166 | Common:: deCodeLevel1 START
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:24.166 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:24.166 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:24.166 | Administration:: Entering GetClientUserDetails
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:24.182 | AdminController:: Exiting GetUserDetails
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:24.245 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:24.245 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:24.245 | Administration:: Entering LDAPChecking
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:24.245 | isValidUser:: True
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:24.245 | AdminController:: Exiting LDAPUserCheck
+[System: 192.168.1.99] ERROR | 07-03-2025 11:10:24.401 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:24.432 | Administration:: Entering InitLoginSession
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:24.432 | Administration:: Entering AllowSession  1
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:24.432 | Administration:: Entering AllowSession  end
+[System: 192.168.1.99] ERROR | 07-03-2025 11:10:24.448 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 07-03-2025 11:10:24.541 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 07-03-2025 11:10:24.604 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 07-03-2025 11:10:24.619 | RibbonGenerator:: GetRibbonViewWeb
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:24.619 | RibbonGenerator:: Inside GetRibbonView
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:24.729 | RibbonGenerator:: Success: GetRibbonView
+[System: 192.168.1.99] ERROR | 07-03-2025 11:10:24.729 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 07-03-2025 11:10:24.791 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 07-03-2025 11:10:24.807 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:24.838 | Administration:: Entering GetUserDetails
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:24.869 | Administration:: Exiting GetUserDetails
+[System: 192.168.1.99] ERROR | 07-03-2025 11:10:24.869 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:24.916 | Administration:: Entering GetUserDetails
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:24.947 | Administration:: Exiting GetUserDetails
+[System: 192.168.1.99] ERROR | 07-03-2025 11:10:24.963 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:25.057 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:25.057 | ReportLayout:: GetDataSet START
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:25.088 | ReportLayout:: GetDataSet END
+[System: 192.168.1.99] ERROR | 07-03-2025 11:10:25.088 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:25.104 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:25.104 | ReportLayout:: GetDataSet START
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:25.119 | ReportLayout:: GetDataSet END
+[System: 192.168.1.99] ERROR | 07-03-2025 11:10:25.119 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:25.119 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:25.119 | ReportLayout:: GetDataSet START
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:25.198 | ReportLayout:: GetDataSet END
+[System: 192.168.1.99] ERROR | 07-03-2025 11:10:25.198 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:25.198 | Common:: DecodeBase64 START
+[System: 192.168.1.99] ERROR | 07-03-2025 11:10:25.230 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 07-03-2025 11:10:25.276 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 07-03-2025 11:10:25.292 | GetUploadedImage  -- Start::  
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:25.292 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:25.292 | Common:: DecodeBase64 START
+[System: 192.168.1.99] ERROR | 07-03-2025 11:10:25.292 | GetUploadedImage -- isYearMonthWiseFolder  -- ::  False
+[System: 192.168.1.99] ERROR | 07-03-2025 11:10:25.292 | GetUploadedImage -- FolderPath is found empty or not  -- ::  
+[System: 192.168.1.99] ERROR | 07-03-2025 11:10:25.292 | FtpPort  -- ::  0
+[System: 192.168.1.99] DEBUG | 07-03-2025 11:10:25.292 | ftpDownload -- start  -- ::  
+[System: 192.168.1.99] DEBUG | 07-03-2025 11:10:25.292 | ftpServerFile    :: ftp://192.168.1.132/FTPUploads/TT/448ded3f-38d3-46b6-882a-3f296567def4.png
+[System: 192.168.1.99] DEBUG | 07-03-2025 11:10:25.292 | ftpuserid     ::javed
+[System: 192.168.1.99] DEBUG | 07-03-2025 11:10:25.292 | ftppassword   :: Pass@123
+[System: 192.168.1.99] DEBUG | 07-03-2025 11:10:25.292 | ftpDownload -- client.DownloadData(ftpServerFile)  -- ::  
+[System: 192.168.1.99] ERROR | 07-03-2025 11:10:25.323 | ftpDownload ERROR Exception:: The remote server returned an error: (550) File unavailable (e.g., file not found, no access).
+[System: 192.168.1.99] ERROR | 07-03-2025 11:10:25.323 | GetUploadedImage  -- End::  
+[System: 192.168.1.99] ERROR | 07-03-2025 11:10:25.323 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:25.323 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:25.323 | Common:: deCodeLevel1 START
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:25.323 | Common:: DecodeBase64 START
+[System: 192.168.1.99] ERROR | 07-03-2025 11:10:25.339 | GetUploadedImage  -- Start::  
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:25.339 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:25.339 | Common:: DecodeBase64 START
+[System: 192.168.1.99] ERROR | 07-03-2025 11:10:25.339 | GetUploadedImage -- isYearMonthWiseFolder  -- ::  False
+[System: 192.168.1.99] ERROR | 07-03-2025 11:10:25.339 | GetUploadedImage -- FolderPath is found empty or not  -- ::  
+[System: 192.168.1.99] ERROR | 07-03-2025 11:10:25.339 | FtpPort  -- ::  0
+[System: 192.168.1.99] DEBUG | 07-03-2025 11:10:25.339 | ftpDownload -- start  -- ::  
+[System: 192.168.1.99] DEBUG | 07-03-2025 11:10:25.339 | ftpServerFile    :: ftp://192.168.1.132/FTPUploads/TT/81d024a2-6d72-4c8e-8f85-d3d6033354b1.jpeg
+[System: 192.168.1.99] DEBUG | 07-03-2025 11:10:25.339 | ftpuserid     ::javed
+[System: 192.168.1.99] DEBUG | 07-03-2025 11:10:25.339 | ftppassword   :: Pass@123
+[System: 192.168.1.99] DEBUG | 07-03-2025 11:10:25.339 | ftpDownload -- client.DownloadData(ftpServerFile)  -- ::  
+[System: 192.168.1.99] ERROR | 07-03-2025 11:10:25.339 | ftpDownload ERROR Exception:: The remote server returned an error: (550) File unavailable (e.g., file not found, no access).
+[System: 192.168.1.99] ERROR | 07-03-2025 11:10:25.339 | GetUploadedImage  -- End::  
+[System: 192.168.1.99] ERROR | 07-03-2025 11:10:25.354 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 07-03-2025 11:10:25.354 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 07-03-2025 11:10:25.370 | GetUploadedImage  -- Start::  
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:25.370 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:25.370 | Common:: DecodeBase64 START
+[System: 192.168.1.99] ERROR | 07-03-2025 11:10:25.370 | GetUploadedImage -- isYearMonthWiseFolder  -- ::  False
+[System: 192.168.1.99] ERROR | 07-03-2025 11:10:25.370 | GetUploadedImage -- FolderPath is found empty or not  -- ::  
+[System: 192.168.1.99] ERROR | 07-03-2025 11:10:25.370 | FtpPort  -- ::  0
+[System: 192.168.1.99] DEBUG | 07-03-2025 11:10:25.370 | ftpDownload -- start  -- ::  
+[System: 192.168.1.99] DEBUG | 07-03-2025 11:10:25.370 | ftpServerFile    :: ftp://192.168.1.132/FTPUploads/TT/81d024a2-6d72-4c8e-8f85-d3d6033354b1.jpeg
+[System: 192.168.1.99] DEBUG | 07-03-2025 11:10:25.370 | ftpuserid     ::javed
+[System: 192.168.1.99] DEBUG | 07-03-2025 11:10:25.370 | ftppassword   :: Pass@123
+[System: 192.168.1.99] DEBUG | 07-03-2025 11:10:25.370 | ftpDownload -- client.DownloadData(ftpServerFile)  -- ::  
+[System: 192.168.1.99] ERROR | 07-03-2025 11:10:25.370 | ftpDownload ERROR Exception:: The remote server returned an error: (550) File unavailable (e.g., file not found, no access).
+[System: 192.168.1.99] ERROR | 07-03-2025 11:10:25.370 | GetUploadedImage  -- End::  
+[System: 192.168.1.99] ERROR | 07-03-2025 11:10:25.370 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 07-03-2025 11:10:25.386 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:25.401 | ControlGenerator:: Entering GetCostCenterQuickViewSummary
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:25.417 | ControlGenerator:: Exiting GetCostCenterQuickViewSummary
+[System: 192.168.1.99] ERROR | 07-03-2025 11:10:25.417 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 07-03-2025 11:10:25.636 | GetUploadedImage  -- Start::  
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:25.636 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:25.651 | Common:: DecodeBase64 START
+[System: 192.168.1.99] ERROR | 07-03-2025 11:10:25.651 | GetUploadedImage -- isYearMonthWiseFolder  -- ::  False
+[System: 192.168.1.99] ERROR | 07-03-2025 11:10:25.651 | GetUploadedImage -- FolderPath is found empty or not  -- ::  
+[System: 192.168.1.99] ERROR | 07-03-2025 11:10:25.651 | FtpPort  -- ::  0
+[System: 192.168.1.99] DEBUG | 07-03-2025 11:10:25.651 | ftpDownload -- start  -- ::  
+[System: 192.168.1.99] DEBUG | 07-03-2025 11:10:25.651 | ftpServerFile    :: ftp://192.168.1.132/FTPUploads/TT/81d024a2-6d72-4c8e-8f85-d3d6033354b1.jpeg
+[System: 192.168.1.99] DEBUG | 07-03-2025 11:10:25.651 | ftpuserid     ::javed
+[System: 192.168.1.99] DEBUG | 07-03-2025 11:10:25.651 | ftppassword   :: Pass@123
+[System: 192.168.1.99] DEBUG | 07-03-2025 11:10:25.651 | ftpDownload -- client.DownloadData(ftpServerFile)  -- ::  
+[System: 192.168.1.99] ERROR | 07-03-2025 11:10:25.651 | ftpDownload ERROR Exception:: The remote server returned an error: (550) File unavailable (e.g., file not found, no access).
+[System: 192.168.1.99] ERROR | 07-03-2025 11:10:25.651 | GetUploadedImage  -- End::  
+[System: 192.168.1.99] ERROR | 07-03-2025 11:10:25.651 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 07-03-2025 11:10:25.698 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 07-03-2025 11:10:25.729 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 07-03-2025 11:10:27.498 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 07-03-2025 11:10:27.576 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 07-03-2025 11:10:27.686 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 07-03-2025 11:10:27.936 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 07-03-2025 11:10:27.998 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 07-03-2025 11:10:28.014 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:28.092 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:28.092 | Common:: deCodeLevel1 START
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:28.092 | Common:: DecodeBase64 START
+[System: 192.168.1.99] ERROR | 07-03-2025 11:10:28.139 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 07-03-2025 11:10:28.717 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:28.748 | token History IN 
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:28.748 | Administration:: Inside TokenHistroy
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:28.763 | token History OUT 
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:28.763 | deleteAttachments IN 
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:28.763 | attachmentFolderpath IN D:\PACTRevenUWEBAPI\Attachments\
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:28.763 | thValue IN 2000
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:28.763 | directory.GetFiles() IN 
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:28.763 | directory.GetDirectories() IN 
+[System: 192.168.1.99] INFO | 07-03-2025 11:10:28.763 | Attachment folder content Deleted successfully
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:30.205 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:30.205 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:30.205 | Administration:: Entering GetClientUserDetails
+[System: 192.168.1.99] ERROR | 07-03-2025 11:18:30.220 | AdminController:: GetUserDetails Error   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at PactRevenUWebapi2._0.Controllers.PactRequestTokenController.GetClientUserDetailsDisableEncription(RequestObj Reqobj)
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:30.236 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:30.236 | Common:: deCodeLevel1 START
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:30.236 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:30.236 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:30.236 | Administration:: Entering GetClientUserDetails
+[System: 192.168.1.99] ERROR | 07-03-2025 11:18:30.251 | AdminController:: GetUserDetails Error   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at PactRevenUWebapi2._0.Controllers.PactRequestTokenController.GetClientUserDetails(RequestObj Reqobj)
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:40.878 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:40.878 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:40.878 | Administration:: Entering GetClientUserDetails
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:40.894 | Administration:: Entering LDAPChecking
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:40.894 | isValidUser:: True
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:40.894 | AdminController:: Exiting GetUserDetails
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:40.909 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:40.909 | Common:: deCodeLevel1 START
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:40.909 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:40.909 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:40.909 | Administration:: Entering GetClientUserDetails
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:40.925 | Administration:: Entering LDAPChecking
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:40.925 | isValidUser:: True
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:40.925 | AdminController:: Exiting GetUserDetails
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:40.940 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:40.940 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:40.940 | Administration:: Entering LDAPChecking
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:40.940 | isValidUser:: True
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:40.940 | AdminController:: Exiting LDAPUserCheck
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:47.874 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:47.874 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:47.874 | Administration:: Entering GetClientUserDetails
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:47.889 | Administration:: Entering LDAPChecking
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:47.889 | isValidUser:: True
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:47.889 | AdminController:: Exiting GetUserDetails
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:47.889 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:47.889 | Common:: deCodeLevel1 START
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:47.889 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:47.889 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:47.889 | Administration:: Entering GetClientUserDetails
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:47.905 | Administration:: Entering LDAPChecking
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:47.905 | isValidUser:: True
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:47.905 | AdminController:: Exiting GetUserDetails
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:47.921 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:47.921 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:47.921 | Administration:: Entering LDAPChecking
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:47.921 | isValidUser:: True
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:47.921 | AdminController:: Exiting LDAPUserCheck
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:47.936 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:47.936 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:47.936 | Administration:: Entering GetClientUserDetails
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:47.967 | AdminController:: Exiting GetUserDetails
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:47.999 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:47.999 | Common:: deCodeLevel1 START
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:47.999 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:47.999 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:47.999 | Administration:: Entering GetClientUserDetails
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:48.014 | AdminController:: Exiting GetUserDetails
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:48.061 | Common:: IsBase64 Checking START
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:48.061 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:48.061 | Administration:: Entering LDAPChecking
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:48.061 | isValidUser:: True
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:48.061 | AdminController:: Exiting LDAPUserCheck
+[System: 192.168.1.99] ERROR | 07-03-2025 11:18:48.092 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:48.108 | Administration:: Entering InitLoginSession
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:48.124 | Administration:: Entering AllowSession  1
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:48.124 | Administration:: Entering AllowSession  end
+[System: 192.168.1.99] ERROR | 07-03-2025 11:18:48.124 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 07-03-2025 11:18:48.155 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 07-03-2025 11:18:48.171 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 07-03-2025 11:18:48.171 | RibbonGenerator:: GetRibbonViewWeb
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:48.171 | RibbonGenerator:: Inside GetRibbonView
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:48.217 | RibbonGenerator:: Success: GetRibbonView
+[System: 192.168.1.99] ERROR | 07-03-2025 11:18:48.233 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 07-03-2025 11:18:48.343 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 07-03-2025 11:18:48.358 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:48.374 | Administration:: Entering GetUserDetails
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:48.405 | Administration:: Exiting GetUserDetails
+[System: 192.168.1.99] ERROR | 07-03-2025 11:18:48.405 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:48.467 | Administration:: Entering GetUserDetails
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:48.499 | Administration:: Exiting GetUserDetails
+[System: 192.168.1.99] ERROR | 07-03-2025 11:18:48.499 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:48.561 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:48.561 | ReportLayout:: GetDataSet START
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:48.592 | ReportLayout:: GetDataSet END
+[System: 192.168.1.99] ERROR | 07-03-2025 11:18:48.592 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:48.624 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:48.624 | ReportLayout:: GetDataSet START
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:48.639 | ReportLayout:: GetDataSet END
+[System: 192.168.1.99] ERROR | 07-03-2025 11:18:48.639 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:48.639 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:48.639 | ReportLayout:: GetDataSet START
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:48.655 | ReportLayout:: GetDataSet END
+[System: 192.168.1.99] ERROR | 07-03-2025 11:18:48.670 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:48.670 | Common:: DecodeBase64 START
+[System: 192.168.1.99] ERROR | 07-03-2025 11:18:48.686 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 07-03-2025 11:18:48.718 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 07-03-2025 11:18:48.718 | GetUploadedImage  -- Start::  
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:48.718 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:48.718 | Common:: DecodeBase64 START
+[System: 192.168.1.99] ERROR | 07-03-2025 11:18:48.718 | GetUploadedImage -- isYearMonthWiseFolder  -- ::  False
+[System: 192.168.1.99] ERROR | 07-03-2025 11:18:48.718 | GetUploadedImage -- FolderPath is found empty or not  -- ::  
+[System: 192.168.1.99] ERROR | 07-03-2025 11:18:48.718 | FtpPort  -- ::  0
+[System: 192.168.1.99] DEBUG | 07-03-2025 11:18:48.718 | ftpDownload -- start  -- ::  
+[System: 192.168.1.99] DEBUG | 07-03-2025 11:18:48.718 | ftpServerFile    :: ftp://192.168.1.132/FTPUploads/TT/448ded3f-38d3-46b6-882a-3f296567def4.png
+[System: 192.168.1.99] DEBUG | 07-03-2025 11:18:48.718 | ftpuserid     ::javed
+[System: 192.168.1.99] DEBUG | 07-03-2025 11:18:48.718 | ftppassword   :: Pass@123
+[System: 192.168.1.99] DEBUG | 07-03-2025 11:18:48.718 | ftpDownload -- client.DownloadData(ftpServerFile)  -- ::  
+[System: 192.168.1.99] ERROR | 07-03-2025 11:18:48.733 | ftpDownload ERROR Exception:: The remote server returned an error: (550) File unavailable (e.g., file not found, no access).
+[System: 192.168.1.99] ERROR | 07-03-2025 11:18:48.733 | GetUploadedImage  -- End::  
+[System: 192.168.1.99] ERROR | 07-03-2025 11:18:48.733 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:48.749 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:48.749 | Common:: deCodeLevel1 START
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:48.749 | Common:: DecodeBase64 START
+[System: 192.168.1.99] ERROR | 07-03-2025 11:18:48.780 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 07-03-2025 11:18:48.780 | GetUploadedImage  -- Start::  
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:48.780 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:48.780 | Common:: DecodeBase64 START
+[System: 192.168.1.99] ERROR | 07-03-2025 11:18:48.780 | GetUploadedImage -- isYearMonthWiseFolder  -- ::  False
+[System: 192.168.1.99] ERROR | 07-03-2025 11:18:48.780 | GetUploadedImage -- FolderPath is found empty or not  -- ::  
+[System: 192.168.1.99] ERROR | 07-03-2025 11:18:48.780 | FtpPort  -- ::  0
+[System: 192.168.1.99] DEBUG | 07-03-2025 11:18:48.780 | ftpDownload -- start  -- ::  
+[System: 192.168.1.99] DEBUG | 07-03-2025 11:18:48.780 | ftpServerFile    :: ftp://192.168.1.132/FTPUploads/TT/81d024a2-6d72-4c8e-8f85-d3d6033354b1.jpeg
+[System: 192.168.1.99] DEBUG | 07-03-2025 11:18:48.780 | ftpuserid     ::javed
+[System: 192.168.1.99] DEBUG | 07-03-2025 11:18:48.780 | ftppassword   :: Pass@123
+[System: 192.168.1.99] DEBUG | 07-03-2025 11:18:48.780 | ftpDownload -- client.DownloadData(ftpServerFile)  -- ::  
+[System: 192.168.1.99] ERROR | 07-03-2025 11:18:48.780 | ftpDownload ERROR Exception:: The remote server returned an error: (550) File unavailable (e.g., file not found, no access).
+[System: 192.168.1.99] ERROR | 07-03-2025 11:18:48.780 | GetUploadedImage  -- End::  
+[System: 192.168.1.99] ERROR | 07-03-2025 11:18:48.780 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 07-03-2025 11:18:48.796 | GetUploadedImage  -- Start::  
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:48.796 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:48.796 | Common:: DecodeBase64 START
+[System: 192.168.1.99] ERROR | 07-03-2025 11:18:48.796 | GetUploadedImage -- isYearMonthWiseFolder  -- ::  False
+[System: 192.168.1.99] ERROR | 07-03-2025 11:18:48.796 | GetUploadedImage -- FolderPath is found empty or not  -- ::  
+[System: 192.168.1.99] ERROR | 07-03-2025 11:18:48.796 | FtpPort  -- ::  0
+[System: 192.168.1.99] DEBUG | 07-03-2025 11:18:48.796 | ftpDownload -- start  -- ::  
+[System: 192.168.1.99] DEBUG | 07-03-2025 11:18:48.796 | ftpServerFile    :: ftp://192.168.1.132/FTPUploads/TT/81d024a2-6d72-4c8e-8f85-d3d6033354b1.jpeg
+[System: 192.168.1.99] DEBUG | 07-03-2025 11:18:48.796 | ftpuserid     ::javed
+[System: 192.168.1.99] DEBUG | 07-03-2025 11:18:48.796 | ftppassword   :: Pass@123
+[System: 192.168.1.99] DEBUG | 07-03-2025 11:18:48.796 | ftpDownload -- client.DownloadData(ftpServerFile)  -- ::  
+[System: 192.168.1.99] ERROR | 07-03-2025 11:18:48.796 | ftpDownload ERROR Exception:: The remote server returned an error: (550) File unavailable (e.g., file not found, no access).
+[System: 192.168.1.99] ERROR | 07-03-2025 11:18:48.796 | GetUploadedImage  -- End::  
+[System: 192.168.1.99] ERROR | 07-03-2025 11:18:48.796 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 07-03-2025 11:18:48.811 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:48.827 | ControlGenerator:: Entering GetCostCenterQuickViewSummary
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:48.827 | ControlGenerator:: Exiting GetCostCenterQuickViewSummary
+[System: 192.168.1.99] ERROR | 07-03-2025 11:18:48.827 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 07-03-2025 11:18:49.092 | GetUploadedImage  -- Start::  
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:49.092 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:49.092 | Common:: DecodeBase64 START
+[System: 192.168.1.99] ERROR | 07-03-2025 11:18:49.108 | GetUploadedImage -- isYearMonthWiseFolder  -- ::  False
+[System: 192.168.1.99] ERROR | 07-03-2025 11:18:49.108 | GetUploadedImage -- FolderPath is found empty or not  -- ::  
+[System: 192.168.1.99] ERROR | 07-03-2025 11:18:49.108 | FtpPort  -- ::  0
+[System: 192.168.1.99] DEBUG | 07-03-2025 11:18:49.108 | ftpDownload -- start  -- ::  
+[System: 192.168.1.99] DEBUG | 07-03-2025 11:18:49.108 | ftpServerFile    :: ftp://192.168.1.132/FTPUploads/TT/81d024a2-6d72-4c8e-8f85-d3d6033354b1.jpeg
+[System: 192.168.1.99] DEBUG | 07-03-2025 11:18:49.108 | ftpuserid     ::javed
+[System: 192.168.1.99] DEBUG | 07-03-2025 11:18:49.108 | ftppassword   :: Pass@123
+[System: 192.168.1.99] DEBUG | 07-03-2025 11:18:49.108 | ftpDownload -- client.DownloadData(ftpServerFile)  -- ::  
+[System: 192.168.1.99] ERROR | 07-03-2025 11:18:49.108 | ftpDownload ERROR Exception:: The remote server returned an error: (550) File unavailable (e.g., file not found, no access).
+[System: 192.168.1.99] ERROR | 07-03-2025 11:18:49.108 | GetUploadedImage  -- End::  
+[System: 192.168.1.99] ERROR | 07-03-2025 11:18:49.108 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 07-03-2025 11:18:49.155 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 07-03-2025 11:18:49.186 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] ERROR | 07-03-2025 11:18:50.983 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:50.999 | token History IN 
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:50.999 | Administration:: Inside TokenHistroy
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:50.999 | token History OUT 
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:50.999 | deleteAttachments IN 
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:50.999 | attachmentFolderpath IN D:\PACTRevenUWEBAPI\Attachments\
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:50.999 | thValue IN 2000
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:50.999 | directory.GetFiles() IN 
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:51.014 | directory.GetDirectories() IN 
+[System: 192.168.1.99] INFO | 07-03-2025 11:18:51.014 | Attachment folder content Deleted successfully
