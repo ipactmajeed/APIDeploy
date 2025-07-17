@@ -1,0 +1,20 @@
+[System: 192.168.1.76] ERROR | 07-17-2025 16:39:54.820 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.76] INFO | 07-17-2025 16:39:54.835 | Common:: DecodeBase64 START
+[System: 192.168.1.76] ERROR | 07-17-2025 16:39:54.835 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>InternalServerError
+[System: 192.168.1.80] INFO | 07-17-2025 16:40:49.035 | Common:: DecodeBase64 START
+[System: 192.168.1.80] ERROR | 07-17-2025 16:40:49.050 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>InternalServerError
+[System: 192.168.1.76] INFO | 07-17-2025 16:40:54.809 | Common:: DecodeBase64 START
+[System: 192.168.1.76] ERROR | 07-17-2025 16:40:54.809 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>InternalServerError
+[System: 192.168.1.80] INFO | 07-17-2025 16:41:49.050 | Common:: DecodeBase64 START
+[System: 192.168.1.80] ERROR | 07-17-2025 16:41:49.050 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>InternalServerError
+[System: 192.168.1.76] INFO | 07-17-2025 16:41:54.815 | Common:: DecodeBase64 START
+[System: 192.168.1.76] ERROR | 07-17-2025 16:41:54.815 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>InternalServerError
+[System: 192.168.1.80] ERROR | 07-17-2025 16:42:48.058 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.80] INFO | 07-17-2025 16:42:49.043 | Common:: DecodeBase64 START
+[System: 192.168.1.80] ERROR | 07-17-2025 16:42:49.043 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>InternalServerError
+[System: 192.168.1.76] INFO | 07-17-2025 16:42:54.820 | Common:: DecodeBase64 START
+[System: 192.168.1.76] ERROR | 07-17-2025 16:42:54.820 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>InternalServerError
+[System: 192.168.1.80] INFO | 07-17-2025 16:43:49.052 | Common:: DecodeBase64 START
+[System: 192.168.1.80] ERROR | 07-17-2025 16:43:49.052 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>InternalServerError
+[System: 192.168.1.76] INFO | 07-17-2025 16:43:54.832 | Common:: DecodeBase64 START
+[System: 192.168.1.76] ERROR | 07-17-2025 16:43:54.832 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>InternalServerError
