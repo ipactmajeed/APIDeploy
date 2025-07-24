@@ -1,0 +1,13 @@
+[System: 192.168.1.54] DEBUG | 07-22-2025 12:38:33.598 | General Service|:: CompanyIndex:0 SpName: spADM_GetClientUserDetails2C 
+ 'admin'
+ ,1
+ ,0
+[System: 192.168.1.54] DEBUG | 07-22-2025 12:38:33.910 | General Service|:: CompanyIndex:0 SpName: spADM_UserLoginCheck 
+ 2
+ ,'admin'
+ ,0
+ ,'192.168.1.54'
+ ,'192.168.1.54'
+ ,''
+ ,'Web'
+ ,1

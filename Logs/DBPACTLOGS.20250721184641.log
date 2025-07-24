@@ -1,0 +1,737 @@
+[Sys Thread: 64] INFO | 07-21-2025 18:46:41.609 | DBLOGGER Initiated
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:37.877 | Model :: DBHandler :: :: Entering Get-ReturnValue Method. CompanyIndex = 0;  SPName = spADM_GetClientUserDetails2C
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:37.970 | Model :: DBHandler :: :: Exiting Get-ReturnValue Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:38.158 | Model :: DBHandler :: :: Entering Get-ReturnValue Method. CompanyIndex = 0;  SPName = spADM_UserLoginCheck
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:38.174 | Model :: DBHandler :: :: Exiting Get-ReturnValue Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:50.078 | Model :: DBHandler :: :: Entering Get-ReturnValue Method. CompanyIndex = 0;  SPName = spADM_GetClientUserDetails2C
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:50.125 | Model :: DBHandler :: :: Exiting Get-ReturnValue Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:50.172 | Model :: DBHandler :: :: Entering Get-ReturnValue Method. CompanyIndex = 0;  SPName = spADM_UserLoginCheck
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:50.172 | Model :: DBHandler :: :: Exiting Get-ReturnValue Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:55.925 | Model :: DBHandler :: :: Entering Get-ReturnValue Method. CompanyIndex = 53;  SPName = spADM_GetClientUserDetails
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:55.972 | Model :: DBHandler :: :: Exiting Get-ReturnValue Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:56.160 | Model :: DBHandler :: :: Entering Get-ReturnValue Method. CompanyIndex = 0;  SPName = spADM_UserLoginCheck
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:56.160 | Model :: DBHandler :: :: Exiting Get-ReturnValue Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:56.285 | Model :: DBHandler :: :: Entering Get-ReturnValue Method. CompanyIndex = 0;  SPName = spADM_Login
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:56.285 | Model :: DBHandler :: :: Exiting Get-ReturnValue Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:56.300 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:56.300 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:56.300 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:56.300 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:56.316 | Model :: DBHandler :: :: Entering Get-ReturnValue Method. CompanyIndex = 0;  SPName = spADM_Login
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:56.332 | Model :: DBHandler :: :: Exiting Get-ReturnValue Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:56.347 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:56.347 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:56.457 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:56.457 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:56.457 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:56.457 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:56.472 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spCOM_ConfigValues
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:56.472 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetRibbonView
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:56.472 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:56.472 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:56.488 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:56.707 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:56.707 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:56.707 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:56.925 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spRPT_GetReport
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:56.941 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:56.941 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:56.941 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:56.956 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDashBoard
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:56.972 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:56.972 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:56.972 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:56.972 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spCOM_ConfigValues
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:56.988 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:56.988 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:56.988 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.003 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spCOM_GetFavorites
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.019 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetAllListViewsDef
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.050 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.050 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.050 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.050 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.050 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.066 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.113 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetAllListViewsDef
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.144 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.144 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.144 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.253 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.300 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.300 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.300 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.331 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.331 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.331 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.331 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.347 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.347 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.347 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.347 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.394 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.441 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.441 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.441 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.863 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDashBoard
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.863 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.863 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.863 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.878 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spRPT_GetReport
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.878 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spRPT_GetReport
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.878 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spRPT_GetReport
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.878 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spRPT_GetReport
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.878 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spRPT_GetReport
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.878 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spRPT_GetReport
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.894 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.894 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.894 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.894 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.894 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.894 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.894 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.894 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.894 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.894 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.894 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.894 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.894 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.909 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.909 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.909 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.909 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.909 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spRPT_GetReport
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.909 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spRPT_GetReport
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.909 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.909 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.909 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.909 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.909 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.909 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.909 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.925 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spRPT_GetReport
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.925 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spRPT_GetReport
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.925 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spRPT_GetReport
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.925 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spRPT_GetReport
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.925 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spRPT_GetReport
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.925 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spRPT_GetReport
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.925 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.925 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.925 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.925 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.925 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.925 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.925 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.925 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.925 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.925 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.925 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.925 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.925 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.925 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.925 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spRPT_GetReport
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.925 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.941 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.941 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.941 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.941 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.941 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.941 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.941 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spRPT_GetReport
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.941 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.941 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.941 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.956 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spRPT_GetReport
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.956 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.956 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.956 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.956 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spRPT_GetReport
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.956 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.956 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.972 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.972 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spRPT_GetReport
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.972 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.972 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.972 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.972 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spRPT_GetReport
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.987 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.987 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.987 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.987 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spRPT_GetReport
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.987 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.987 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:57.987 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.003 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spRPT_GetReport
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.003 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.003 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.003 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.003 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spRPT_GetReport
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.003 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.003 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.003 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.019 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spRPT_GetReport
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.019 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.019 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.019 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.112 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.112 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.128 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.128 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.159 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spRPT_GetReportCategoryandField
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.284 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.284 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.284 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.316 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.316 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.316 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.331 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.331 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.347 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.347 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.347 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.347 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.347 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.362 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.362 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.362 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.362 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.362 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.362 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.362 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.378 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.378 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.378 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.378 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.378 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.378 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.394 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.394 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.394 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.394 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.394 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.394 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.394 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.394 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.409 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.409 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.409 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.409 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.409 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.409 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.425 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.425 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.425 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.425 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.441 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.441 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.441 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.441 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.472 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.472 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.472 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.472 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.472 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.472 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.472 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.487 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.487 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.487 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.487 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.487 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.519 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.519 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.519 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.675 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.690 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.690 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.690 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.706 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.706 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.706 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.706 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.722 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.722 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.722 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.722 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.722 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.737 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.737 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.737 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.737 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.737 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.737 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.737 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.753 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.753 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.753 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.753 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.753 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.769 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.769 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.769 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.784 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.816 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.816 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:54:58.816 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 18:55:06.849 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 18:55:07.021 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 18:55:07.021 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 18:55:07.036 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:41.422 | Model :: DBHandler :: :: Entering Get-ReturnValue Method. CompanyIndex = 0;  SPName = spADM_GetClientUserDetails2C
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:41.469 | Model :: DBHandler :: :: Exiting Get-ReturnValue Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:41.516 | Model :: DBHandler :: :: Entering Get-ReturnValue Method. CompanyIndex = 0;  SPName = spADM_UserLoginCheck
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:41.516 | Model :: DBHandler :: :: Exiting Get-ReturnValue Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:46.165 | Model :: DBHandler :: :: Entering Get-ReturnValue Method. CompanyIndex = 53;  SPName = spADM_GetClientUserDetails
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:46.212 | Model :: DBHandler :: :: Exiting Get-ReturnValue Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:46.274 | Model :: DBHandler :: :: Entering Get-ReturnValue Method. CompanyIndex = 0;  SPName = spADM_UserLoginCheck
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:46.274 | Model :: DBHandler :: :: Exiting Get-ReturnValue Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:46.290 | Model :: DBHandler :: :: Entering Get-ReturnValue Method. CompanyIndex = 0;  SPName = spADM_Login
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:46.290 | Model :: DBHandler :: :: Exiting Get-ReturnValue Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:46.290 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:46.306 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:46.306 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:46.306 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:46.306 | Model :: DBHandler :: :: Entering Get-ReturnValue Method. CompanyIndex = 0;  SPName = spADM_Login
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:46.337 | Model :: DBHandler :: :: Exiting Get-ReturnValue Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:46.337 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:46.337 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:46.353 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:46.353 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:46.353 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:46.353 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:46.353 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spCOM_ConfigValues
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:46.368 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetRibbonView
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:46.368 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:46.368 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:46.368 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:46.571 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:46.571 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:46.571 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:46.762 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spRPT_GetReport
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:46.809 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:46.809 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:46.809 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:46.824 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDashBoard
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:46.824 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:46.824 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:46.824 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:46.840 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spCOM_ConfigValues
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:46.840 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:46.840 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:46.840 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:46.855 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spCOM_GetFavorites
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:46.855 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetAllListViewsDef
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:46.887 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:46.887 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:46.887 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:46.902 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:46.902 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:46.902 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:46.965 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetAllListViewsDef
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:46.996 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:46.996 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:46.996 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.074 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.121 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.121 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.137 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.168 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.183 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.183 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.183 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.183 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.215 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.215 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.215 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.230 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.418 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.418 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.433 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.715 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDashBoard
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.730 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.730 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.730 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.746 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spRPT_GetReport
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.746 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spRPT_GetReport
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.746 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spRPT_GetReport
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.746 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spRPT_GetReport
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.746 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spRPT_GetReport
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.746 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spRPT_GetReport
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.761 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.761 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.761 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.761 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.761 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.761 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.761 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.761 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.761 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.761 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.761 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.761 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.761 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.761 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.761 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.761 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spRPT_GetReport
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.761 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spRPT_GetReport
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.761 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spRPT_GetReport
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.761 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spRPT_GetReport
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.761 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spRPT_GetReport
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.777 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.777 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.777 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.777 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.777 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.777 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.777 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.777 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.777 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.777 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.777 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.777 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.777 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.777 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.777 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.777 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.777 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.777 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.777 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spRPT_GetReport
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.777 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spRPT_GetReport
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.777 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spRPT_GetReport
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.793 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.793 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.793 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.793 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.793 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.793 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.793 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.793 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.793 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.793 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spRPT_GetReport
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.793 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.793 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.793 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.808 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spRPT_GetReport
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.808 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.808 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.808 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.808 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spRPT_GetReport
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.808 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.808 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.808 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.824 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spRPT_GetReport
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.824 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.824 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.824 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.824 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spRPT_GetReport
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.824 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.824 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.840 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.840 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spRPT_GetReport
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.840 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.840 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.840 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.840 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spRPT_GetReport
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.855 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.855 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.855 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.855 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spRPT_GetReport
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.855 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.855 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.855 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.855 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spRPT_GetReport
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.871 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.871 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.871 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.871 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spRPT_GetReport
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.871 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.871 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.871 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.965 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.980 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.980 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.980 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:47.996 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spRPT_GetReportCategoryandField
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.121 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.121 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.136 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.168 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.168 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.168 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.168 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.183 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.199 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.199 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.199 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.199 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.199 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.199 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.214 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.214 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.214 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.214 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.230 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.230 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.230 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.230 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.230 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.230 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.230 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.230 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.230 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.246 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.246 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.246 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.246 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.246 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.261 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.261 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.261 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.261 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.277 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.277 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.277 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.277 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.277 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.277 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.277 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.293 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.293 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.308 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.308 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.308 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.324 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.324 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.340 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.340 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.340 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.340 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.340 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.355 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.355 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.355 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.355 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.355 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.371 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.402 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.402 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.402 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.402 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.418 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.418 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.418 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.418 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.433 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.433 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.433 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.433 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.433 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.449 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.465 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.480 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.480 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.480 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.480 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.480 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.480 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.480 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.496 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.512 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.512 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.512 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.714 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.714 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.714 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.714 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.730 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.777 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.777 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:48.793 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 18:55:55.082 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spCOM_ConfigValues
+[System: 192.168.1.79] INFO | 07-21-2025 18:55:55.082 | Model :: DBHandler :: :: Entering Get-ReturnValue Method. CompanyIndex = 0;  SPName = spADM_Login
+[System: 192.168.1.79] INFO | 07-21-2025 18:55:55.082 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 18:55:55.082 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 18:55:55.097 | Model :: DBHandler :: :: Exiting Get-ReturnValue Method.
+[System: 192.168.1.79] INFO | 07-21-2025 18:55:55.097 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 18:55:55.097 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 18:55:55.097 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 18:55:55.129 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 18:55:55.160 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 18:55:55.160 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 18:55:55.176 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:57.379 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:57.550 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:57.550 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 53;  SPName = spADM_GetDataSet
+[System: 192.168.1.99] INFO | 07-21-2025 18:55:57.550 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 18:56:55.042 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 18:56:55.089 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 18:56:55.089 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 18:56:55.089 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 18:57:55.048 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 18:57:55.079 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 18:57:55.095 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 18:57:55.095 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 18:58:55.034 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spCOM_ConfigValues
+[System: 192.168.1.79] INFO | 07-21-2025 18:58:55.049 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 18:58:55.049 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 18:58:55.049 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 18:58:55.065 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 18:58:55.096 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 18:58:55.096 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 18:58:55.096 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 18:59:55.039 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 18:59:55.086 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 18:59:55.102 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 18:59:55.102 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:00:55.046 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:00:55.092 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:00:55.092 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:00:55.092 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:01:55.048 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:01:55.080 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:01:55.080 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:01:55.080 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:02:55.052 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:02:55.083 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:02:55.083 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:02:55.083 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:03:55.035 | Model :: DBHandler :: :: Entering Get-ReturnValue Method. CompanyIndex = 0;  SPName = spADM_Login
+[System: 192.168.1.79] INFO | 07-21-2025 19:03:55.051 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spCOM_ConfigValues
+[System: 192.168.1.79] INFO | 07-21-2025 19:03:55.051 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:03:55.051 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:03:55.051 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:03:55.051 | Model :: DBHandler :: :: Exiting Get-ReturnValue Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:03:55.051 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:03:55.066 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:03:55.082 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:03:55.113 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:03:55.113 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:03:55.113 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:04:55.054 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:04:55.101 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:04:55.101 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:04:55.117 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:05:55.035 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:05:55.082 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:05:55.082 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:05:55.082 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:06:55.051 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:06:55.083 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:06:55.083 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:06:55.083 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:07:55.059 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:07:55.090 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:07:55.090 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:07:55.090 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:08:55.040 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spCOM_ConfigValues
+[System: 192.168.1.79] INFO | 07-21-2025 19:08:55.040 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:08:55.040 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:08:55.040 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:08:55.071 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:08:55.102 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:08:55.102 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:08:55.102 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:09:55.039 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:09:55.070 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:09:55.070 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:09:55.086 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:10:55.036 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:10:55.098 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:10:55.098 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:10:55.098 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:11:55.030 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:11:55.077 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:11:55.077 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:11:55.077 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:12:55.045 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:12:55.092 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:12:55.092 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:12:55.092 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:13:55.043 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spCOM_ConfigValues
+[System: 192.168.1.79] INFO | 07-21-2025 19:13:55.043 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:13:55.043 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:13:55.043 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:13:55.074 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:13:55.106 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:13:55.106 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:13:55.106 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:14:55.031 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:14:55.078 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:14:55.078 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:14:55.078 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:15:55.031 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:15:55.062 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:15:55.062 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:15:55.062 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:16:55.039 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:16:55.070 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:16:55.086 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:16:55.086 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:17:55.049 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:17:55.081 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:17:55.081 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:17:55.081 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:18:55.039 | Model :: DBHandler :: :: Entering Get-ReturnValue Method. CompanyIndex = 0;  SPName = spADM_Login
+[System: 192.168.1.79] INFO | 07-21-2025 19:18:55.039 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spCOM_ConfigValues
+[System: 192.168.1.79] INFO | 07-21-2025 19:18:55.054 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:18:55.054 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:18:55.054 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:18:55.054 | Model :: DBHandler :: :: Exiting Get-ReturnValue Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:18:55.054 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:18:55.070 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:18:55.085 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:18:55.117 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:18:55.117 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:18:55.117 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:19:55.047 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:19:55.078 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:19:55.078 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:19:55.094 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:20:55.032 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:20:55.079 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:20:55.079 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:20:55.079 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:21:55.047 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:21:55.078 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:21:55.078 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:21:55.094 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:22:55.039 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:22:55.071 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:22:55.086 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:22:55.086 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:23:55.031 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spCOM_ConfigValues
+[System: 192.168.1.79] INFO | 07-21-2025 19:23:55.046 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:23:55.046 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:23:55.046 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:23:55.062 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:23:55.093 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:23:55.093 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:23:55.093 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:24:55.036 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:24:55.067 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:24:55.067 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:24:55.067 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:25:55.041 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:25:55.087 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:25:55.087 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:25:55.087 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:26:55.033 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:26:55.064 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:26:55.064 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:26:55.064 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:27:55.028 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:27:55.075 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:27:55.075 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:27:55.075 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:28:55.020 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spCOM_ConfigValues
+[System: 192.168.1.79] INFO | 07-21-2025 19:28:55.036 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:28:55.036 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:28:55.036 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:28:55.051 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:28:55.083 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:28:55.083 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:28:55.098 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:29:55.028 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:29:55.060 | Model :: DBHandler :: :: Exiting Get Method.
+[System: 192.168.1.79] INFO | 07-21-2025 19:29:55.060 | Model :: DBHandler :: :: Entering Get Method. CompanyIndex = 42;  SPName = spADM_GetDataSet
+[System: 192.168.1.79] INFO | 07-21-2025 19:29:55.075 | Model :: DBHandler :: :: Exiting Get Method.
