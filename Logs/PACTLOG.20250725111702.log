@@ -1,0 +1,304 @@
+[Sys Thread: 1] INFO | 07-25-2025 11:17:02.650 | SessionManager :: InitOnLoad() :: Entering...
+[Sys Thread: 1] INFO | 07-25-2025 11:17:02.650 | Installed Printers Count :3
+[Sys Thread: 1] INFO | 07-25-2025 11:17:02.650 | IsExportPDFWithPrintOption : True - XPS Printer Name : Microsoft Print to PDF
+[Sys Thread: 1] INFO | 07-25-2025 11:17:02.650 | SessionManager :: InitOnLoad() :: Exiting...
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:03.791 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:21.813 | Common:: DecodeBase64 START
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:21.813 | Common:: deCodeLevel1 START
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:21.813 | Common:: DecodeBase64 START
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:21.813 | Common:: IsBase64 Checking START
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:21.813 | Administration:: Entering GetClientUserDetails
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:21.876 | Administration:: Entering LDAPChecking
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:21.876 | isValidUser:: True
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:21.876 | AdminController:: Exiting GetUserDetails
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:22.063 | Common:: IsBase64 Checking START
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:22.063 | Common:: DecodeBase64 START
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:22.063 | Administration:: Entering LDAPChecking
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:22.063 | isValidUser:: True
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:22.063 | AdminController:: Exiting LDAPUserCheck
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:26.938 | Common:: DecodeBase64 START
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:26.938 | Common:: deCodeLevel1 START
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:26.938 | Common:: DecodeBase64 START
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:26.938 | Common:: IsBase64 Checking START
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:26.938 | Administration:: Entering GetClientUserDetails
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:29.889 | AdminController:: Exiting GetUserDetails
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:29.998 | Common:: IsBase64 Checking START
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:29.998 | Common:: DecodeBase64 START
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:29.998 | Administration:: Entering LDAPChecking
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:29.998 | isValidUser:: True
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:29.998 | AdminController:: Exiting LDAPUserCheck
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:30.092 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:30.107 | Administration:: Entering InitLoginSession
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:30.123 | Administration:: Entering AllowSession  1
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:30.123 | Administration:: Entering AllowSession  end
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:30.123 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:30.623 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:30.639 | RibbonGenerator:: GetRibbonViewWeb
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:30.639 | RibbonGenerator:: Inside GetRibbonView
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:30.639 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:38.279 | RibbonGenerator:: Success: GetRibbonView
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:38.279 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:38.591 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:39.075 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:39.732 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:39.747 | Administration:: Entering GetUserDetails
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:40.513 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:42.434 | Administration:: Exiting GetUserDetails
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:42.434 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:42.512 | Administration:: Entering GetUserDetails
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:42.543 | Administration:: Exiting GetUserDetails
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:42.559 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:42.668 | Common:: DecodeBase64 START
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:42.668 | ReportLayout:: GetDataSet START
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:43.731 | ReportLayout:: GetDataSet END
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:43.731 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:43.793 | Common:: DecodeBase64 START
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:43.793 | ReportLayout:: GetDataSet START
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:44.074 | ReportLayout:: GetDataSet END
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:44.074 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:44.090 | Common:: DecodeBase64 START
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:44.090 | ReportLayout:: GetDataSet START
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:44.840 | ReportLayout:: GetDataSet END
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:44.840 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:44.871 | Common:: DecodeBase64 START
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:44.871 | Common:: deCodeLevel1 START
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:44.871 | Common:: DecodeBase64 START
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:45.387 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:45.465 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:45.715 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:45.715 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:45.715 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:45.715 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:45.715 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:45.746 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:45.746 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:45.746 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:45.746 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:45.746 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:45.762 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:45.762 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:45.762 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:45.762 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:45.777 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:45.793 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:45.808 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:45.808 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:45.824 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:45.840 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:45.855 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:45.871 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:45.887 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:45.902 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:45.996 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:57.743 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:57.822 | Common:: DecodeBase64 START
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:57.822 | Common:: deCodeLevel1 START
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:57.822 | Common:: DecodeBase64 START
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:57.884 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:57.900 | Common:: DecodeBase64 START
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:57.900 | Common:: deCodeLevel1 START
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:57.900 | Common:: DecodeBase64 START
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:57.900 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:57.915 | Common:: DecodeBase64 START
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:57.915 | Common:: deCodeLevel1 START
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:57.931 | Common:: DecodeBase64 START
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:57.931 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:57.947 | Common:: DecodeBase64 START
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:57.947 | Common:: deCodeLevel1 START
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:57.947 | Common:: DecodeBase64 START
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:58.306 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:58.321 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:58.321 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:58.353 | Common:: DecodeBase64 START
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:58.353 | Common:: deCodeLevel1 START
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:58.353 | Common:: DecodeBase64 START
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:58.368 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:58.368 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:58.368 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:58.384 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:58.384 | Common:: DecodeBase64 START
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:58.400 | Common:: deCodeLevel1 START
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:58.400 | Common:: DecodeBase64 START
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:58.400 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:58.415 | Common:: DecodeBase64 START
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:58.415 | Common:: deCodeLevel1 START
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:58.415 | Common:: DecodeBase64 START
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:58.431 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:58.446 | Common:: DecodeBase64 START
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:58.446 | Common:: deCodeLevel1 START
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:58.446 | Common:: DecodeBase64 START
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:58.446 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:58.446 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:58.462 | Common:: DecodeBase64 START
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:58.462 | Common:: deCodeLevel1 START
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:58.462 | Common:: DecodeBase64 START
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:58.462 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:58.478 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:58.478 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:58.478 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:58.493 | Common:: DecodeBase64 START
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:58.493 | Common:: deCodeLevel1 START
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:58.493 | Common:: DecodeBase64 START
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:58.509 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:58.509 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:58.509 | Common:: DecodeBase64 START
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:58.509 | Common:: deCodeLevel1 START
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:58.509 | Common:: DecodeBase64 START
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:58.525 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:58.525 | Common:: DecodeBase64 START
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:58.525 | Common:: deCodeLevel1 START
+[System: 192.168.1.77] INFO | 07-25-2025 11:17:58.525 | Common:: DecodeBase64 START
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:58.540 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:58.572 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-25-2025 11:18:05.820 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-25-2025 11:18:06.007 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-25-2025 11:18:14.974 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-25-2025 11:18:16.196 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-25-2025 11:18:22.781 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] INFO | 07-25-2025 11:18:34.283 | VPT:: Start : Waseem.
+[System: 192.168.1.77] INFO | 07-25-2025 11:18:34.283 | Common:: IsBase64 Checking START
+[System: 192.168.1.77] INFO | 07-25-2025 11:18:34.299 | VPT:: Start : Waseem1 
+[System: 192.168.1.77] INFO | 07-25-2025 11:18:34.299 | Administration:: Entering GetUserDetails
+[System: 192.168.1.77] INFO | 07-25-2025 11:18:34.346 | Administration:: Exiting GetUserDetails
+[System: 192.168.1.77] INFO | 07-25-2025 11:18:34.346 | Administration:: Entering GetUserDetails
+[System: 192.168.1.77] INFO | 07-25-2025 11:18:34.377 | Administration:: Exiting GetUserDetails
+[System: 192.168.1.77] INFO | 07-25-2025 11:18:34.377 | NotificationHandler:: Inside GetGlobalPreferences
+[System: 192.168.1.77] INFO | 07-25-2025 11:18:35.955 | NotificationHandler:: Success: GetGlobalPreferences
+[System: 192.168.1.77] INFO | 07-25-2025 11:18:35.971 | PrintLayout:: Inside GetPrintLayout
+[System: 192.168.1.77] INFO | 07-25-2025 11:18:36.033 | VPT:: Start : Waseem2
+[System: 192.168.1.77] INFO | 07-25-2025 11:18:36.095 | ViewNoteViewModel::Entering ViewNoteViewModel with Parent=PACT.VIEWMODEL.AddEditDocumentViewModel
+[System: 192.168.1.77] INFO | 07-25-2025 11:18:36.095 | AddNoteViewModel::Entering AddNoteViewModel with Parent=PACT.VIEWMODEL.AddEditDocumentViewModel
+[System: 192.168.1.77] INFO | 07-25-2025 11:18:36.111 | Loading Resources
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:18:36.127 | WebUIResources CNT: 3241
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:18:36.127 | WebUIResources CNT: 3172
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:18:36.127 | WebUIResources CNT: 3229
+[System: 192.168.1.77] INFO | 07-25-2025 11:18:36.142 | AddNoteViewModel::Exiting OnSaveNote
+[System: 192.168.1.77] INFO | 07-25-2025 11:18:36.142 | ViewNoteViewModel::Exiting ViewNoteViewModel 
+[System: 192.168.1.77] INFO | 07-25-2025 11:18:36.158 | AddressViewModel::Entering AddressViewModel with Parent=PACT.VIEWMODEL.AddEditDocumentViewModel
+[System: 192.168.1.77] INFO | 07-25-2025 11:18:36.158 | AddressViewModel::Exiting AddressViewModel
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:18:42.172 | VPT:: Default Printer - Before : Microsoft Print to PDF
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:18:42.188 | VPT:: Default Printer - After : Microsoft Print to PDF
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:18:42.922 | PrintableArea :: Width-850, Height-1100, HardMarginX-0, HardMarginY-0, Landscape-False
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:18:42.922 | PageWidth: 850, PageHeight:1100
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:18:43.797 | PrintableArea :: Width-850, Height-1100, HardMarginX-0, HardMarginY-0, Landscape-False
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:18:43.797 | PageWidth: 850, PageHeight:1100
+[System: 192.168.1.77] INFO | 07-25-2025 11:18:44.859 | Common:: DecodeBase64 START
+[System: 192.168.1.77] INFO | 07-25-2025 11:18:44.859 | Common:: deCodeLevel1 START
+[System: 192.168.1.77] INFO | 07-25-2025 11:18:44.859 | Common:: DecodeBase64 START
+[System: 192.168.1.77] ERROR | 07-25-2025 11:18:44.922 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-25-2025 11:18:47.390 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] INFO | 07-25-2025 11:18:50.936 | VPT:: Start : Waseem.
+[System: 192.168.1.77] INFO | 07-25-2025 11:18:50.951 | Common:: IsBase64 Checking START
+[System: 192.168.1.77] INFO | 07-25-2025 11:18:50.951 | VPT:: Start : Waseem1 
+[System: 192.168.1.77] INFO | 07-25-2025 11:18:50.951 | Administration:: Entering GetUserDetails
+[System: 192.168.1.77] INFO | 07-25-2025 11:18:50.998 | Administration:: Exiting GetUserDetails
+[System: 192.168.1.77] INFO | 07-25-2025 11:18:50.998 | Administration:: Entering GetUserDetails
+[System: 192.168.1.77] INFO | 07-25-2025 11:18:51.030 | Administration:: Exiting GetUserDetails
+[System: 192.168.1.77] INFO | 07-25-2025 11:18:51.030 | NotificationHandler:: Inside GetGlobalPreferences
+[System: 192.168.1.77] INFO | 07-25-2025 11:18:51.061 | NotificationHandler:: Success: GetGlobalPreferences
+[System: 192.168.1.77] INFO | 07-25-2025 11:18:51.061 | PrintLayout:: Inside GetPrintLayout
+[System: 192.168.1.77] INFO | 07-25-2025 11:18:51.076 | VPT:: Start : Waseem2
+[System: 192.168.1.77] INFO | 07-25-2025 11:18:51.076 | ViewNoteViewModel::Entering ViewNoteViewModel with Parent=PACT.VIEWMODEL.AddEditDocumentViewModel
+[System: 192.168.1.77] INFO | 07-25-2025 11:18:51.076 | AddNoteViewModel::Entering AddNoteViewModel with Parent=PACT.VIEWMODEL.AddEditDocumentViewModel
+[System: 192.168.1.77] INFO | 07-25-2025 11:18:51.076 | AddNoteViewModel::Exiting OnSaveNote
+[System: 192.168.1.77] INFO | 07-25-2025 11:18:51.076 | ViewNoteViewModel::Exiting ViewNoteViewModel 
+[System: 192.168.1.77] INFO | 07-25-2025 11:18:51.076 | AddressViewModel::Entering AddressViewModel with Parent=PACT.VIEWMODEL.AddEditDocumentViewModel
+[System: 192.168.1.77] INFO | 07-25-2025 11:18:51.076 | AddressViewModel::Exiting AddressViewModel
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:18:51.201 | VPT:: Default Printer - Before : Microsoft Print to PDF
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:18:51.233 | VPT:: Default Printer - After : Microsoft Print to PDF
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:18:51.889 | PrintableArea :: Width-850, Height-1100, HardMarginX-0, HardMarginY-0, Landscape-False
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:18:51.889 | PageWidth: 850, PageHeight:1100
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:18:52.514 | PrintableArea :: Width-850, Height-1100, HardMarginX-0, HardMarginY-0, Landscape-False
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:18:52.514 | PageWidth: 850, PageHeight:1100
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:19:11.374 | PrintableArea :: Width-850, Height-1100, HardMarginX-0, HardMarginY-0, Landscape-False
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:19:11.374 | PageWidth: 850, PageHeight:1100
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:19:11.374 | PrintableArea :: Width-850, Height-1100, HardMarginX-0, HardMarginY-0, Landscape-False
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:19:11.374 | PageWidth: 850, PageHeight:1100
+[System: 192.168.1.77] INFO | 07-25-2025 11:19:11.390 | Info: VoucherPrinter : PrintDocument()... ActSelPrinter : Microsoft Print to PDF
+[System: 192.168.1.77] INFO | 07-25-2025 11:19:11.390 | Info: VoucherPrinter : PrintDocument()... DocumentPrint Starting..
+[System: 192.168.1.77] INFO | 07-25-2025 11:19:11.390 | Info: VoucherPrinter : PrintDocument()... ActSelPrinter : Microsoft Print to PDF
+[System: 192.168.1.77] INFO | 07-25-2025 11:19:11.390 | Info: VoucherPrinter : PrintDocument()... DocumentPrint Starting..
+[System: 192.168.1.77] INFO | 07-25-2025 11:19:12.171 | Info: VoucherPrinter : PrintDocument()... DocumentPrint End..
+[System: 192.168.1.77] INFO | 07-25-2025 11:19:12.171 | Info: VoucherPrinter : PrintDocument()... Checking ActSelPrinter,DSCExists,DSCUserName,oDSImg ..start
+[System: 192.168.1.77] INFO | 07-25-2025 11:19:12.171 | Info: VoucherPrinter : PrintDocument()... DocumentPrint End..
+[System: 192.168.1.77] INFO | 07-25-2025 11:19:12.171 | Info: VoucherPrinter : PrintDocument()... Checking ActSelPrinter,DSCExists,DSCUserName,oDSImg ..start
+[System: 192.168.1.77] INFO | 07-25-2025 11:19:13.186 | VPT:: Start : Waseem4
+[System: 192.168.1.77] INFO | 07-25-2025 11:19:13.186 | VPT:: Start : Waseem4
+[System: 192.168.1.77] ERROR | 07-25-2025 11:19:13.186 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-25-2025 11:19:13.186 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-25-2025 11:19:13.202 | setAuditPrint:: setAuditPrint
+[System: 192.168.1.77] ERROR | 07-25-2025 11:19:13.717 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-25-2025 11:19:13.733 | setAuditPrint:: setAuditPrint
+[System: 192.168.1.77] ERROR | 07-25-2025 11:19:13.749 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-25-2025 11:19:16.607 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] INFO | 07-25-2025 11:19:22.641 | VPT:: Start : Waseem.
+[System: 192.168.1.77] INFO | 07-25-2025 11:19:22.641 | Common:: IsBase64 Checking START
+[System: 192.168.1.77] INFO | 07-25-2025 11:19:22.641 | VPT:: Start : Waseem1 
+[System: 192.168.1.77] INFO | 07-25-2025 11:19:22.641 | Administration:: Entering GetUserDetails
+[System: 192.168.1.77] INFO | 07-25-2025 11:19:22.704 | Administration:: Exiting GetUserDetails
+[System: 192.168.1.77] INFO | 07-25-2025 11:19:22.704 | Administration:: Entering GetUserDetails
+[System: 192.168.1.77] INFO | 07-25-2025 11:19:22.719 | Administration:: Exiting GetUserDetails
+[System: 192.168.1.77] INFO | 07-25-2025 11:19:22.719 | NotificationHandler:: Inside GetGlobalPreferences
+[System: 192.168.1.77] INFO | 07-25-2025 11:19:22.750 | NotificationHandler:: Success: GetGlobalPreferences
+[System: 192.168.1.77] INFO | 07-25-2025 11:19:22.750 | PrintLayout:: Inside GetPrintLayout
+[System: 192.168.1.77] INFO | 07-25-2025 11:19:22.766 | VPT:: Start : Waseem2
+[System: 192.168.1.77] INFO | 07-25-2025 11:19:22.766 | ViewNoteViewModel::Entering ViewNoteViewModel with Parent=PACT.VIEWMODEL.AddEditDocumentViewModel
+[System: 192.168.1.77] INFO | 07-25-2025 11:19:22.766 | AddNoteViewModel::Entering AddNoteViewModel with Parent=PACT.VIEWMODEL.AddEditDocumentViewModel
+[System: 192.168.1.77] INFO | 07-25-2025 11:19:22.766 | AddNoteViewModel::Exiting OnSaveNote
+[System: 192.168.1.77] INFO | 07-25-2025 11:19:22.766 | ViewNoteViewModel::Exiting ViewNoteViewModel 
+[System: 192.168.1.77] INFO | 07-25-2025 11:19:22.766 | AddressViewModel::Entering AddressViewModel with Parent=PACT.VIEWMODEL.AddEditDocumentViewModel
+[System: 192.168.1.77] INFO | 07-25-2025 11:19:22.766 | AddressViewModel::Exiting AddressViewModel
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:19:23.485 | VPT:: Default Printer - Before : Microsoft Print to PDF
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:19:23.516 | VPT:: Default Printer - After : Microsoft Print to PDF
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:19:24.175 | PrintableArea :: Width-850, Height-1100, HardMarginX-0, HardMarginY-0, Landscape-False
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:19:24.175 | PageWidth: 850, PageHeight:1100
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:19:24.851 | PrintableArea :: Width-850, Height-1100, HardMarginX-0, HardMarginY-0, Landscape-False
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:19:24.851 | PageWidth: 850, PageHeight:1100
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:19:25.523 | PrintableArea :: Width-850, Height-1100, HardMarginX-0, HardMarginY-0, Landscape-False
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:19:25.523 | PageWidth: 850, PageHeight:1100
+[System: 192.168.1.77] INFO | 07-25-2025 11:19:25.523 | Info: VoucherPrinter : PrintDocument()... ActSelPrinter : Microsoft Print to PDF
+[System: 192.168.1.77] INFO | 07-25-2025 11:19:25.523 | Info: VoucherPrinter : PrintDocument()... DocumentPrint Starting..
+[System: 192.168.1.77] INFO | 07-25-2025 11:19:26.163 | Info: VoucherPrinter : PrintDocument()... DocumentPrint End..
+[System: 192.168.1.77] INFO | 07-25-2025 11:19:26.163 | Info: VoucherPrinter : PrintDocument()... Checking ActSelPrinter,DSCExists,DSCUserName,oDSImg ..start
+[System: 192.168.1.77] INFO | 07-25-2025 11:19:27.179 | VPT:: Start : Waseem4
+[System: 192.168.1.77] ERROR | 07-25-2025 11:19:27.179 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-25-2025 11:19:27.210 | setAuditPrint:: setAuditPrint
+[System: 192.168.1.77] ERROR | 07-25-2025 11:19:27.226 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-25-2025 11:19:38.392 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] INFO | 07-25-2025 11:19:44.857 | Common:: DecodeBase64 START
+[System: 192.168.1.77] INFO | 07-25-2025 11:19:44.857 | Common:: deCodeLevel1 START
+[System: 192.168.1.77] INFO | 07-25-2025 11:19:44.857 | Common:: DecodeBase64 START
+[System: 192.168.1.77] ERROR | 07-25-2025 11:19:45.044 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] INFO | 07-25-2025 11:19:45.200 | VPT:: Start : Waseem.
+[System: 192.168.1.77] INFO | 07-25-2025 11:19:45.200 | Common:: IsBase64 Checking START
+[System: 192.168.1.77] INFO | 07-25-2025 11:19:45.200 | VPT:: Start : Waseem1 
+[System: 192.168.1.77] INFO | 07-25-2025 11:19:45.200 | Administration:: Entering GetUserDetails
+[System: 192.168.1.77] INFO | 07-25-2025 11:19:45.247 | Administration:: Exiting GetUserDetails
+[System: 192.168.1.77] INFO | 07-25-2025 11:19:45.247 | Administration:: Entering GetUserDetails
+[System: 192.168.1.77] INFO | 07-25-2025 11:19:45.263 | Administration:: Exiting GetUserDetails
+[System: 192.168.1.77] INFO | 07-25-2025 11:19:45.263 | NotificationHandler:: Inside GetGlobalPreferences
+[System: 192.168.1.77] INFO | 07-25-2025 11:19:45.294 | NotificationHandler:: Success: GetGlobalPreferences
+[System: 192.168.1.77] INFO | 07-25-2025 11:19:45.294 | PrintLayout:: Inside GetPrintLayout
+[System: 192.168.1.77] INFO | 07-25-2025 11:19:45.294 | VPT:: Start : Waseem2
+[System: 192.168.1.77] INFO | 07-25-2025 11:19:45.294 | ViewNoteViewModel::Entering ViewNoteViewModel with Parent=PACT.VIEWMODEL.AddEditDocumentViewModel
+[System: 192.168.1.77] INFO | 07-25-2025 11:19:45.294 | AddNoteViewModel::Entering AddNoteViewModel with Parent=PACT.VIEWMODEL.AddEditDocumentViewModel
+[System: 192.168.1.77] INFO | 07-25-2025 11:19:45.294 | AddNoteViewModel::Exiting OnSaveNote
+[System: 192.168.1.77] INFO | 07-25-2025 11:19:45.294 | ViewNoteViewModel::Exiting ViewNoteViewModel 
+[System: 192.168.1.77] INFO | 07-25-2025 11:19:45.294 | AddressViewModel::Entering AddressViewModel with Parent=PACT.VIEWMODEL.AddEditDocumentViewModel
+[System: 192.168.1.77] INFO | 07-25-2025 11:19:45.294 | AddressViewModel::Exiting AddressViewModel
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:19:45.872 | VPT:: Default Printer - Before : Microsoft Print to PDF
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:19:45.888 | VPT:: Default Printer - After : Microsoft Print to PDF
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:19:46.544 | PrintableArea :: Width-850, Height-1100, HardMarginX-0, HardMarginY-0, Landscape-False
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:19:46.544 | PageWidth: 850, PageHeight:1100
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:19:47.184 | PrintableArea :: Width-850, Height-1100, HardMarginX-0, HardMarginY-0, Landscape-False
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:19:47.184 | PageWidth: 850, PageHeight:1100
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:19:47.793 | PrintableArea :: Width-850, Height-1100, HardMarginX-0, HardMarginY-0, Landscape-False
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:19:47.793 | PageWidth: 850, PageHeight:1100
+[System: 192.168.1.77] INFO | 07-25-2025 11:19:47.793 | Info: VoucherPrinter : PrintDocument()... ActSelPrinter : Microsoft Print to PDF
+[System: 192.168.1.77] INFO | 07-25-2025 11:19:47.793 | Info: VoucherPrinter : PrintDocument()... DocumentPrint Starting..
+[System: 192.168.1.77] INFO | 07-25-2025 11:19:48.340 | Info: VoucherPrinter : PrintDocument()... DocumentPrint End..
+[System: 192.168.1.77] INFO | 07-25-2025 11:19:48.340 | Info: VoucherPrinter : PrintDocument()... Checking ActSelPrinter,DSCExists,DSCUserName,oDSImg ..start
+[System: 192.168.1.77] INFO | 07-25-2025 11:19:49.356 | VPT:: Start : Waseem4
+[System: 192.168.1.77] ERROR | 07-25-2025 11:19:49.356 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-25-2025 11:19:49.387 | setAuditPrint:: setAuditPrint
+[System: 192.168.1.77] ERROR | 07-25-2025 11:19:49.387 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK

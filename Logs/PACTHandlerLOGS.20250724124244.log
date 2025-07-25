@@ -1,0 +1,8 @@
+[System: 192.168.1.54] DEBUG | 07-24-2025 12:42:47.663 | General Service|:: CompanyIndex:28 SpName: spADM_GetDataSet 
+ 'select Isnull(name,'''') as Name,isNull(value, '''') AS Value from ADM_GlobalPreferences with(nolock) where name  in (''WhProvider'', ''WhURL'', ''WhUserID'', ''WhPassword'',''WhContentSID'',''WhVariable'',''WhParam1'') '
+ ,1
+ ,1
+[System: 192.168.1.54] DEBUG | 07-24-2025 12:43:09.310 | General Service|:: CompanyIndex:28 SpName: spADM_GetDataSet 
+ 'select Isnull(name,'''') as Name,isNull(value, '''') AS Value from ADM_GlobalPreferences with(nolock) where name  in (''WhProvider'', ''WhURL'', ''WhUserID'', ''WhPassword'',''WhContentSID'',''WhVariable'',''WhParam1'') '
+ ,1
+ ,1

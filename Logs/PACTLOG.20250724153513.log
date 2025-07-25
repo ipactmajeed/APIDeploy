@@ -1,0 +1,146 @@
+[Sys Thread: 43] INFO | 07-24-2025 15:35:13.041 | SessionManager :: InitOnLoad() :: Entering...
+[Sys Thread: 43] INFO | 07-24-2025 15:35:13.041 | Installed Printers Count :3
+[Sys Thread: 43] INFO | 07-24-2025 15:35:13.041 | IsExportPDFWithPrintOption : True - XPS Printer Name : Microsoft Print to PDF
+[Sys Thread: 43] INFO | 07-24-2025 15:35:13.041 | SessionManager :: InitOnLoad() :: Exiting...
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:13.400 | Common:: DecodeBase64 START
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:13.400 | Common:: deCodeLevel1 START
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:13.400 | Common:: DecodeBase64 START
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:13.400 | Common:: IsBase64 Checking START
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:13.400 | Administration:: Entering GetClientUserDetails
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:13.447 | Administration:: Entering LDAPChecking
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:13.447 | isValidUser:: True
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:13.447 | AdminController:: Exiting GetUserDetails
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:13.587 | Common:: IsBase64 Checking START
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:13.587 | Common:: DecodeBase64 START
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:13.587 | Administration:: Entering LDAPChecking
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:13.587 | isValidUser:: True
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:13.587 | AdminController:: Exiting LDAPUserCheck
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:13.619 | Common:: DecodeBase64 START
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:13.619 | Common:: deCodeLevel1 START
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:13.619 | Common:: DecodeBase64 START
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:13.619 | Common:: IsBase64 Checking START
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:13.619 | Administration:: Entering GetClientUserDetails
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:13.775 | AdminController:: Exiting GetUserDetails
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:13.853 | Common:: IsBase64 Checking START
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:13.853 | Common:: DecodeBase64 START
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:13.853 | Administration:: Entering LDAPChecking
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:13.853 | isValidUser:: True
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:13.853 | AdminController:: Exiting LDAPUserCheck
+[System: 192.168.1.77] ERROR | 07-24-2025 15:35:13.978 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:14.009 | Administration:: Entering InitLoginSession
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:14.025 | Administration:: Entering AllowSession  1
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:14.025 | Administration:: Entering AllowSession  end
+[System: 192.168.1.77] ERROR | 07-24-2025 15:35:14.025 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-24-2025 15:35:14.087 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-24-2025 15:35:14.118 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-24-2025 15:35:14.134 | RibbonGenerator:: GetRibbonViewWeb
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:14.134 | RibbonGenerator:: Inside GetRibbonView
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:14.197 | RibbonGenerator:: Success: GetRibbonView
+[System: 192.168.1.77] ERROR | 07-24-2025 15:35:14.197 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-24-2025 15:35:14.275 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-24-2025 15:35:14.290 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:14.306 | Administration:: Entering GetUserDetails
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:14.337 | Administration:: Exiting GetUserDetails
+[System: 192.168.1.77] ERROR | 07-24-2025 15:35:14.337 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:14.415 | Administration:: Entering GetUserDetails
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:14.446 | Administration:: Exiting GetUserDetails
+[System: 192.168.1.77] ERROR | 07-24-2025 15:35:14.446 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:14.587 | Common:: DecodeBase64 START
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:14.587 | ReportLayout:: GetDataSet START
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:14.603 | ReportLayout:: GetDataSet END
+[System: 192.168.1.77] ERROR | 07-24-2025 15:35:14.618 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:14.634 | Common:: DecodeBase64 START
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:14.634 | ReportLayout:: GetDataSet START
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:14.650 | ReportLayout:: GetDataSet END
+[System: 192.168.1.77] ERROR | 07-24-2025 15:35:14.650 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:14.650 | Common:: DecodeBase64 START
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:14.650 | ReportLayout:: GetDataSet START
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:14.712 | ReportLayout:: GetDataSet END
+[System: 192.168.1.77] ERROR | 07-24-2025 15:35:14.728 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:14.728 | Common:: DecodeBase64 START
+[System: 192.168.1.77] ERROR | 07-24-2025 15:35:14.759 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-24-2025 15:35:14.790 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-24-2025 15:35:14.806 | GetUploadedImage  -- Start::  
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:14.806 | Common:: DecodeBase64 START
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:14.806 | Common:: DecodeBase64 START
+[System: 192.168.1.77] ERROR | 07-24-2025 15:35:14.806 | GetUploadedImage -- isYearMonthWiseFolder  -- ::  False
+[System: 192.168.1.77] ERROR | 07-24-2025 15:35:14.806 | GetUploadedImage -- FolderPath is found empty or not  -- ::  
+[System: 192.168.1.77] ERROR | 07-24-2025 15:35:14.806 | FtpPort  -- ::  0
+[System: 192.168.1.77] DEBUG | 07-24-2025 15:35:14.821 | ftpDownload -- start  -- ::  
+[System: 192.168.1.77] DEBUG | 07-24-2025 15:35:14.821 | ftpServerFile    :: ftp://192.168.1.132/FTPUploads/TT/448ded3f-38d3-46b6-882a-3f296567def4.png
+[System: 192.168.1.77] DEBUG | 07-24-2025 15:35:14.821 | ftpuserid     ::javed
+[System: 192.168.1.77] DEBUG | 07-24-2025 15:35:14.821 | ftppassword   :: Pass@123
+[System: 192.168.1.77] DEBUG | 07-24-2025 15:35:14.821 | ftpDownload -- client.DownloadData(ftpServerFile)  -- ::  
+[System: 192.168.1.77] ERROR | 07-24-2025 15:35:14.931 | ftpDownload ERROR Exception:: The remote server returned an error: (550) File unavailable (e.g., file not found, no access).
+[System: 192.168.1.77] ERROR | 07-24-2025 15:35:14.931 | GetUploadedImage  -- End::  
+[System: 192.168.1.77] ERROR | 07-24-2025 15:35:14.931 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:14.946 | Common:: DecodeBase64 START
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:14.946 | Common:: deCodeLevel1 START
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:14.946 | Common:: DecodeBase64 START
+[System: 192.168.1.77] ERROR | 07-24-2025 15:35:14.978 | GetUploadedImage  -- Start::  
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:14.978 | Common:: DecodeBase64 START
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:14.978 | Common:: DecodeBase64 START
+[System: 192.168.1.77] ERROR | 07-24-2025 15:35:14.978 | GetUploadedImage -- isYearMonthWiseFolder  -- ::  False
+[System: 192.168.1.77] ERROR | 07-24-2025 15:35:14.978 | GetUploadedImage -- FolderPath is found empty or not  -- ::  
+[System: 192.168.1.77] ERROR | 07-24-2025 15:35:14.978 | FtpPort  -- ::  0
+[System: 192.168.1.77] DEBUG | 07-24-2025 15:35:14.978 | ftpDownload -- start  -- ::  
+[System: 192.168.1.77] DEBUG | 07-24-2025 15:35:14.978 | ftpServerFile    :: ftp://192.168.1.132/FTPUploads/TT/81d024a2-6d72-4c8e-8f85-d3d6033354b1.jpeg
+[System: 192.168.1.77] DEBUG | 07-24-2025 15:35:14.978 | ftpuserid     ::javed
+[System: 192.168.1.77] ERROR | 07-24-2025 15:35:14.978 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] DEBUG | 07-24-2025 15:35:14.978 | ftppassword   :: Pass@123
+[System: 192.168.1.77] DEBUG | 07-24-2025 15:35:14.978 | ftpDownload -- client.DownloadData(ftpServerFile)  -- ::  
+[System: 192.168.1.77] ERROR | 07-24-2025 15:35:14.978 | ftpDownload ERROR Exception:: The remote server returned an error: (550) File unavailable (e.g., file not found, no access).
+[System: 192.168.1.77] ERROR | 07-24-2025 15:35:14.978 | GetUploadedImage  -- End::  
+[System: 192.168.1.77] ERROR | 07-24-2025 15:35:14.993 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-24-2025 15:35:14.993 | GetUploadedImage  -- Start::  
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:14.993 | Common:: DecodeBase64 START
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:14.993 | Common:: DecodeBase64 START
+[System: 192.168.1.77] ERROR | 07-24-2025 15:35:14.993 | GetUploadedImage -- isYearMonthWiseFolder  -- ::  False
+[System: 192.168.1.77] ERROR | 07-24-2025 15:35:14.993 | GetUploadedImage -- FolderPath is found empty or not  -- ::  
+[System: 192.168.1.77] ERROR | 07-24-2025 15:35:14.993 | FtpPort  -- ::  0
+[System: 192.168.1.77] DEBUG | 07-24-2025 15:35:15.009 | ftpDownload -- start  -- ::  
+[System: 192.168.1.77] DEBUG | 07-24-2025 15:35:15.009 | ftpServerFile    :: ftp://192.168.1.132/FTPUploads/TT/81d024a2-6d72-4c8e-8f85-d3d6033354b1.jpeg
+[System: 192.168.1.77] DEBUG | 07-24-2025 15:35:15.009 | ftpuserid     ::javed
+[System: 192.168.1.77] DEBUG | 07-24-2025 15:35:15.009 | ftppassword   :: Pass@123
+[System: 192.168.1.77] DEBUG | 07-24-2025 15:35:15.009 | ftpDownload -- client.DownloadData(ftpServerFile)  -- ::  
+[System: 192.168.1.77] ERROR | 07-24-2025 15:35:15.009 | ftpDownload ERROR Exception:: The remote server returned an error: (550) File unavailable (e.g., file not found, no access).
+[System: 192.168.1.77] ERROR | 07-24-2025 15:35:15.009 | GetUploadedImage  -- End::  
+[System: 192.168.1.77] ERROR | 07-24-2025 15:35:15.009 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-24-2025 15:35:15.024 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:15.024 | ControlGenerator:: Entering GetCostCenterQuickViewSummary
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:15.071 | ControlGenerator:: Exiting GetCostCenterQuickViewSummary
+[System: 192.168.1.77] ERROR | 07-24-2025 15:35:15.071 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-24-2025 15:35:15.274 | GetUploadedImage  -- Start::  
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:15.274 | Common:: DecodeBase64 START
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:15.274 | Common:: DecodeBase64 START
+[System: 192.168.1.77] ERROR | 07-24-2025 15:35:15.274 | GetUploadedImage -- isYearMonthWiseFolder  -- ::  False
+[System: 192.168.1.77] ERROR | 07-24-2025 15:35:15.274 | GetUploadedImage -- FolderPath is found empty or not  -- ::  
+[System: 192.168.1.77] ERROR | 07-24-2025 15:35:15.274 | FtpPort  -- ::  0
+[System: 192.168.1.77] DEBUG | 07-24-2025 15:35:15.274 | ftpDownload -- start  -- ::  
+[System: 192.168.1.77] DEBUG | 07-24-2025 15:35:15.274 | ftpServerFile    :: ftp://192.168.1.132/FTPUploads/TT/81d024a2-6d72-4c8e-8f85-d3d6033354b1.jpeg
+[System: 192.168.1.77] DEBUG | 07-24-2025 15:35:15.274 | ftpuserid     ::javed
+[System: 192.168.1.77] DEBUG | 07-24-2025 15:35:15.274 | ftppassword   :: Pass@123
+[System: 192.168.1.77] DEBUG | 07-24-2025 15:35:15.274 | ftpDownload -- client.DownloadData(ftpServerFile)  -- ::  
+[System: 192.168.1.77] ERROR | 07-24-2025 15:35:15.274 | ftpDownload ERROR Exception:: The remote server returned an error: (550) File unavailable (e.g., file not found, no access).
+[System: 192.168.1.77] ERROR | 07-24-2025 15:35:15.274 | GetUploadedImage  -- End::  
+[System: 192.168.1.77] ERROR | 07-24-2025 15:35:15.290 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-24-2025 15:35:15.321 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-24-2025 15:35:15.337 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] ERROR | 07-24-2025 15:35:18.051 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:18.082 | token History IN 
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:18.082 | Administration:: Inside TokenHistroy
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:18.082 | token History OUT 
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:18.082 | deleteAttachments IN 
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:18.082 | attachmentFolderpath IN D:\PACTRevenUWEBAPI\Attachments\
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:18.082 | thValue IN 2000
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:18.082 | directory.GetFiles() IN 
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:18.082 | directory.GetDirectories() IN 
+[System: 192.168.1.77] INFO | 07-24-2025 15:35:18.082 | Attachment folder content Deleted successfully
+[System: 192.168.1.99] INFO | 07-24-2025 15:35:32.902 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 07-24-2025 15:35:32.902 | Common:: deCodeLevel1 START
+[System: 192.168.1.99] INFO | 07-24-2025 15:35:32.918 | Common:: DecodeBase64 START
+[System: 192.168.1.99] ERROR | 07-24-2025 15:35:42.959 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK
+[System: 192.168.1.99] INFO | 07-24-2025 15:36:32.895 | Common:: DecodeBase64 START
+[System: 192.168.1.99] INFO | 07-24-2025 15:36:32.895 | Common:: deCodeLevel1 START
+[System: 192.168.1.99] INFO | 07-24-2025 15:36:32.911 | Common:: DecodeBase64 START
+[System: 192.168.1.99] ERROR | 07-24-2025 15:36:42.933 | ExecuteAsync: HttpStatusCode.Unauthorized=>Unauthorizedresponse.StatusCode=>OK

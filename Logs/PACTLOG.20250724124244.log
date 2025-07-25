@@ -1,0 +1,12 @@
+[Sys Thread: 1] INFO | 07-24-2025 12:42:44.059 | SessionManager :: InitOnLoad() :: Entering...
+[Sys Thread: 1] INFO | 07-24-2025 12:42:44.059 | Installed Printers Count :3
+[Sys Thread: 1] INFO | 07-24-2025 12:42:44.059 | IsExportPDFWithPrintOption : True - XPS Printer Name : Microsoft Print to PDF
+[Sys Thread: 1] INFO | 07-24-2025 12:42:44.059 | SessionManager :: InitOnLoad() :: Exiting...
+[System: 192.168.1.54] INFO | 07-24-2025 12:42:47.444 | PactWhatsAppController:: PostWhatsApp
+[System: 192.168.1.54] INFO | 07-24-2025 12:42:47.444 | Common:: GetDataSet START
+[System: 192.168.1.54] INFO | 07-24-2025 12:42:47.663 | weberleads:: PostWhatsApp:RequestObjPactRevenUWebapi2._0.Controllers.PactWhatsAppController+WhatsApp
+[System: 192.168.1.54] INFO | 07-24-2025 12:42:47.663 | PactWhatsApp Controller process  End:: PostWhatsApp
+[System: 192.168.1.54] INFO | 07-24-2025 12:43:09.310 | PactWhatsAppController:: PostWhatsApp
+[System: 192.168.1.54] INFO | 07-24-2025 12:43:09.310 | Common:: GetDataSet START
+[System: 192.168.1.54] INFO | 07-24-2025 12:43:09.310 | weberleads:: PostWhatsApp:RequestObjPactRevenUWebapi2._0.Controllers.PactWhatsAppController+WhatsApp
+[System: 192.168.1.54] INFO | 07-24-2025 12:43:09.310 | PactWhatsApp Controller process  End:: PostWhatsApp

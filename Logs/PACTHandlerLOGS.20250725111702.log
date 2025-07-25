@@ -1,0 +1,1783 @@
+[System: 192.168.1.77] ERROR | 07-25-2025 11:17:03.759 | General Service|:: CompanyIndex:0 SpName: spADM_GetDataSetParameters :
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkFETUlOLDEsNjgsMSIsIm5iZiI6MTc1MzM1NzMwNywiZXhwIjoxNzUzMzg2MTA3LCJpYXQiOjE3NTMzNTczMDd9.2iP-mPpUDNfiaV8TH47AfDlrrNylsfWV2YJNX07SOts'''
+ ,1
+ ,1|Could not find stored procedure 'spADM_GetDataSet'.
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:21.860 | General Service|:: CompanyIndex:0 SpName: spADM_GetClientUserDetails2C 
+ 'admin'
+ ,1
+ ,0
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:22.079 | General Service|:: CompanyIndex:0 SpName: spADM_UserLoginCheck 
+ 2
+ ,'admin'
+ ,0
+ ,'192.168.1.77'
+ ,'192.168.1.77'
+ ,''
+ ,'Web'
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:29.842 | General Service|:: CompanyIndex:53 SpName: spADM_GetClientUserDetails 
+ 'admin'
+ ,1
+ ,'26.1.9'
+ ,0
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:30.014 | General Service|:: CompanyIndex:0 SpName: spADM_UserLoginCheck 
+ 2
+ ,'admin'
+ ,53
+ ,'192.168.1.77'
+ ,'192.168.1.77'
+ ,''
+ ,'Web'
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:30.045 | General Service|:: CompanyIndex:0 SpName: spADM_Login 
+ 1
+ ,''
+ ,''
+ ,''
+ ,''
+ ,''
+ ,53
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:30.076 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select Value from ADM_GlobalPreferences with (nolock) where name =''EnableReLogin'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:30.092 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:30.123 | General Service|:: CompanyIndex:0 SpName: spADM_Login 
+ 4
+ ,''
+ ,''
+ ,''
+ ,'declare @Cnt int,@ExpiredGUID nvarchar(50),@AllowSession int,@GUID nvarchar(50),@CurrDate float,@UserID INT,@Instances INT,@InstancesExists INT,@LCDBIndex int
+set @CurrDate= convert(float,dateadd(minute,-21,getdate()))
+set @AllowSession=0
+set @GUID=''0cce3b24-2a21-4887-8ec5-3fa12a3bf3a7''
+set @LCDBIndex=0
+select top 1 @UserID=UserID,@Instances=InstanceCount from ADM_Users with(nolock) where UserName=''admin''
+if exists(select [GUID] from ADM_Login with(nolock) where [GUID]=@GUID)
+begin
+	update ADM_Login 
+	set LastAccessTime=convert(float,getdate()),UserID=@UserID
+	where [GUID]=@GUID
+    set @AllowSession=1
+end
+else
+begin
+	select @Cnt=count(*) from ADM_Login with(nolock) where LCDBIndex=@LCDBIndex and [GUID]!=''ACCESSRIGHTS'' and AP =''WEB''
+    if(@Cnt<100)
+		set @AllowSession=1
+	else
+	begin
+		select top 1 @ExpiredGUID=[GUID] from ADM_Login with(nolock)
+		where [GUID]!=''ACCESSRIGHTS'' and LCDBIndex=@LCDBIndex and LastAccessTime<@CurrDate  and AP =''WEB''
+        order by LastAccessTime asc
+		if @ExpiredGUID is not null
+		begin
+			delete from ADM_Login where [GUID]=@ExpiredGUID
+			set @AllowSession=1
+		end
+	end
+	if @AllowSession=1
+	begin
+        select @InstancesExists=COUNT(*) from ADM_Login with(nolock)
+		where [GUID]!=''ACCESSRIGHTS'' and LCDBIndex=@LCDBIndex and LastAccessTime>=@CurrDate and UserID=@UserID and AP =''WEB''
+		if(@Instances!=0 and @Instances<=@InstancesExists)
+			set @AllowSession=2
+		else
+		    INSERT INTO ADM_Login([GUID],[SysName],IPAddress,[Status],LoginTime,LastAccessTime,AccessRights,UserID,DBIndex,LCDBIndex,AP)
+		    VALUES(@GUID,''WEB'',''192.168.1.77'',1,convert(float,getdate()),convert(float,getdate()),null,@UserID,53,@LCDBIndex, ''WEB'')
+	end
+end
+
+select @AllowSession AllowSession,@Instances Instances,@InstancesExists InstancesExists
+'
+ ,''
+ ,0
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:30.123 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:30.623 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'SELECT (SELECT COUNT(*) FROM COM_Location L WITH(NOLOCK) JOIN COM_Status S WITH(NOLOCK) ON S.StatusID=L.StatusID WHERE L.IsGroup=0 AND S.[Status]=''Active'') ML
+,(SELECT COUNT(*) FROM ADM_Features WITH(NOLOCK) WHERE ((FeatureID>50000 AND FeatureID<=50050) OR FeatureID>=51000) AND IsEnabled=1) MD
+,(SELECT ISNULL(COUNT(*),0) FROM ADM_RevenUReports WITH(NOLOCK) WHERE IsGroup=0 AND ReportID>10000 AND StaticReportType IN (0,-1)) MR'
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:30.623 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:30.639 | General Service|:: CompanyIndex:53 SpName: spCOM_ConfigValues 
+ 1
+ ,'NotifTime'
+ ,''
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:30.639 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:38.263 | General Service|:: CompanyIndex:53 SpName: spADM_GetRibbonView 
+ 1
+ ,1
+ ,1
+ ,1
+ ,0
+ ,''
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:38.279 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:38.591 | General Service|:: CompanyIndex:53 SpName: spRPT_GetReport 
+ 2
+ ,0
+ ,'1'
+ ,'1'
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:38.591 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:39.075 | General Service|:: CompanyIndex:53 SpName: spADM_GetDashBoard 
+ 2
+ ,0
+ ,0
+ ,'1'
+ ,'1'
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:39.075 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:39.732 | General Service|:: CompanyIndex:53 SpName: spCOM_ConfigValues 
+ 1
+ ,'LandingDocs'
+ ,'1'
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:39.732 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:40.513 | General Service|:: CompanyIndex:53 SpName: spCOM_GetFavorites 
+ 'GETLIST0'
+ ,0
+ ,'1'
+ ,'1'
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:40.513 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:42.434 | General Service|:: CompanyIndex:53 SpName: spADM_GetAllListViewsDef 
+ 1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:42.434 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:42.543 | General Service|:: CompanyIndex:53 SpName: spADM_GetAllListViewsDef 
+ 1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:42.559 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:43.731 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'Select CostCenterID,CostCenterColID,CostCenterName,SysTableName,UserColumnName,SysColumnName,ISNULL(UserDefaultValue,'''') UserDefaultValue
+From AdM_CostCenterDef WITH(NOLOCK)
+Where SysColumnName IN(''CreditAccount'',''DebitAccount'',''ProductID'') 
+AND CostCenterID>40000 AND CostCenterID<50000 
+
+SELECT * FROM ADM_Features WITH(NOLOCK) '
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:43.731 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:44.074 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ '  SELECT * FROM PAY_PayrollPreferences WITH(NOLOCK) '
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:44.074 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:44.840 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ '  --0
+                                Select * FROM COM_CC50051 WITH(NOLOCK) WHERE IsGroup=0 AND LoginUserID=''admin''
+                                --1                                
+                                Select * FROM COM_CC50051 WITH(NOLOCK) WHERE RptManager IN (Select NodeID FROM COM_CC50051 WITH(NOLOCK) WHERE IsGroup=0 AND LoginUserID=''admin'')
+                                UNION ALL
+                                Select * FROM COM_CC50051 WITH(NOLOCK) WHERE RptManager IN 
+                                (
+	                                Select NodeID FROM COM_CC50051 WITH(NOLOCK) 
+	                                WHERE IsGroup=0 AND LoginUserID IN
+	                                (
+	                                SELECT fe.LoginUserID
+	                                FROM INV_DocDetails a WITH(NOLOCK) 
+	                                JOIN COM_DocCCData b WITH(NOLOCK) ON b.InvDocDetailsID=a.InvDocDetailsID
+	                                JOIN COM_DocNumData c WITH(NOLOCK) ON c.InvDocDetailsID=a.InvDocDetailsID
+	                                JOIN COM_DocTextData d WITH(NOLOCK) ON d.InvDocDetailsID=a.InvDocDetailsID
+	                                JOIN COM_CC50051 fe WITH(NOLOCK) on fe.NodeID=b.dcCCNID51
+	                                JOIN COM_CC50051 te WITH(NOLOCK) on CONVERT(NVARCHAR,te.NodeID)=d.dcAlpha1
+	                                WHERE a.CostCenterID=40098 and a.StatusID=369 AND d.dcAlpha3=''Temporary''
+	                                AND te.LoginUserID=''admin'' 
+	                                AND ISDATE(d.dcAlpha4)=1 AND ISDATE(d.dcAlpha5)=1 
+	                                AND CONVERT(DATETIME,''25 Jul 2025'') BETWEEN CONVERT(DATETIME,d.dcAlpha4) AND CONVERT(DATETIME,d.dcAlpha5)
+	                                )
+                                )
+                                --2
+                                Select * FROM ADM_USERS WITH(NOLOCK) WHERE USERID=1
+                                --3
+                                Select * FROM COM_CostCenterCostCenterMap WITH(NOLOCK) WHERE ParentCostCenterID=7 AND ParentNodeID=1
+                                --4                                
+                                Select * FROM COM_CostCenterCostCenterMap WITH(NOLOCK) WHERE ParentCostCenterID=7 AND ParentNodeID=1
+                                AND CostCenterID IN(Select ColumnCostCenterID From ADM_CostCenterDef Where CostCenterID=50051 AND IsColumnInUse=1 AND SysColumnName LIKE ''CCNID%'')
+                                --5
+                                Select * from COM_Files WITH(NOLOCK) WHERE FeatureID=50051 AND FeaturePK IN (Select NodeID FROM COM_CC50051 WITH(NOLOCK) WHERE IsGroup=0 AND LoginUserID=''admin'')                         
+'
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:44.840 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:45.387 | General Service|:: CompanyIndex:53 SpName: spADM_GetDashBoard 
+ 1
+ ,41
+ ,0
+ ,'1'
+ ,'1'
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:45.387 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:45.465 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'declare @UserID int,@RoleID int,@UserName NVARCHAR(100),@where nvarchar(max),@query nvarchar(max)
+set @UserID=1
+set @RoleID=1-- Employee:-1
+SELECT @UserName=UserName From ADM_Users WITH(NOLOCK) WHERE UserID=@UserID
+exec [fnGet_GetAssignedDims] @UserID,@RoleID,@where output
+ create table #TblUsrWF(WID int,LevelID int,Type int,CtWef float,LvWef int)
+EXEC spRPT_GetReportData @Type=8,@Param1=@UserID,@strXML=null,@RoleID=@RoleID set @query=''  SELECT DT.CostCenterID,DT.DocumentName,DT.DocumentType,DT.IsInventory,count(*) CNT
+FROM (
+ SELECT INV.CostCenterID
+FROM INV_DocDetails INV with(nolock)''
+if(@where<>'''')
+	set @query=@query+'' join com_docccdata d with(nolock) on INV.INVDocDetailsid=d.INVDocDetailsid''	
+
+set @query=@query+'' ,#TblUsrWF WF
+WHERE WF.WID=INV.WorkflowID and (WF.LevelID>INV.WorkFlowLevel or (WF.LevelID+1=INV.WorkFlowLevel and INV.StatusID=372)) and (INV.StatusID=371 or INV.StatusID=372 or INV.StatusID=441) AND (WF.Type=1 or (INV.WorkFlowLevel+1=WF.LevelID and INV.StatusID!=372) or (WF.LevelID+1=INV.WorkFlowLevel and INV.StatusID=372) or (WF.CtWef is not null and INV.WorkFlowLevel>=WF.LvWef
+and INV.CreatedDate+WF.CtWef<=convert(float,getdate()))) ''+@where+''
+GROUP BY INV.CostCenterID,INV.VoucherNo
+UNION ALL
+SELECT ACC.CostCenterID
+FROM ACC_DocDetails ACC with(nolock)''
+if(@where<>'''')
+	set @query=@query+'' join com_docccdata d with(nolock) on ACC.ACCDocDetailsid=d.ACCDocDetailsid''	
+
+set @query=@query+'',#TblUsrWF WF
+WHERE ACC.LinkedAccDocDetailsID is null and ACC.InvDocDetailsID is null and WF.WID=ACC.WorkflowID and (WF.LevelID>ACC.WorkFlowLevel or (WF.LevelID+1=ACC.WorkFlowLevel and ACC.StatusID=372)) and (ACC.StatusID=371 or ACC.StatusID=372 or ACC.StatusID=441) AND (WF.Type=1 or (ACC.WorkFlowLevel+1=WF.LevelID and ACC.StatusID!=372) or (WF.LevelID+1=ACC.WorkFlowLevel and ACC.StatusID=372) or (WF.CtWef is not null and ACC.WorkFlowLevel>=WF.LvWef
+and ACC.CreatedDate+WF.CtWef<=convert(float,getdate())))''+@where+''
+GROUP BY ACC.CostCenterID,ACC.VoucherNo  ) AS T
+JOIN ADM_DocumentTypes DT with(nolock) ON T.CostCenterID=DT.CostCenterID
+GROUP BY DT.CostCenterID,DT.DocumentName,DT.DocumentType,DT.IsInventory  
+UNION ALL
+SELECT DT.FeatureID CostCenterID,DT.Name DocumentName,-DT.FeatureID DocumentType,0 IsInventory,count(*) CNT
+FROM (
+SELECT INV.CostCenterID FROM REN_Contract INV WITH(NOLOCK),#TblUsrWF WF
+WHERE  WF.WID=INV.WorkflowID and WF.LevelID>INV.WorkFlowLevel and (INV.StatusID=440 or INV.StatusID=470 or INV.StatusID=466) AND (WF.Type=1 or (INV.WorkFlowLevel+1=WF.LevelID and INV.StatusID!=470)  or (WF.CtWef is not null and INV.WorkFlowLevel>=WF.LvWef
+ and INV.CreatedDate+WF.CtWef<=convert(float,getdate()))) AND INV.RefContractID=0 ) AS T
+JOIN ADM_Features DT with(nolock) ON T.CostCenterID=DT.FeatureID
+GROUP BY DT.FeatureID,DT.Name 
+ORDER BY DocumentName''
+exec(@query)
+
+DROP TABLE #TblUsrWF
+'
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:45.465 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:45.715 | General Service|:: CompanyIndex:53 SpName: spRPT_GetReport 
+ 0
+ ,60586
+ ,'1'
+ ,'1'
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:45.715 | General Service|:: CompanyIndex:53 SpName: spRPT_GetReport 
+ 0
+ ,60584
+ ,'1'
+ ,'1'
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:45.715 | General Service|:: CompanyIndex:53 SpName: spRPT_GetReport 
+ 0
+ ,60583
+ ,'1'
+ ,'1'
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:45.715 | General Service|:: CompanyIndex:53 SpName: spRPT_GetReport 
+ 0
+ ,60585
+ ,'1'
+ ,'1'
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:45.715 | General Service|:: CompanyIndex:53 SpName: spRPT_GetReport 
+ 0
+ ,60587
+ ,'1'
+ ,'1'
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:45.715 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:45.715 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:45.715 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:45.715 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:45.715 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:45.730 | General Service|:: CompanyIndex:53 SpName: spRPT_GetReport 
+ 0
+ ,0
+ ,'1'
+ ,'1'
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:45.746 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:45.746 | General Service|:: CompanyIndex:53 SpName: spRPT_GetReport 
+ 0
+ ,60588
+ ,'1'
+ ,'1'
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:45.746 | General Service|:: CompanyIndex:53 SpName: spRPT_GetReport 
+ 0
+ ,60584
+ ,'1'
+ ,'1'
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:45.746 | General Service|:: CompanyIndex:53 SpName: spRPT_GetReport 
+ 0
+ ,60583
+ ,'1'
+ ,'1'
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:45.746 | General Service|:: CompanyIndex:53 SpName: spRPT_GetReport 
+ 0
+ ,60586
+ ,'1'
+ ,'1'
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:45.746 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:45.746 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:45.746 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:45.746 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:45.746 | General Service|:: CompanyIndex:53 SpName: spRPT_GetReport 
+ 0
+ ,60585
+ ,'1'
+ ,'1'
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:45.762 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:45.762 | General Service|:: CompanyIndex:53 SpName: spRPT_GetReport 
+ 0
+ ,60587
+ ,'1'
+ ,'1'
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:45.762 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:45.762 | General Service|:: CompanyIndex:53 SpName: spRPT_GetReport 
+ 0
+ ,0
+ ,'1'
+ ,'1'
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:45.762 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:45.762 | General Service|:: CompanyIndex:53 SpName: spRPT_GetReport 
+ 0
+ ,60588
+ ,'1'
+ ,'1'
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:45.762 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:45.777 | General Service|:: CompanyIndex:53 SpName: spRPT_GetReport 
+ 0
+ ,0
+ ,'1'
+ ,'1'
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:45.777 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:45.777 | General Service|:: CompanyIndex:53 SpName: spRPT_GetReport 
+ 0
+ ,0
+ ,'1'
+ ,'1'
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:45.793 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:45.793 | General Service|:: CompanyIndex:53 SpName: spRPT_GetReport 
+ 0
+ ,0
+ ,'1'
+ ,'1'
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:45.808 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:45.808 | General Service|:: CompanyIndex:53 SpName: spRPT_GetReport 
+ 0
+ ,0
+ ,'1'
+ ,'1'
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:45.808 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:45.824 | General Service|:: CompanyIndex:53 SpName: spRPT_GetReport 
+ 0
+ ,0
+ ,'1'
+ ,'1'
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:45.824 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:45.840 | General Service|:: CompanyIndex:53 SpName: spRPT_GetReport 
+ 0
+ ,0
+ ,'1'
+ ,'1'
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:45.840 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:45.855 | General Service|:: CompanyIndex:53 SpName: spRPT_GetReport 
+ 0
+ ,0
+ ,'1'
+ ,'1'
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:45.855 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:45.871 | General Service|:: CompanyIndex:53 SpName: spRPT_GetReport 
+ 0
+ ,0
+ ,'1'
+ ,'1'
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:45.871 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:45.887 | General Service|:: CompanyIndex:53 SpName: spRPT_GetReport 
+ 0
+ ,0
+ ,'1'
+ ,'1'
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:45.887 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:45.902 | General Service|:: CompanyIndex:53 SpName: spRPT_GetReport 
+ 0
+ ,0
+ ,'1'
+ ,'1'
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:45.902 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:45.996 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'SELECT StaticReportType FROM ADM_RevenUReports WITH(NOLOCK) WHERE ReportID=60583'
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:45.996 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:57.743 | General Service|:: CompanyIndex:53 SpName: spRPT_GetReportCategoryandField 
+ -1
+ ,0
+ ,1
+ ,0
+ ,'1'
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:57.743 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:57.884 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'SELECT StaticReportType FROM ADM_RevenUReports WITH(NOLOCK) WHERE ReportID=60584'
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:57.884 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:57.900 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'SELECT StaticReportType FROM ADM_RevenUReports WITH(NOLOCK) WHERE ReportID=60585'
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:57.900 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:57.931 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'SELECT StaticReportType FROM ADM_RevenUReports WITH(NOLOCK) WHERE ReportID=60586'
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:57.931 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:58.306 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'DECLARE @FROMDATE FLOAT
+SET @FROMDATE=FLOOR(CONVERT(FLOAT,GETDATE()))
+DECLARE @TAB TABLE (ID INT IDENTITY(1,1),ContractID BIGINT,StatusID INT,PropertyID BIGINT,UnitID BIGINT,TenantID BIGINT,StartDate FLOAT,EndDate FLOAT)
+INSERT INTO @TAB
+SELECT RC.ContractID,RC.StatusID,RC.PropertyID,RC.UnitID,RC.TenantID,RC.StartDate,
+CASE WHEN RC.StatusID=428 THEN RC.TerminationDate WHEN RC.StatusID=450 THEN ISNULL(RC.RefundDate,RC.VacancyDate) ELSE RC.EndDate END EndDate
+FROM REN_Contract RC WITH(NOLOCK)
+WHERE RC.ContractID>1 AND RC.CostCenterID=95 AND RC.StartDate<=@FROMDATE
+
+select * from (
+SELECT RP.Name Property,RU.Name Unit,UT.Name Type
+,CASE WHEN RC.StatusID=428 OR RC.StatusID=450 THEN ''Vacant'' WHEN RC.EndDate <= @FROMDATE THEN ''Expired'' ELSE ''Occupied''  END UnitStatus 
+,RUL.Name LandLord , RUC.Name Location,isnull(L.Name,''Normal'') UStatus,RCP.Amount ,1 Cnt
+FROM @TAB RC
+JOIN (SELECT UnitID ,MAX(StartDate) StartDate FROM @TAB GROUP BY UnitID) AS T2 ON T2.UnitID=RC.UnitID AND T2.StartDate=RC.StartDate
+JOIN REN_Units RU WITH(NOLOCK) ON RU.UnitID=RC.UnitID
+JOIN REN_Property RP WITH(NOLOCK) ON RP.NodeID=RC.PropertyID
+JOIN COM_CC50018 UT WITH(NOLOCK) ON UT.NodeID=RU.NodeID
+LEFT JOIN COM_Salesman RUL with(nolock) on RU.LandlordID=RUL.NodeID
+LEFT JOIN COM_Location RUC with(nolock) on RP.LocationID=RUC .NodeID
+LEFT JOIN COM_Lookup L with(nolock) on L.NodeID=RU.UnitStatus
+LEFT JOIN REN_ContractParticulars RCP with(nolock) on RC.ContractID =RCP.ContractID and sno=1
+
+WHERE RU.ContractID=0  
+UNION
+SELECT RP.Name Property,RU.Name Unit,UT.Name UnitType,''Vacant'' ,RUL.Name LandLord , RUC.Name Location ,isnull(L.Name,''Normal'') UStatus,RU.AnnualRent,1 Cnt
+FROM REN_Units RU WITH(NOLOCK)
+JOIN REN_Property RP WITH(NOLOCK) ON RP.NodeID=RU.PropertyID
+JOIN COM_CC50018 UT WITH(NOLOCK) ON UT.NodeID=RU.NodeID
+LEFT JOIN COM_Salesman RUL with(nolock) on RU.LandlordID=RUL.NodeID
+LEFT JOIN COM_Location RUC with(nolock) on RP.LocationID=RUC .NodeID
+LEFT JOIN COM_Lookup L with(nolock) on L.NodeID=RU.UnitStatus
+WHERE RU.UnitID>1 AND RU.ContractID=0 AND RU.IsGroup=0 AND RU.UnitID NOT IN (SELECT DISTINCT UnitID FROM REN_Contract WITH(NOLOCK) WHERE ContractID>1)  
+) a  where UnitStatus=''Expired'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:58.306 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'DECLARE @FROMDATE FLOAT
+SET @FROMDATE=FLOOR(CONVERT(FLOAT,GETDATE()))
+DECLARE @TAB TABLE (ID INT IDENTITY(1,1),ContractID BIGINT,StatusID INT,PropertyID BIGINT,UnitID BIGINT,TenantID BIGINT,StartDate FLOAT,EndDate FLOAT)
+INSERT INTO @TAB
+SELECT RC.ContractID,RC.StatusID,RC.PropertyID,RC.UnitID,RC.TenantID,RC.StartDate,
+CASE WHEN RC.StatusID=428 THEN RC.TerminationDate WHEN RC.StatusID=450 THEN ISNULL(RC.RefundDate,RC.VacancyDate) ELSE RC.EndDate END EndDate
+FROM REN_Contract RC WITH(NOLOCK)
+WHERE RC.ContractID>1 AND RC.CostCenterID=95 AND RC.StartDate<=@FROMDATE
+
+select * from (
+SELECT RP.Name Property,RU.Name Unit,UT.Name Type
+,CASE WHEN RC.StatusID=428 OR RC.StatusID=450 THEN ''Vacant'' WHEN RC.EndDate <= @FROMDATE THEN ''Expired'' ELSE ''Occupied''  END UnitStatus 
+,RUL.Name LandLord , RUC.Name Location,isnull(L.Name,''Normal'') UStatus,RCP.Amount ,1 Cnt
+FROM @TAB RC
+JOIN (SELECT UnitID ,MAX(StartDate) StartDate FROM @TAB GROUP BY UnitID) AS T2 ON T2.UnitID=RC.UnitID AND T2.StartDate=RC.StartDate
+JOIN REN_Units RU WITH(NOLOCK) ON RU.UnitID=RC.UnitID
+JOIN REN_Property RP WITH(NOLOCK) ON RP.NodeID=RC.PropertyID
+JOIN COM_CC50018 UT WITH(NOLOCK) ON UT.NodeID=RU.NodeID
+LEFT JOIN COM_Salesman RUL with(nolock) on RU.LandlordID=RUL.NodeID
+LEFT JOIN COM_Location RUC with(nolock) on RP.LocationID=RUC .NodeID
+LEFT JOIN COM_Lookup L with(nolock) on L.NodeID=RU.UnitStatus
+LEFT JOIN REN_ContractParticulars RCP with(nolock) on RC.ContractID =RCP.ContractID and sno=1
+
+WHERE RU.ContractID=0  
+UNION
+SELECT RP.Name Property,RU.Name Unit,UT.Name UnitType,''Vacant'' ,RUL.Name LandLord , RUC.Name Location ,isnull(L.Name,''Normal'') UStatus,RU.AnnualRent,1 Cnt
+FROM REN_Units RU WITH(NOLOCK)
+JOIN REN_Property RP WITH(NOLOCK) ON RP.NodeID=RU.PropertyID
+JOIN COM_CC50018 UT WITH(NOLOCK) ON UT.NodeID=RU.NodeID
+LEFT JOIN COM_Salesman RUL with(nolock) on RU.LandlordID=RUL.NodeID
+LEFT JOIN COM_Location RUC with(nolock) on RP.LocationID=RUC .NodeID
+LEFT JOIN COM_Lookup L with(nolock) on L.NodeID=RU.UnitStatus
+WHERE RU.UnitID>1 AND RU.ContractID=0 AND RU.IsGroup=0 AND RU.UnitID NOT IN (SELECT DISTINCT UnitID FROM REN_Contract WITH(NOLOCK) WHERE ContractID>1)  
+) a where UnitStatus=''Occupied'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:58.306 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:58.306 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:58.321 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'SELECT StaticReportType FROM ADM_RevenUReports WITH(NOLOCK) WHERE ReportID=60587'
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:58.321 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:58.368 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'DECLARE @FROMDATE FLOAT
+SET @FROMDATE=FLOOR(CONVERT(FLOAT,GETDATE()))
+DECLARE @TAB TABLE (ID INT IDENTITY(1,1),ContractID BIGINT,StatusID INT,PropertyID BIGINT,UnitID BIGINT,TenantID BIGINT,StartDate FLOAT,EndDate FLOAT)
+INSERT INTO @TAB
+SELECT RC.ContractID,RC.StatusID,RC.PropertyID,RC.UnitID,RC.TenantID,RC.StartDate,
+CASE WHEN RC.StatusID=428 THEN RC.TerminationDate WHEN RC.StatusID=450 THEN ISNULL(RC.RefundDate,RC.VacancyDate) ELSE RC.EndDate END EndDate
+FROM REN_Contract RC WITH(NOLOCK)
+WHERE RC.ContractID>1 AND RC.CostCenterID=95 AND RC.StartDate<=@FROMDATE
+
+select * from (
+SELECT RP.Name Property,RU.Name Unit,UT.Name Type
+,CASE WHEN RC.StatusID=428 OR RC.StatusID=450 THEN ''Vacant'' WHEN RC.EndDate <= @FROMDATE THEN ''Expired'' ELSE ''Occupied''  END UnitStatus 
+,RUL.Name LandLord , RUC.Name Location,isnull(L.Name,''Normal'') UStatus,RCP.Amount ,1 Cnt
+FROM @TAB RC
+JOIN (SELECT UnitID ,MAX(StartDate) StartDate FROM @TAB GROUP BY UnitID) AS T2 ON T2.UnitID=RC.UnitID AND T2.StartDate=RC.StartDate
+JOIN REN_Units RU WITH(NOLOCK) ON RU.UnitID=RC.UnitID
+JOIN REN_Property RP WITH(NOLOCK) ON RP.NodeID=RC.PropertyID
+JOIN COM_CC50018 UT WITH(NOLOCK) ON UT.NodeID=RU.NodeID
+LEFT JOIN COM_Salesman RUL with(nolock) on RU.LandlordID=RUL.NodeID
+LEFT JOIN COM_Location RUC with(nolock) on RP.LocationID=RUC .NodeID
+LEFT JOIN COM_Lookup L with(nolock) on L.NodeID=RU.UnitStatus
+LEFT JOIN REN_ContractParticulars RCP with(nolock) on RC.ContractID =RCP.ContractID and sno=1
+
+WHERE RU.ContractID=0  
+UNION
+SELECT RP.Name Property,RU.Name Unit,UT.Name UnitType,''Vacant'' ,RUL.Name LandLord , RUC.Name Location ,isnull(L.Name,''Normal'') UStatus,RU.AnnualRent,1 Cnt
+FROM REN_Units RU WITH(NOLOCK)
+JOIN REN_Property RP WITH(NOLOCK) ON RP.NodeID=RU.PropertyID
+JOIN COM_CC50018 UT WITH(NOLOCK) ON UT.NodeID=RU.NodeID
+LEFT JOIN COM_Salesman RUL with(nolock) on RU.LandlordID=RUL.NodeID
+LEFT JOIN COM_Location RUC with(nolock) on RP.LocationID=RUC .NodeID
+LEFT JOIN COM_Lookup L with(nolock) on L.NodeID=RU.UnitStatus
+WHERE RU.UnitID>1 AND RU.ContractID=0 AND RU.IsGroup=0 AND RU.UnitID NOT IN (SELECT DISTINCT UnitID FROM REN_Contract WITH(NOLOCK) WHERE ContractID>1)  
+) a --where UStatus like ''%Hold%'' 
+'
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:58.368 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'DECLARE @FROMDATE FLOAT
+SET @FROMDATE=FLOOR(CONVERT(FLOAT,GETDATE()))
+DECLARE @TAB TABLE (ID INT IDENTITY(1,1),ContractID BIGINT,StatusID INT,PropertyID BIGINT,UnitID BIGINT,TenantID BIGINT,StartDate FLOAT,EndDate FLOAT)
+INSERT INTO @TAB
+SELECT RC.ContractID,RC.StatusID,RC.PropertyID,RC.UnitID,RC.TenantID,RC.StartDate,
+CASE WHEN RC.StatusID=428 THEN RC.TerminationDate WHEN RC.StatusID=450 THEN ISNULL(RC.RefundDate,RC.VacancyDate) ELSE RC.EndDate END EndDate
+FROM REN_Contract RC WITH(NOLOCK)
+WHERE RC.ContractID>1 AND RC.CostCenterID=95 AND RC.StartDate<=@FROMDATE
+
+select * from (
+SELECT RP.Name Property,RU.Name Unit,UT.Name Type
+,CASE WHEN RC.StatusID=428 OR RC.StatusID=450 THEN ''Vacant'' WHEN RC.EndDate <= @FROMDATE THEN ''Expired'' ELSE ''Occupied''  END UnitStatus 
+,RUL.Name LandLord , RUC.Name Location,isnull(L.Name,''Normal'') UStatus,RCP.Amount ,1 Cnt
+FROM @TAB RC
+JOIN (SELECT UnitID ,MAX(StartDate) StartDate FROM @TAB GROUP BY UnitID) AS T2 ON T2.UnitID=RC.UnitID AND T2.StartDate=RC.StartDate
+JOIN REN_Units RU WITH(NOLOCK) ON RU.UnitID=RC.UnitID
+JOIN REN_Property RP WITH(NOLOCK) ON RP.NodeID=RC.PropertyID
+JOIN COM_CC50018 UT WITH(NOLOCK) ON UT.NodeID=RU.NodeID
+LEFT JOIN COM_Salesman RUL with(nolock) on RU.LandlordID=RUL.NodeID
+LEFT JOIN COM_Location RUC with(nolock) on RP.LocationID=RUC .NodeID
+LEFT JOIN COM_Lookup L with(nolock) on L.NodeID=RU.UnitStatus
+LEFT JOIN REN_ContractParticulars RCP with(nolock) on RC.ContractID =RCP.ContractID and sno=1
+
+WHERE RU.ContractID=0  
+UNION
+SELECT RP.Name Property,RU.Name Unit,UT.Name UnitType,''Vacant'' ,RUL.Name LandLord , RUC.Name Location ,isnull(L.Name,''Normal'') UStatus,RU.AnnualRent,1 Cnt
+FROM REN_Units RU WITH(NOLOCK)
+JOIN REN_Property RP WITH(NOLOCK) ON RP.NodeID=RU.PropertyID
+JOIN COM_CC50018 UT WITH(NOLOCK) ON UT.NodeID=RU.NodeID
+LEFT JOIN COM_Salesman RUL with(nolock) on RU.LandlordID=RUL.NodeID
+LEFT JOIN COM_Location RUC with(nolock) on RP.LocationID=RUC .NodeID
+LEFT JOIN COM_Lookup L with(nolock) on L.NodeID=RU.UnitStatus
+WHERE RU.UnitID>1 AND RU.ContractID=0 AND RU.IsGroup=0 AND RU.UnitID NOT IN (SELECT DISTINCT UnitID FROM REN_Contract WITH(NOLOCK) WHERE ContractID>1)  
+) a where UnitStatus=''Vacant''
+'
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:58.368 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'SELECT StaticReportType FROM ADM_RevenUReports WITH(NOLOCK) WHERE ReportID=60588'
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:58.368 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:58.368 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:58.368 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:58.384 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'DECLARE @FROMDATE FLOAT
+SET @FROMDATE=FLOOR(CONVERT(FLOAT,GETDATE()))
+DECLARE @TAB TABLE (ID INT IDENTITY(1,1),ContractID BIGINT,StatusID INT,PropertyID BIGINT,UnitID BIGINT,TenantID BIGINT,StartDate FLOAT,EndDate FLOAT)
+INSERT INTO @TAB
+SELECT RC.ContractID,RC.StatusID,RC.PropertyID,RC.UnitID,RC.TenantID,RC.StartDate,
+CASE WHEN RC.StatusID=428 THEN RC.TerminationDate WHEN RC.StatusID=450 THEN ISNULL(RC.RefundDate,RC.VacancyDate) ELSE RC.EndDate END EndDate
+FROM REN_Contract RC WITH(NOLOCK)
+WHERE RC.ContractID>1 AND RC.CostCenterID=95 AND RC.StartDate<=@FROMDATE
+
+select * from (
+SELECT RP.Name Property,RU.Name Unit,UT.Name Type
+,CASE WHEN RC.StatusID=428 OR RC.StatusID=450 THEN ''Vacant'' WHEN RC.EndDate <= @FROMDATE THEN ''Expired'' ELSE ''Occupied''  END UnitStatus 
+,RUL.Name LandLord , RUC.Name Location,isnull(L.Name,''Normal'') UStatus,RCP.Amount ,1 Cnt
+FROM @TAB RC
+JOIN (SELECT UnitID ,MAX(StartDate) StartDate FROM @TAB GROUP BY UnitID) AS T2 ON T2.UnitID=RC.UnitID AND T2.StartDate=RC.StartDate
+JOIN REN_Units RU WITH(NOLOCK) ON RU.UnitID=RC.UnitID
+JOIN REN_Property RP WITH(NOLOCK) ON RP.NodeID=RC.PropertyID
+JOIN COM_CC50018 UT WITH(NOLOCK) ON UT.NodeID=RU.NodeID
+LEFT JOIN COM_Salesman RUL with(nolock) on RU.LandlordID=RUL.NodeID
+LEFT JOIN COM_Location RUC with(nolock) on RP.LocationID=RUC .NodeID
+LEFT JOIN COM_Lookup L with(nolock) on L.NodeID=RU.UnitStatus
+LEFT JOIN REN_ContractParticulars RCP with(nolock) on RC.ContractID =RCP.ContractID and sno=1
+
+WHERE RU.ContractID=0  
+UNION
+SELECT RP.Name Property,RU.Name Unit,UT.Name UnitType,''Vacant'' ,RUL.Name LandLord , RUC.Name Location ,isnull(L.Name,''Normal'') UStatus,RU.AnnualRent,1 Cnt
+FROM REN_Units RU WITH(NOLOCK)
+JOIN REN_Property RP WITH(NOLOCK) ON RP.NodeID=RU.PropertyID
+JOIN COM_CC50018 UT WITH(NOLOCK) ON UT.NodeID=RU.NodeID
+LEFT JOIN COM_Salesman RUL with(nolock) on RU.LandlordID=RUL.NodeID
+LEFT JOIN COM_Location RUC with(nolock) on RP.LocationID=RUC .NodeID
+LEFT JOIN COM_Lookup L with(nolock) on L.NodeID=RU.UnitStatus
+WHERE RU.UnitID>1 AND RU.ContractID=0 AND RU.IsGroup=0 AND RU.UnitID NOT IN (SELECT DISTINCT UnitID FROM REN_Contract WITH(NOLOCK) WHERE ContractID>1)  
+) a where UStatus like ''%Case%'' 
+'
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:58.384 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:58.400 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'SELECT StaticReportType FROM ADM_RevenUReports WITH(NOLOCK) WHERE ReportID=60583'
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:58.400 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:58.431 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'SELECT StaticReportType FROM ADM_RevenUReports WITH(NOLOCK) WHERE ReportID=60584'
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:58.431 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:58.446 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'SELECT StaticReportType FROM ADM_RevenUReports WITH(NOLOCK) WHERE ReportID=60585'
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:58.446 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:58.446 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'DECLARE @FROMDATE FLOAT
+SET @FROMDATE=FLOOR(CONVERT(FLOAT,GETDATE()))
+DECLARE @TAB TABLE (ID INT IDENTITY(1,1),ContractID BIGINT,StatusID INT,PropertyID BIGINT,UnitID BIGINT,TenantID BIGINT,StartDate FLOAT,EndDate FLOAT)
+INSERT INTO @TAB
+SELECT RC.ContractID,RC.StatusID,RC.PropertyID,RC.UnitID,RC.TenantID,RC.StartDate,
+CASE WHEN RC.StatusID=428 THEN RC.TerminationDate WHEN RC.StatusID=450 THEN ISNULL(RC.RefundDate,RC.VacancyDate) ELSE RC.EndDate END EndDate
+FROM REN_Contract RC WITH(NOLOCK)
+WHERE RC.ContractID>1 AND RC.CostCenterID=95 AND RC.StartDate<=@FROMDATE
+
+select * from (
+SELECT RP.Name Property,RU.Name Unit,UT.Name Type
+,CASE WHEN RC.StatusID=428 OR RC.StatusID=450 THEN ''Vacant'' WHEN RC.EndDate <= @FROMDATE THEN ''Expired'' ELSE ''Occupied''  END UnitStatus 
+,RUL.Name LandLord , RUC.Name Location,isnull(L.Name,''Normal'') UStatus,RCP.Amount ,1 Cnt
+FROM @TAB RC
+JOIN (SELECT UnitID ,MAX(StartDate) StartDate FROM @TAB GROUP BY UnitID) AS T2 ON T2.UnitID=RC.UnitID AND T2.StartDate=RC.StartDate
+JOIN REN_Units RU WITH(NOLOCK) ON RU.UnitID=RC.UnitID
+JOIN REN_Property RP WITH(NOLOCK) ON RP.NodeID=RC.PropertyID
+JOIN COM_CC50018 UT WITH(NOLOCK) ON UT.NodeID=RU.NodeID
+LEFT JOIN COM_Salesman RUL with(nolock) on RU.LandlordID=RUL.NodeID
+LEFT JOIN COM_Location RUC with(nolock) on RP.LocationID=RUC .NodeID
+LEFT JOIN COM_Lookup L with(nolock) on L.NodeID=RU.UnitStatus
+LEFT JOIN REN_ContractParticulars RCP with(nolock) on RC.ContractID =RCP.ContractID and sno=1
+
+WHERE RU.ContractID=0  
+UNION
+SELECT RP.Name Property,RU.Name Unit,UT.Name UnitType,''Vacant'' ,RUL.Name LandLord , RUC.Name Location ,isnull(L.Name,''Normal'') UStatus,RU.AnnualRent,1 Cnt
+FROM REN_Units RU WITH(NOLOCK)
+JOIN REN_Property RP WITH(NOLOCK) ON RP.NodeID=RU.PropertyID
+JOIN COM_CC50018 UT WITH(NOLOCK) ON UT.NodeID=RU.NodeID
+LEFT JOIN COM_Salesman RUL with(nolock) on RU.LandlordID=RUL.NodeID
+LEFT JOIN COM_Location RUC with(nolock) on RP.LocationID=RUC .NodeID
+LEFT JOIN COM_Lookup L with(nolock) on L.NodeID=RU.UnitStatus
+WHERE RU.UnitID>1 AND RU.ContractID=0 AND RU.IsGroup=0 AND RU.UnitID NOT IN (SELECT DISTINCT UnitID FROM REN_Contract WITH(NOLOCK) WHERE ContractID>1)  
+) a --where UStatus like ''%Hold%'' 
+'
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:58.446 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:58.462 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'DECLARE @FROMDATE FLOAT
+SET @FROMDATE=FLOOR(CONVERT(FLOAT,GETDATE()))
+DECLARE @TAB TABLE (ID INT IDENTITY(1,1),ContractID BIGINT,StatusID INT,PropertyID BIGINT,UnitID BIGINT,TenantID BIGINT,StartDate FLOAT,EndDate FLOAT)
+INSERT INTO @TAB
+SELECT RC.ContractID,RC.StatusID,RC.PropertyID,RC.UnitID,RC.TenantID,RC.StartDate,
+CASE WHEN RC.StatusID=428 THEN RC.TerminationDate WHEN RC.StatusID=450 THEN ISNULL(RC.RefundDate,RC.VacancyDate) ELSE RC.EndDate END EndDate
+FROM REN_Contract RC WITH(NOLOCK)
+WHERE RC.ContractID>1 AND RC.CostCenterID=95 AND RC.StartDate<=@FROMDATE
+
+select * from (
+SELECT RP.Name Property,RU.Name Unit,UT.Name Type
+,CASE WHEN RC.StatusID=428 OR RC.StatusID=450 THEN ''Vacant'' WHEN RC.EndDate <= @FROMDATE THEN ''Expired'' ELSE ''Occupied''  END UnitStatus 
+,RUL.Name LandLord , RUC.Name Location,isnull(L.Name,''Normal'') UStatus,RCP.Amount ,1 Cnt
+FROM @TAB RC
+JOIN (SELECT UnitID ,MAX(StartDate) StartDate FROM @TAB GROUP BY UnitID) AS T2 ON T2.UnitID=RC.UnitID AND T2.StartDate=RC.StartDate
+JOIN REN_Units RU WITH(NOLOCK) ON RU.UnitID=RC.UnitID
+JOIN REN_Property RP WITH(NOLOCK) ON RP.NodeID=RC.PropertyID
+JOIN COM_CC50018 UT WITH(NOLOCK) ON UT.NodeID=RU.NodeID
+LEFT JOIN COM_Salesman RUL with(nolock) on RU.LandlordID=RUL.NodeID
+LEFT JOIN COM_Location RUC with(nolock) on RP.LocationID=RUC .NodeID
+LEFT JOIN COM_Lookup L with(nolock) on L.NodeID=RU.UnitStatus
+LEFT JOIN REN_ContractParticulars RCP with(nolock) on RC.ContractID =RCP.ContractID and sno=1
+
+WHERE RU.ContractID=0  
+UNION
+SELECT RP.Name Property,RU.Name Unit,UT.Name UnitType,''Vacant'' ,RUL.Name LandLord , RUC.Name Location ,isnull(L.Name,''Normal'') UStatus,RU.AnnualRent,1 Cnt
+FROM REN_Units RU WITH(NOLOCK)
+JOIN REN_Property RP WITH(NOLOCK) ON RP.NodeID=RU.PropertyID
+JOIN COM_CC50018 UT WITH(NOLOCK) ON UT.NodeID=RU.NodeID
+LEFT JOIN COM_Salesman RUL with(nolock) on RU.LandlordID=RUL.NodeID
+LEFT JOIN COM_Location RUC with(nolock) on RP.LocationID=RUC .NodeID
+LEFT JOIN COM_Lookup L with(nolock) on L.NodeID=RU.UnitStatus
+WHERE RU.UnitID>1 AND RU.ContractID=0 AND RU.IsGroup=0 AND RU.UnitID NOT IN (SELECT DISTINCT UnitID FROM REN_Contract WITH(NOLOCK) WHERE ContractID>1)  
+) a where UnitStatus=''Vacant''
+'
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:58.462 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:58.462 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'DECLARE @FROMDATE FLOAT
+SET @FROMDATE=FLOOR(CONVERT(FLOAT,GETDATE()))
+DECLARE @TAB TABLE (ID INT IDENTITY(1,1),ContractID BIGINT,StatusID INT,PropertyID BIGINT,UnitID BIGINT,TenantID BIGINT,StartDate FLOAT,EndDate FLOAT)
+INSERT INTO @TAB
+SELECT RC.ContractID,RC.StatusID,RC.PropertyID,RC.UnitID,RC.TenantID,RC.StartDate,
+CASE WHEN RC.StatusID=428 THEN RC.TerminationDate WHEN RC.StatusID=450 THEN ISNULL(RC.RefundDate,RC.VacancyDate) ELSE RC.EndDate END EndDate
+FROM REN_Contract RC WITH(NOLOCK)
+WHERE RC.ContractID>1 AND RC.CostCenterID=95 AND RC.StartDate<=@FROMDATE
+
+select * from (
+SELECT RP.Name Property,RU.Name Unit,UT.Name Type
+,CASE WHEN RC.StatusID=428 OR RC.StatusID=450 THEN ''Vacant'' WHEN RC.EndDate <= @FROMDATE THEN ''Expired'' ELSE ''Occupied''  END UnitStatus 
+,RUL.Name LandLord , RUC.Name Location,isnull(L.Name,''Normal'') UStatus,RCP.Amount ,1 Cnt
+FROM @TAB RC
+JOIN (SELECT UnitID ,MAX(StartDate) StartDate FROM @TAB GROUP BY UnitID) AS T2 ON T2.UnitID=RC.UnitID AND T2.StartDate=RC.StartDate
+JOIN REN_Units RU WITH(NOLOCK) ON RU.UnitID=RC.UnitID
+JOIN REN_Property RP WITH(NOLOCK) ON RP.NodeID=RC.PropertyID
+JOIN COM_CC50018 UT WITH(NOLOCK) ON UT.NodeID=RU.NodeID
+LEFT JOIN COM_Salesman RUL with(nolock) on RU.LandlordID=RUL.NodeID
+LEFT JOIN COM_Location RUC with(nolock) on RP.LocationID=RUC .NodeID
+LEFT JOIN COM_Lookup L with(nolock) on L.NodeID=RU.UnitStatus
+LEFT JOIN REN_ContractParticulars RCP with(nolock) on RC.ContractID =RCP.ContractID and sno=1
+
+WHERE RU.ContractID=0  
+UNION
+SELECT RP.Name Property,RU.Name Unit,UT.Name UnitType,''Vacant'' ,RUL.Name LandLord , RUC.Name Location ,isnull(L.Name,''Normal'') UStatus,RU.AnnualRent,1 Cnt
+FROM REN_Units RU WITH(NOLOCK)
+JOIN REN_Property RP WITH(NOLOCK) ON RP.NodeID=RU.PropertyID
+JOIN COM_CC50018 UT WITH(NOLOCK) ON UT.NodeID=RU.NodeID
+LEFT JOIN COM_Salesman RUL with(nolock) on RU.LandlordID=RUL.NodeID
+LEFT JOIN COM_Location RUC with(nolock) on RP.LocationID=RUC .NodeID
+LEFT JOIN COM_Lookup L with(nolock) on L.NodeID=RU.UnitStatus
+WHERE RU.UnitID>1 AND RU.ContractID=0 AND RU.IsGroup=0 AND RU.UnitID NOT IN (SELECT DISTINCT UnitID FROM REN_Contract WITH(NOLOCK) WHERE ContractID>1)  
+) a where UnitStatus=''Occupied'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:58.462 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:58.478 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'SELECT StaticReportType FROM ADM_RevenUReports WITH(NOLOCK) WHERE ReportID=60586'
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:58.478 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ '/*
+DECLARE @FROMDATE FLOAT
+SET @FROMDATE=FLOOR(CONVERT(FLOAT,GETDATE()))
+DECLARE @TAB TABLE (ID INT IDENTITY(1,1),ContractID BIGINT,StatusID INT,PropertyID BIGINT,UnitID BIGINT,TenantID BIGINT,StartDate FLOAT,EndDate FLOAT)
+INSERT INTO @TAB
+SELECT RC.ContractID,RC.StatusID,RC.PropertyID,RC.UnitID,RC.TenantID,RC.StartDate,
+CASE WHEN RC.StatusID=428 THEN RC.TerminationDate WHEN RC.StatusID=450 THEN ISNULL(RC.RefundDate,RC.VacancyDate) ELSE RC.EndDate END EndDate
+FROM REN_Contract RC WITH(NOLOCK)
+WHERE RC.ContractID>1 AND RC.CostCenterID=95 AND RC.StartDate<=@FROMDATE
+
+select * from (
+SELECT RP.Name Property,RU.Name Unit,UT.Name Type
+,CASE WHEN RC.StatusID=428 OR RC.StatusID=450 THEN ''Vacant'' WHEN RC.EndDate <= @FROMDATE THEN ''Expired'' ELSE ''Occupied''  END UnitStatus 
+,RUL.Name LandLord , RUC.Name Location,isnull(L.Name,''Normal'') UStatus,RCP.Amount ,1 Cnt
+FROM @TAB RC
+JOIN (SELECT UnitID ,MAX(StartDate) StartDate FROM @TAB GROUP BY UnitID) AS T2 ON T2.UnitID=RC.UnitID AND T2.StartDate=RC.StartDate
+JOIN REN_Units RU WITH(NOLOCK) ON RU.UnitID=RC.UnitID
+JOIN REN_Property RP WITH(NOLOCK) ON RP.NodeID=RC.PropertyID
+JOIN COM_CC50018 UT WITH(NOLOCK) ON UT.NodeID=RU.NodeID
+LEFT JOIN COM_Salesman RUL with(nolock) on RU.LandlordID=RUL.NodeID
+LEFT JOIN COM_Location RUC with(nolock) on RP.LocationID=RUC .NodeID
+LEFT JOIN COM_Lookup L with(nolock) on L.NodeID=RU.UnitStatus
+LEFT JOIN REN_ContractParticulars RCP with(nolock) on RC.ContractID =RCP.ContractID and sno=1
+
+WHERE RU.ContractID=0  
+UNION
+SELECT RP.Name Property,RU.Name Unit,UT.Name UnitType,''Vacant'' ,RUL.Name LandLord , RUC.Name Location ,isnull(L.Name,''Normal'') UStatus,RU.AnnualRent,1 Cnt
+FROM REN_Units RU WITH(NOLOCK)
+JOIN REN_Property RP WITH(NOLOCK) ON RP.NodeID=RU.PropertyID
+JOIN COM_CC50018 UT WITH(NOLOCK) ON UT.NodeID=RU.NodeID
+LEFT JOIN COM_Salesman RUL with(nolock) on RU.LandlordID=RUL.NodeID
+LEFT JOIN COM_Location RUC with(nolock) on RP.LocationID=RUC .NodeID
+LEFT JOIN COM_Lookup L with(nolock) on L.NodeID=RU.UnitStatus
+WHERE RU.UnitID>1 AND RU.ContractID=0 AND RU.IsGroup=0 AND RU.UnitID NOT IN (SELECT DISTINCT UnitID FROM REN_Contract WITH(NOLOCK) WHERE ContractID>1)  
+) a where UStatus like ''%Reserve%'' 
+*/
+
+DECLARE @FROM FLOAT
+SET @FROM=FLOOR(CONVERT(FLOAT,GETDATE()))
+DECLARE @UnitID BIGINT,@StatusID BIGINT,@TotalAmount FLOAT,@I INT,@COUNT INT,@ContractID BIGINT
+DECLARE @NoofDays INT,@VacantSince DATETIME
+
+DECLARE @TAB TABLE(ID INT IDENTITY(1,1) PRIMARY KEY,UnitID BIGINT,CurrentRent FLOAT,Status NVARCHAR(10),NoofDays INT,VacantSince DATETIME,ContractID BIGINT)
+
+INSERT INTO @TAB (UnitID)
+SELECT U.UnitID
+FROM REN_Units U WITH(NOLOCK) 
+LEFT JOIN REN_Property P WITH(NOLOCK) ON P.NodeID=U.PropertyID
+LEFT JOIN COM_Lookup LK WITH(NOLOCK) ON U.UnitStatus=LK.NodeID
+WHERE U.UnitID>1 AND P.Name <> U.Name AND U.IsGroup=0 AND U.Status=424 and U.UnitStatus=306 
+-- AND P.NodeID IN (207)
+SELECT @I=1,@COUNT=COUNT(*) FROM @TAB
+WHILE(@I<=@COUNT)
+BEGIN
+	SET @StatusID=0
+	SET @TotalAmount=0
+	SET @ContractID=0
+	SELECT @UnitID=UnitID FROM @TAB WHERE ID=@I
+
+	SELECT TOP 1 @ContractID=(CASE WHEN RefContractID>0 THEN RefContractID ELSE ContractID END),@StatusID=StatusID
+	,@VacantSince=(CASE WHEN StatusID = 450 THEN ( CASE WHEN RefundDate IS NOT NULL THEN CONVERT(DATETIME,RefundDate) ELSE CONVERT(DATETIME,VacancyDate) END ) 
+			ELSE CONVERT(DATETIME,TerminationDate) END )
+	,@NoofDays=(CASE WHEN StatusID = 450 THEN (CASE WHEN RefundDate IS NOT NULL THEN DATEDIFF(DAY, CONVERT(DATETIME,RefundDate),CONVERT(DATETIME,@FROM) ) 
+			ELSE DATEDIFF(DAY, CONVERT(DATETIME,VacancyDate),CONVERT(DATETIME,@FROM) ) END )
+			ELSE DATEDIFF(DAY, CONVERT(DATETIME,TerminationDate),CONVERT(DATETIME,@FROM) ) END )  
+	FROM REN_Contract WITH(NOLOCK) WHERE StatusID<>451 AND StartDate<@FROM AND UNITID=@UnitID 
+	ORDER BY StartDate DESC,StatusID
+	
+	SELECT @TotalAmount=ISNULL(SUM(RPD.Amount),MAX(RentAmount)/(CASE WHEN MAX(RC.NoOfUnits)=0 THEN 1 ELSE MAX(RC.NoOfUnits) END)) 
+	FROM REN_Contract RC WITH(NOLOCK)
+	JOIN REN_ContractParticulars RP WITH(NOLOCK) ON RP.ContractID=RC.ContractID AND RP.Sno=1
+	LEFT JOIN REN_ContractParticularsDetail RPD WITH(NOLOCK) ON RPD.ParticularNodeID=RP.NodeID AND RPD.Unit=@UnitID 
+	AND @FROM BETWEEN ISNULL(RPD.FromDate,@FROM) AND ISNULL(RPD.ToDate,@FROM)
+	WHERE RC.ContractID=@ContractID
+	
+	IF @StatusID=427 OR @StatusID=426 OR @StatusID=466
+	BEGIN
+		UPDATE @TAB SET CurrentRent=@TotalAmount,Status=''Occupied'',NoofDays=@NoofDays,VacantSince=@VacantSince,ContractID=@ContractID WHERE ID=@I
+	END
+	ELSE IF @StatusID=440
+	BEGIN
+		UPDATE @TAB SET CurrentRent=@TotalAmount,Status=''UnAproved'',NoofDays=@NoofDays,VacantSince=@VacantSince,ContractID=@ContractID WHERE ID=@I
+	END
+	ELSE IF @StatusID=428 OR @StatusID=450
+	BEGIN 
+		IF EXISTS (SELECT * FROM REN_Quotation WITH(NOLOCK) WHERE COSTCENTERID=129 AND UNITID=@UnitID AND CONVERT(DATETIME,@FROM) BETWEEN CONVERT(DATETIME,STARTDATE) AND CONVERT(DATETIME,ENDDATE) and statusid=467 )
+			UPDATE @TAB SET CurrentRent=@TotalAmount,Status=''Reserved'',NoofDays=@NoofDays,VacantSince=@VacantSince,ContractID=@ContractID WHERE ID=@I
+		ELSE IF EXISTS (SELECT * FROM REN_Quotation WITH(NOLOCK) WHERE COSTCENTERID=103 AND UNITID=@UnitID AND CONVERT(DATETIME,@FROM) BETWEEN CONVERT(DATETIME,STARTDATE) AND CONVERT(DATETIME,ENDDATE) and statusid=426 )
+			UPDATE @TAB SET CurrentRent=@TotalAmount,Status=''Quoted'',NoofDays=@NoofDays,VacantSince=@VacantSince,ContractID=@ContractID WHERE ID=@I
+		ELSE
+			UPDATE @TAB SET CurrentRent=@TotalAmount,Status=''Vacant'',NoofDays=@NoofDays,VacantSince=@VacantSince,ContractID=@ContractID WHERE ID=@I
+	END
+	ELSE
+	BEGIN 
+		IF EXISTS (SELECT * FROM REN_Quotation WITH(NOLOCK) WHERE COSTCENTERID=129 AND UNITID=@UnitID AND CONVERT(DATETIME,@FROM) BETWEEN CONVERT(DATETIME,STARTDATE) AND CONVERT(DATETIME,ENDDATE) and statusid=467 )
+			UPDATE @TAB SET CurrentRent=@TotalAmount,Status=''Reserved'',NoofDays=@NoofDays,VacantSince=@VacantSince,ContractID=@ContractID WHERE ID=@I
+		ELSE IF EXISTS (SELECT * FROM REN_Quotation WITH(NOLOCK) WHERE COSTCENTERID=103 AND UNITID=@UnitID AND CONVERT(DATETIME,@FROM) BETWEEN CONVERT(DATETIME,STARTDATE) AND CONVERT(DATETIME,ENDDATE) and statusid=426 )
+			UPDATE @TAB SET CurrentRent=@TotalAmount,Status=''Quoted'',NoofDays=@NoofDays,VacantSince=@VacantSince,ContractID=@ContractID WHERE ID=@I
+		ELSE
+			UPDATE @TAB SET CurrentRent=@TotalAmount,Status=''Vacant'',NoofDays=@NoofDays,VacantSince=@VacantSince,ContractID=@ContractID WHERE ID=@I
+	END
+	set @I=@I+1
+END
+
+select * from (
+SELECT TEMP.*,RP.NodeID Building_ID,RP.NAME Property,TEMP.UnitID Unit_ID,RU.NAME Unit,C18.NAME UnitType,RU.UnitStatus,RU.RentableArea UnitArea,RU.RentPerSQFT UnitRate
+,RU.AnnualRent 
+,T.FirstName AS [C98c7d2679f99489e9f0e010026eeb563]
+,RUL.Name LandLord , RUC.Name Location 
+,1 Cnt
+FROM @TAB TEMP
+JOIN REN_Units RU WITH(NOLOCK) ON TEMP.UnitID=RU.UnitID
+JOIN REN_Property RP WITH(NOLOCK) ON RP.NodeID=RU.PropertyID
+LEFT JOIN COM_CC50018 C18 WITH(NOLOCK) ON C18.NodeID=RU.NodeID
+LEFT JOIN REN_Contract C WITH(NOLOCK) ON TEMP.ContractID=C.ContractID
+LEFT JOIN REN_Tenant T WITH(NOLOCK) ON T.TenantID=C.TenantID
+LEFT JOIN COM_Salesman RUL with(nolock) on RU.LandlordID=RUL.NodeID
+LEFT JOIN COM_Location RUC with(nolock) on RP.LocationID=RUC .NodeID
+
+ )a where a.Status =''Reserved''
+ order by Property,VacantSince'
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:58.478 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:58.478 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:58.493 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'SELECT StaticReportType FROM ADM_RevenUReports WITH(NOLOCK) WHERE ReportID=60587'
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:58.509 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:58.509 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'DECLARE @FROMDATE FLOAT
+SET @FROMDATE=FLOOR(CONVERT(FLOAT,GETDATE()))
+DECLARE @TAB TABLE (ID INT IDENTITY(1,1),ContractID BIGINT,StatusID INT,PropertyID BIGINT,UnitID BIGINT,TenantID BIGINT,StartDate FLOAT,EndDate FLOAT)
+INSERT INTO @TAB
+SELECT RC.ContractID,RC.StatusID,RC.PropertyID,RC.UnitID,RC.TenantID,RC.StartDate,
+CASE WHEN RC.StatusID=428 THEN RC.TerminationDate WHEN RC.StatusID=450 THEN ISNULL(RC.RefundDate,RC.VacancyDate) ELSE RC.EndDate END EndDate
+FROM REN_Contract RC WITH(NOLOCK)
+WHERE RC.ContractID>1 AND RC.CostCenterID=95 AND RC.StartDate<=@FROMDATE
+
+select * from (
+SELECT RP.Name Property,RU.Name Unit,UT.Name Type
+,CASE WHEN RC.StatusID=428 OR RC.StatusID=450 THEN ''Vacant'' WHEN RC.EndDate <= @FROMDATE THEN ''Expired'' ELSE ''Occupied''  END UnitStatus 
+,RUL.Name LandLord , RUC.Name Location,isnull(L.Name,''Normal'') UStatus,RCP.Amount ,1 Cnt
+FROM @TAB RC
+JOIN (SELECT UnitID ,MAX(StartDate) StartDate FROM @TAB GROUP BY UnitID) AS T2 ON T2.UnitID=RC.UnitID AND T2.StartDate=RC.StartDate
+JOIN REN_Units RU WITH(NOLOCK) ON RU.UnitID=RC.UnitID
+JOIN REN_Property RP WITH(NOLOCK) ON RP.NodeID=RC.PropertyID
+JOIN COM_CC50018 UT WITH(NOLOCK) ON UT.NodeID=RU.NodeID
+LEFT JOIN COM_Salesman RUL with(nolock) on RU.LandlordID=RUL.NodeID
+LEFT JOIN COM_Location RUC with(nolock) on RP.LocationID=RUC .NodeID
+LEFT JOIN COM_Lookup L with(nolock) on L.NodeID=RU.UnitStatus
+LEFT JOIN REN_ContractParticulars RCP with(nolock) on RC.ContractID =RCP.ContractID and sno=1
+
+WHERE RU.ContractID=0  
+UNION
+SELECT RP.Name Property,RU.Name Unit,UT.Name UnitType,''Vacant'' ,RUL.Name LandLord , RUC.Name Location ,isnull(L.Name,''Normal'') UStatus,RU.AnnualRent,1 Cnt
+FROM REN_Units RU WITH(NOLOCK)
+JOIN REN_Property RP WITH(NOLOCK) ON RP.NodeID=RU.PropertyID
+JOIN COM_CC50018 UT WITH(NOLOCK) ON UT.NodeID=RU.NodeID
+LEFT JOIN COM_Salesman RUL with(nolock) on RU.LandlordID=RUL.NodeID
+LEFT JOIN COM_Location RUC with(nolock) on RP.LocationID=RUC .NodeID
+LEFT JOIN COM_Lookup L with(nolock) on L.NodeID=RU.UnitStatus
+WHERE RU.UnitID>1 AND RU.ContractID=0 AND RU.IsGroup=0 AND RU.UnitID NOT IN (SELECT DISTINCT UnitID FROM REN_Contract WITH(NOLOCK) WHERE ContractID>1)  
+) a  where UnitStatus=''Expired'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:58.509 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:58.509 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'SELECT StaticReportType FROM ADM_RevenUReports WITH(NOLOCK) WHERE ReportID=60588'
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:58.525 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:58.525 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'DECLARE @FROMDATE FLOAT
+SET @FROMDATE=FLOOR(CONVERT(FLOAT,GETDATE()))
+DECLARE @TAB TABLE (ID INT IDENTITY(1,1),ContractID BIGINT,StatusID INT,PropertyID BIGINT,UnitID BIGINT,TenantID BIGINT,StartDate FLOAT,EndDate FLOAT)
+INSERT INTO @TAB
+SELECT RC.ContractID,RC.StatusID,RC.PropertyID,RC.UnitID,RC.TenantID,RC.StartDate,
+CASE WHEN RC.StatusID=428 THEN RC.TerminationDate WHEN RC.StatusID=450 THEN ISNULL(RC.RefundDate,RC.VacancyDate) ELSE RC.EndDate END EndDate
+FROM REN_Contract RC WITH(NOLOCK)
+WHERE RC.ContractID>1 AND RC.CostCenterID=95 AND RC.StartDate<=@FROMDATE
+
+select * from (
+SELECT RP.Name Property,RU.Name Unit,UT.Name Type
+,CASE WHEN RC.StatusID=428 OR RC.StatusID=450 THEN ''Vacant'' WHEN RC.EndDate <= @FROMDATE THEN ''Expired'' ELSE ''Occupied''  END UnitStatus 
+,RUL.Name LandLord , RUC.Name Location,isnull(L.Name,''Normal'') UStatus,RCP.Amount ,1 Cnt
+FROM @TAB RC
+JOIN (SELECT UnitID ,MAX(StartDate) StartDate FROM @TAB GROUP BY UnitID) AS T2 ON T2.UnitID=RC.UnitID AND T2.StartDate=RC.StartDate
+JOIN REN_Units RU WITH(NOLOCK) ON RU.UnitID=RC.UnitID
+JOIN REN_Property RP WITH(NOLOCK) ON RP.NodeID=RC.PropertyID
+JOIN COM_CC50018 UT WITH(NOLOCK) ON UT.NodeID=RU.NodeID
+LEFT JOIN COM_Salesman RUL with(nolock) on RU.LandlordID=RUL.NodeID
+LEFT JOIN COM_Location RUC with(nolock) on RP.LocationID=RUC .NodeID
+LEFT JOIN COM_Lookup L with(nolock) on L.NodeID=RU.UnitStatus
+LEFT JOIN REN_ContractParticulars RCP with(nolock) on RC.ContractID =RCP.ContractID and sno=1
+
+WHERE RU.ContractID=0  
+UNION
+SELECT RP.Name Property,RU.Name Unit,UT.Name UnitType,''Vacant'' ,RUL.Name LandLord , RUC.Name Location ,isnull(L.Name,''Normal'') UStatus,RU.AnnualRent,1 Cnt
+FROM REN_Units RU WITH(NOLOCK)
+JOIN REN_Property RP WITH(NOLOCK) ON RP.NodeID=RU.PropertyID
+JOIN COM_CC50018 UT WITH(NOLOCK) ON UT.NodeID=RU.NodeID
+LEFT JOIN COM_Salesman RUL with(nolock) on RU.LandlordID=RUL.NodeID
+LEFT JOIN COM_Location RUC with(nolock) on RP.LocationID=RUC .NodeID
+LEFT JOIN COM_Lookup L with(nolock) on L.NodeID=RU.UnitStatus
+WHERE RU.UnitID>1 AND RU.ContractID=0 AND RU.IsGroup=0 AND RU.UnitID NOT IN (SELECT DISTINCT UnitID FROM REN_Contract WITH(NOLOCK) WHERE ContractID>1)  
+) a where UStatus like ''%Case%'' 
+'
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:58.525 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:58.572 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ '/*
+DECLARE @FROMDATE FLOAT
+SET @FROMDATE=FLOOR(CONVERT(FLOAT,GETDATE()))
+DECLARE @TAB TABLE (ID INT IDENTITY(1,1),ContractID BIGINT,StatusID INT,PropertyID BIGINT,UnitID BIGINT,TenantID BIGINT,StartDate FLOAT,EndDate FLOAT)
+INSERT INTO @TAB
+SELECT RC.ContractID,RC.StatusID,RC.PropertyID,RC.UnitID,RC.TenantID,RC.StartDate,
+CASE WHEN RC.StatusID=428 THEN RC.TerminationDate WHEN RC.StatusID=450 THEN ISNULL(RC.RefundDate,RC.VacancyDate) ELSE RC.EndDate END EndDate
+FROM REN_Contract RC WITH(NOLOCK)
+WHERE RC.ContractID>1 AND RC.CostCenterID=95 AND RC.StartDate<=@FROMDATE
+
+select * from (
+SELECT RP.Name Property,RU.Name Unit,UT.Name Type
+,CASE WHEN RC.StatusID=428 OR RC.StatusID=450 THEN ''Vacant'' WHEN RC.EndDate <= @FROMDATE THEN ''Expired'' ELSE ''Occupied''  END UnitStatus 
+,RUL.Name LandLord , RUC.Name Location,isnull(L.Name,''Normal'') UStatus,RCP.Amount ,1 Cnt
+FROM @TAB RC
+JOIN (SELECT UnitID ,MAX(StartDate) StartDate FROM @TAB GROUP BY UnitID) AS T2 ON T2.UnitID=RC.UnitID AND T2.StartDate=RC.StartDate
+JOIN REN_Units RU WITH(NOLOCK) ON RU.UnitID=RC.UnitID
+JOIN REN_Property RP WITH(NOLOCK) ON RP.NodeID=RC.PropertyID
+JOIN COM_CC50018 UT WITH(NOLOCK) ON UT.NodeID=RU.NodeID
+LEFT JOIN COM_Salesman RUL with(nolock) on RU.LandlordID=RUL.NodeID
+LEFT JOIN COM_Location RUC with(nolock) on RP.LocationID=RUC .NodeID
+LEFT JOIN COM_Lookup L with(nolock) on L.NodeID=RU.UnitStatus
+LEFT JOIN REN_ContractParticulars RCP with(nolock) on RC.ContractID =RCP.ContractID and sno=1
+
+WHERE RU.ContractID=0  
+UNION
+SELECT RP.Name Property,RU.Name Unit,UT.Name UnitType,''Vacant'' ,RUL.Name LandLord , RUC.Name Location ,isnull(L.Name,''Normal'') UStatus,RU.AnnualRent,1 Cnt
+FROM REN_Units RU WITH(NOLOCK)
+JOIN REN_Property RP WITH(NOLOCK) ON RP.NodeID=RU.PropertyID
+JOIN COM_CC50018 UT WITH(NOLOCK) ON UT.NodeID=RU.NodeID
+LEFT JOIN COM_Salesman RUL with(nolock) on RU.LandlordID=RUL.NodeID
+LEFT JOIN COM_Location RUC with(nolock) on RP.LocationID=RUC .NodeID
+LEFT JOIN COM_Lookup L with(nolock) on L.NodeID=RU.UnitStatus
+WHERE RU.UnitID>1 AND RU.ContractID=0 AND RU.IsGroup=0 AND RU.UnitID NOT IN (SELECT DISTINCT UnitID FROM REN_Contract WITH(NOLOCK) WHERE ContractID>1)  
+) a where UStatus like ''%Reserve%'' 
+*/
+
+DECLARE @FROM FLOAT
+SET @FROM=FLOOR(CONVERT(FLOAT,GETDATE()))
+DECLARE @UnitID BIGINT,@StatusID BIGINT,@TotalAmount FLOAT,@I INT,@COUNT INT,@ContractID BIGINT
+DECLARE @NoofDays INT,@VacantSince DATETIME
+
+DECLARE @TAB TABLE(ID INT IDENTITY(1,1) PRIMARY KEY,UnitID BIGINT,CurrentRent FLOAT,Status NVARCHAR(10),NoofDays INT,VacantSince DATETIME,ContractID BIGINT)
+
+INSERT INTO @TAB (UnitID)
+SELECT U.UnitID
+FROM REN_Units U WITH(NOLOCK) 
+LEFT JOIN REN_Property P WITH(NOLOCK) ON P.NodeID=U.PropertyID
+LEFT JOIN COM_Lookup LK WITH(NOLOCK) ON U.UnitStatus=LK.NodeID
+WHERE U.UnitID>1 AND P.Name <> U.Name AND U.IsGroup=0 AND U.Status=424 and U.UnitStatus=306 
+-- AND P.NodeID IN (207)
+SELECT @I=1,@COUNT=COUNT(*) FROM @TAB
+WHILE(@I<=@COUNT)
+BEGIN
+	SET @StatusID=0
+	SET @TotalAmount=0
+	SET @ContractID=0
+	SELECT @UnitID=UnitID FROM @TAB WHERE ID=@I
+
+	SELECT TOP 1 @ContractID=(CASE WHEN RefContractID>0 THEN RefContractID ELSE ContractID END),@StatusID=StatusID
+	,@VacantSince=(CASE WHEN StatusID = 450 THEN ( CASE WHEN RefundDate IS NOT NULL THEN CONVERT(DATETIME,RefundDate) ELSE CONVERT(DATETIME,VacancyDate) END ) 
+			ELSE CONVERT(DATETIME,TerminationDate) END )
+	,@NoofDays=(CASE WHEN StatusID = 450 THEN (CASE WHEN RefundDate IS NOT NULL THEN DATEDIFF(DAY, CONVERT(DATETIME,RefundDate),CONVERT(DATETIME,@FROM) ) 
+			ELSE DATEDIFF(DAY, CONVERT(DATETIME,VacancyDate),CONVERT(DATETIME,@FROM) ) END )
+			ELSE DATEDIFF(DAY, CONVERT(DATETIME,TerminationDate),CONVERT(DATETIME,@FROM) ) END )  
+	FROM REN_Contract WITH(NOLOCK) WHERE StatusID<>451 AND StartDate<@FROM AND UNITID=@UnitID 
+	ORDER BY StartDate DESC,StatusID
+	
+	SELECT @TotalAmount=ISNULL(SUM(RPD.Amount),MAX(RentAmount)/(CASE WHEN MAX(RC.NoOfUnits)=0 THEN 1 ELSE MAX(RC.NoOfUnits) END)) 
+	FROM REN_Contract RC WITH(NOLOCK)
+	JOIN REN_ContractParticulars RP WITH(NOLOCK) ON RP.ContractID=RC.ContractID AND RP.Sno=1
+	LEFT JOIN REN_ContractParticularsDetail RPD WITH(NOLOCK) ON RPD.ParticularNodeID=RP.NodeID AND RPD.Unit=@UnitID 
+	AND @FROM BETWEEN ISNULL(RPD.FromDate,@FROM) AND ISNULL(RPD.ToDate,@FROM)
+	WHERE RC.ContractID=@ContractID
+	
+	IF @StatusID=427 OR @StatusID=426 OR @StatusID=466
+	BEGIN
+		UPDATE @TAB SET CurrentRent=@TotalAmount,Status=''Occupied'',NoofDays=@NoofDays,VacantSince=@VacantSince,ContractID=@ContractID WHERE ID=@I
+	END
+	ELSE IF @StatusID=440
+	BEGIN
+		UPDATE @TAB SET CurrentRent=@TotalAmount,Status=''UnAproved'',NoofDays=@NoofDays,VacantSince=@VacantSince,ContractID=@ContractID WHERE ID=@I
+	END
+	ELSE IF @StatusID=428 OR @StatusID=450
+	BEGIN 
+		IF EXISTS (SELECT * FROM REN_Quotation WITH(NOLOCK) WHERE COSTCENTERID=129 AND UNITID=@UnitID AND CONVERT(DATETIME,@FROM) BETWEEN CONVERT(DATETIME,STARTDATE) AND CONVERT(DATETIME,ENDDATE) and statusid=467 )
+			UPDATE @TAB SET CurrentRent=@TotalAmount,Status=''Reserved'',NoofDays=@NoofDays,VacantSince=@VacantSince,ContractID=@ContractID WHERE ID=@I
+		ELSE IF EXISTS (SELECT * FROM REN_Quotation WITH(NOLOCK) WHERE COSTCENTERID=103 AND UNITID=@UnitID AND CONVERT(DATETIME,@FROM) BETWEEN CONVERT(DATETIME,STARTDATE) AND CONVERT(DATETIME,ENDDATE) and statusid=426 )
+			UPDATE @TAB SET CurrentRent=@TotalAmount,Status=''Quoted'',NoofDays=@NoofDays,VacantSince=@VacantSince,ContractID=@ContractID WHERE ID=@I
+		ELSE
+			UPDATE @TAB SET CurrentRent=@TotalAmount,Status=''Vacant'',NoofDays=@NoofDays,VacantSince=@VacantSince,ContractID=@ContractID WHERE ID=@I
+	END
+	ELSE
+	BEGIN 
+		IF EXISTS (SELECT * FROM REN_Quotation WITH(NOLOCK) WHERE COSTCENTERID=129 AND UNITID=@UnitID AND CONVERT(DATETIME,@FROM) BETWEEN CONVERT(DATETIME,STARTDATE) AND CONVERT(DATETIME,ENDDATE) and statusid=467 )
+			UPDATE @TAB SET CurrentRent=@TotalAmount,Status=''Reserved'',NoofDays=@NoofDays,VacantSince=@VacantSince,ContractID=@ContractID WHERE ID=@I
+		ELSE IF EXISTS (SELECT * FROM REN_Quotation WITH(NOLOCK) WHERE COSTCENTERID=103 AND UNITID=@UnitID AND CONVERT(DATETIME,@FROM) BETWEEN CONVERT(DATETIME,STARTDATE) AND CONVERT(DATETIME,ENDDATE) and statusid=426 )
+			UPDATE @TAB SET CurrentRent=@TotalAmount,Status=''Quoted'',NoofDays=@NoofDays,VacantSince=@VacantSince,ContractID=@ContractID WHERE ID=@I
+		ELSE
+			UPDATE @TAB SET CurrentRent=@TotalAmount,Status=''Vacant'',NoofDays=@NoofDays,VacantSince=@VacantSince,ContractID=@ContractID WHERE ID=@I
+	END
+	set @I=@I+1
+END
+
+select * from (
+SELECT TEMP.*,RP.NodeID Building_ID,RP.NAME Property,TEMP.UnitID Unit_ID,RU.NAME Unit,C18.NAME UnitType,RU.UnitStatus,RU.RentableArea UnitArea,RU.RentPerSQFT UnitRate
+,RU.AnnualRent 
+,T.FirstName AS [C98c7d2679f99489e9f0e010026eeb563]
+,RUL.Name LandLord , RUC.Name Location 
+,1 Cnt
+FROM @TAB TEMP
+JOIN REN_Units RU WITH(NOLOCK) ON TEMP.UnitID=RU.UnitID
+JOIN REN_Property RP WITH(NOLOCK) ON RP.NodeID=RU.PropertyID
+LEFT JOIN COM_CC50018 C18 WITH(NOLOCK) ON C18.NodeID=RU.NodeID
+LEFT JOIN REN_Contract C WITH(NOLOCK) ON TEMP.ContractID=C.ContractID
+LEFT JOIN REN_Tenant T WITH(NOLOCK) ON T.TenantID=C.TenantID
+LEFT JOIN COM_Salesman RUL with(nolock) on RU.LandlordID=RUL.NodeID
+LEFT JOIN COM_Location RUC with(nolock) on RP.LocationID=RUC .NodeID
+
+ )a where a.Status =''Reserved''
+ order by Property,VacantSince'
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:17:58.572 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:18:05.804 | General Service|:: CompanyIndex:53 SpName: spDOC_GetDocumentDefinition 
+ 41018
+ ,NULL
+ ,NULL
+ ,''
+ ,1
+ ,'admin'
+ ,1
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:18:05.804 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:18:06.007 | General Service|:: CompanyIndex:53 SpName: spDOC_GetCurrentCodeNumber 
+ 41018
+ ,'25/'
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:18:06.007 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:18:14.974 | General Service|:: CompanyIndex:53 SpName: spDOC_GetInvDocument 
+ 41018
+ ,'25/'
+ ,'162'
+ ,'1'
+ ,0
+ ,NULL
+ ,1
+ ,1
+ ,'admin'
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:18:14.974 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:18:16.196 | General Service|:: CompanyIndex:53 SpName: spADM_GetListViewDataByIDs 
+ '<XML><Row CCID="2"  TypeID="10"  DBColumnID="562905"  NodeID="184" /><Row CCID="2"  TypeID="100"  DBColumnID="562905"  NodeID="184" /><Row CCID="2"  TypeID="10"  DBColumnID="563042"  NodeID="192" /><Row CCID="2"  TypeID="100"  DBColumnID="563042"  NodeID="192" /><Row CCID="50005"  TypeID="1"  DBColumnID="562995"  NodeID="1" /><Row CCID="50009"  TypeID="3"  DBColumnID="562999"  NodeID="1" /><Row CCID="50020"  TypeID="1"  DBColumnID="563010"  NodeID="1" /><Row CCID="50011"  TypeID="3"  DBColumnID="563001"  NodeID="1" /><Row CCID="50058"  TypeID="1"  DBColumnID="583438"  NodeID="1" /><Row CCID="50059"  TypeID="1"  DBColumnID="583490"  NodeID="1" /><Row CCID="50062"  TypeID="1"  DBColumnID="583646"  NodeID="1" /><Row CCID="50061"  TypeID="11"  DBColumnID="583594"  NodeID="16" /><Row CCID="50010"  TypeID="3"  DBColumnID="563000"  NodeID="1" /><Row CCID="50018"  TypeID="1"  DBColumnID="563008"  NodeID="1" /><Row CCID="50060"  TypeID="1"  DBColumnID="583542"  NodeID="3" /></XML>'
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:18:16.196 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:18:22.765 | General Service|:: CompanyIndex:53 SpName: spADM_GetPrintLayouts 
+ 1
+ ,41018
+ ,0
+ ,0
+ ,'1'
+ ,'1'
+ ,110961
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:18:22.781 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:18:34.346 | General Service|:: CompanyIndex:0 SpName: spADM_GetClientUserDetails2C 
+ 'admin'
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:18:34.377 | General Service|:: CompanyIndex:53 SpName: spADM_GetClientUserDetails 
+ 'admin'
+ ,1
+ ,'26.1.9'
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:18:35.955 | General Service|:: CompanyIndex:53 SpName: spADM_GetGlobalPreferences 
+ 1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:18:36.033 | General Service|:: CompanyIndex:53 SpName: spADM_GetPrintLayout 
+ 41018
+ ,0
+ ,500052
+ ,1
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:18:36.236 | General Service|:: CompanyIndex:53 SpName: spADM_GetPrintLayouts 
+ 1
+ ,41018
+ ,0
+ ,0
+ ,1
+ ,1
+ ,110961
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:18:36.345 | General Service|:: CompanyIndex:53 SpName: spADM_GetPrintLayouts 
+ 2
+ ,41018
+ ,0
+ ,'500052'
+ ,1
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:18:41.954 | General Service|:: CompanyIndex:53 SpName: spDOC_GetVPTDocumentsData 
+ 41018
+ ,110961
+ ,NULL
+ ,'SELECT CC10.NodeID [CC10NodeID],CC10.Name [C2],CC7.NodeID [CC7NodeID],CC7.Name [C10],CC9.NodeID [CC9NodeID],CC9.Name [C11],CC16.NodeID [CC16NodeID],CC16.Name [C12] FROM INV_DocDetails LEFT JOIN COM_DocCCData with(nolock) ON D.InvDocDetailsID=COM_DocCCData.InvDocDetailsID LEFT JOIN COM_CC50010 AS CC10 with(nolock) ON CC10.NodeID=COM_DocCCData.dcCCNID10 LEFT JOIN COM_Area AS CC7 with(nolock) ON CC7.NodeID=COM_DocCCData.dcCCNID7 LEFT JOIN COM_CC50009 AS CC9 with(nolock) ON CC9.NodeID=COM_DocCCData.dcCCNID9 LEFT JOIN COM_CC50016 AS CC16 with(nolock) ON CC16.NodeID=COM_DocCCData.dcCCNID16'
+ ,0
+ ,0
+ ,0
+ ,True
+ ,-1
+ ,''
+ ,1
+ ,'admin'
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:18:43.953 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'SELECT CurrencyID,[Name],[Symbol],[Change] FROM [COM_Currency] with(nolock) ORDER BY IsBaseCurrency DESC'
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:18:44.906 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'declare @UserID int,@RoleID int,@UserName NVARCHAR(100),@where nvarchar(max),@query nvarchar(max)
+set @UserID=1
+set @RoleID=1-- Employee:-1
+SELECT @UserName=UserName From ADM_Users WITH(NOLOCK) WHERE UserID=@UserID
+exec [fnGet_GetAssignedDims] @UserID,@RoleID,@where output
+ create table #TblUsrWF(WID int,LevelID int,Type int,CtWef float,LvWef int)
+EXEC spRPT_GetReportData @Type=8,@Param1=@UserID,@strXML=null,@RoleID=@RoleID set @query=''  SELECT DT.CostCenterID,DT.DocumentName,DT.DocumentType,DT.IsInventory,count(*) CNT
+FROM (
+ SELECT INV.CostCenterID
+FROM INV_DocDetails INV with(nolock)''
+if(@where<>'''')
+	set @query=@query+'' join com_docccdata d with(nolock) on INV.INVDocDetailsid=d.INVDocDetailsid''	
+
+set @query=@query+'' ,#TblUsrWF WF
+WHERE WF.WID=INV.WorkflowID and (WF.LevelID>INV.WorkFlowLevel or (WF.LevelID+1=INV.WorkFlowLevel and INV.StatusID=372)) and (INV.StatusID=371 or INV.StatusID=372 or INV.StatusID=441) AND (WF.Type=1 or (INV.WorkFlowLevel+1=WF.LevelID and INV.StatusID!=372) or (WF.LevelID+1=INV.WorkFlowLevel and INV.StatusID=372) or (WF.CtWef is not null and INV.WorkFlowLevel>=WF.LvWef
+and INV.CreatedDate+WF.CtWef<=convert(float,getdate()))) ''+@where+''
+GROUP BY INV.CostCenterID,INV.VoucherNo
+UNION ALL
+SELECT ACC.CostCenterID
+FROM ACC_DocDetails ACC with(nolock)''
+if(@where<>'''')
+	set @query=@query+'' join com_docccdata d with(nolock) on ACC.ACCDocDetailsid=d.ACCDocDetailsid''	
+
+set @query=@query+'',#TblUsrWF WF
+WHERE ACC.LinkedAccDocDetailsID is null and ACC.InvDocDetailsID is null and WF.WID=ACC.WorkflowID and (WF.LevelID>ACC.WorkFlowLevel or (WF.LevelID+1=ACC.WorkFlowLevel and ACC.StatusID=372)) and (ACC.StatusID=371 or ACC.StatusID=372 or ACC.StatusID=441) AND (WF.Type=1 or (ACC.WorkFlowLevel+1=WF.LevelID and ACC.StatusID!=372) or (WF.LevelID+1=ACC.WorkFlowLevel and ACC.StatusID=372) or (WF.CtWef is not null and ACC.WorkFlowLevel>=WF.LvWef
+and ACC.CreatedDate+WF.CtWef<=convert(float,getdate())))''+@where+''
+GROUP BY ACC.CostCenterID,ACC.VoucherNo  ) AS T
+JOIN ADM_DocumentTypes DT with(nolock) ON T.CostCenterID=DT.CostCenterID
+GROUP BY DT.CostCenterID,DT.DocumentName,DT.DocumentType,DT.IsInventory  
+UNION ALL
+SELECT DT.FeatureID CostCenterID,DT.Name DocumentName,-DT.FeatureID DocumentType,0 IsInventory,count(*) CNT
+FROM (
+SELECT INV.CostCenterID FROM REN_Contract INV WITH(NOLOCK),#TblUsrWF WF
+WHERE  WF.WID=INV.WorkflowID and WF.LevelID>INV.WorkFlowLevel and (INV.StatusID=440 or INV.StatusID=470 or INV.StatusID=466) AND (WF.Type=1 or (INV.WorkFlowLevel+1=WF.LevelID and INV.StatusID!=470)  or (WF.CtWef is not null and INV.WorkFlowLevel>=WF.LvWef
+ and INV.CreatedDate+WF.CtWef<=convert(float,getdate()))) AND INV.RefContractID=0 ) AS T
+JOIN ADM_Features DT with(nolock) ON T.CostCenterID=DT.FeatureID
+GROUP BY DT.FeatureID,DT.Name 
+ORDER BY DocumentName''
+exec(@query)
+
+DROP TABLE #TblUsrWF
+'
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:18:44.906 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:18:47.374 | General Service|:: CompanyIndex:53 SpName: spADM_GetPrintLayouts 
+ 1
+ ,41018
+ ,0
+ ,0
+ ,'1'
+ ,'1'
+ ,110961
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:18:47.390 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:18:50.998 | General Service|:: CompanyIndex:0 SpName: spADM_GetClientUserDetails2C 
+ 'admin'
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:18:51.030 | General Service|:: CompanyIndex:53 SpName: spADM_GetClientUserDetails 
+ 'admin'
+ ,1
+ ,'26.1.9'
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:18:51.061 | General Service|:: CompanyIndex:53 SpName: spADM_GetGlobalPreferences 
+ 1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:18:51.076 | General Service|:: CompanyIndex:53 SpName: spADM_GetPrintLayout 
+ 41018
+ ,0
+ ,500052
+ ,1
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:18:51.123 | General Service|:: CompanyIndex:53 SpName: spADM_GetPrintLayouts 
+ 1
+ ,41018
+ ,0
+ ,0
+ ,1
+ ,1
+ ,110961
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:18:51.139 | General Service|:: CompanyIndex:53 SpName: spADM_GetPrintLayouts 
+ 2
+ ,41018
+ ,0
+ ,'500052'
+ ,1
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:18:51.155 | General Service|:: CompanyIndex:53 SpName: spDOC_GetVPTDocumentsData 
+ 41018
+ ,110961
+ ,NULL
+ ,'SELECT CC10.NodeID [CC10NodeID],CC10.Name [C2],CC7.NodeID [CC7NodeID],CC7.Name [C10],CC9.NodeID [CC9NodeID],CC9.Name [C11],CC16.NodeID [CC16NodeID],CC16.Name [C12] FROM INV_DocDetails LEFT JOIN COM_DocCCData with(nolock) ON D.InvDocDetailsID=COM_DocCCData.InvDocDetailsID LEFT JOIN COM_CC50010 AS CC10 with(nolock) ON CC10.NodeID=COM_DocCCData.dcCCNID10 LEFT JOIN COM_Area AS CC7 with(nolock) ON CC7.NodeID=COM_DocCCData.dcCCNID7 LEFT JOIN COM_CC50009 AS CC9 with(nolock) ON CC9.NodeID=COM_DocCCData.dcCCNID9 LEFT JOIN COM_CC50016 AS CC16 with(nolock) ON CC16.NodeID=COM_DocCCData.dcCCNID16'
+ ,0
+ ,0
+ ,0
+ ,True
+ ,-1
+ ,''
+ ,1
+ ,'admin'
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:19:13.186 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:19:13.186 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:19:13.702 | General Service|:: CompanyIndex:53 SpName: spDOC_GetVPTPrintCopies 
+ 5
+ ,41018
+ ,110961
+ ,500052
+ ,1
+ ,'admin'
+ ,'admin'
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:19:13.717 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:19:13.749 | General Service|:: CompanyIndex:53 SpName: spDOC_GetVPTPrintCopies 
+ 5
+ ,41018
+ ,110961
+ ,500052
+ ,1
+ ,'admin'
+ ,'admin'
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:19:13.749 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:19:16.607 | General Service|:: CompanyIndex:53 SpName: spADM_GetPrintLayouts 
+ 1
+ ,41018
+ ,0
+ ,0
+ ,'1'
+ ,'1'
+ ,110961
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:19:16.607 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:19:22.704 | General Service|:: CompanyIndex:0 SpName: spADM_GetClientUserDetails2C 
+ 'admin'
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:19:22.719 | General Service|:: CompanyIndex:53 SpName: spADM_GetClientUserDetails 
+ 'admin'
+ ,1
+ ,'26.1.9'
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:19:22.750 | General Service|:: CompanyIndex:53 SpName: spADM_GetGlobalPreferences 
+ 1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:19:22.766 | General Service|:: CompanyIndex:53 SpName: spADM_GetPrintLayout 
+ 41018
+ ,0
+ ,500052
+ ,1
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:19:22.813 | General Service|:: CompanyIndex:53 SpName: spADM_GetPrintLayouts 
+ 1
+ ,41018
+ ,0
+ ,0
+ ,1
+ ,1
+ ,110961
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:19:22.829 | General Service|:: CompanyIndex:53 SpName: spADM_GetPrintLayouts 
+ 2
+ ,41018
+ ,0
+ ,'500052'
+ ,1
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:19:23.407 | General Service|:: CompanyIndex:53 SpName: spDOC_GetVPTDocumentsData 
+ 41018
+ ,110961
+ ,NULL
+ ,'SELECT CC10.NodeID [CC10NodeID],CC10.Name [C2],CC7.NodeID [CC7NodeID],CC7.Name [C10],CC9.NodeID [CC9NodeID],CC9.Name [C11],CC16.NodeID [CC16NodeID],CC16.Name [C12] FROM INV_DocDetails LEFT JOIN COM_DocCCData with(nolock) ON D.InvDocDetailsID=COM_DocCCData.InvDocDetailsID LEFT JOIN COM_CC50010 AS CC10 with(nolock) ON CC10.NodeID=COM_DocCCData.dcCCNID10 LEFT JOIN COM_Area AS CC7 with(nolock) ON CC7.NodeID=COM_DocCCData.dcCCNID7 LEFT JOIN COM_CC50009 AS CC9 with(nolock) ON CC9.NodeID=COM_DocCCData.dcCCNID9 LEFT JOIN COM_CC50016 AS CC16 with(nolock) ON CC16.NodeID=COM_DocCCData.dcCCNID16'
+ ,0
+ ,0
+ ,0
+ ,True
+ ,-1
+ ,''
+ ,1
+ ,'admin'
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:19:27.179 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:19:27.226 | General Service|:: CompanyIndex:53 SpName: spDOC_GetVPTPrintCopies 
+ 5
+ ,41018
+ ,110961
+ ,500052
+ ,1
+ ,'admin'
+ ,'admin'
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:19:27.226 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:19:38.392 | General Service|:: CompanyIndex:53 SpName: spADM_GetPrintLayouts 
+ 1
+ ,41018
+ ,0
+ ,0
+ ,'1'
+ ,'1'
+ ,110961
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:19:38.392 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:19:45.044 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'declare @UserID int,@RoleID int,@UserName NVARCHAR(100),@where nvarchar(max),@query nvarchar(max)
+set @UserID=1
+set @RoleID=1-- Employee:-1
+SELECT @UserName=UserName From ADM_Users WITH(NOLOCK) WHERE UserID=@UserID
+exec [fnGet_GetAssignedDims] @UserID,@RoleID,@where output
+ create table #TblUsrWF(WID int,LevelID int,Type int,CtWef float,LvWef int)
+EXEC spRPT_GetReportData @Type=8,@Param1=@UserID,@strXML=null,@RoleID=@RoleID set @query=''  SELECT DT.CostCenterID,DT.DocumentName,DT.DocumentType,DT.IsInventory,count(*) CNT
+FROM (
+ SELECT INV.CostCenterID
+FROM INV_DocDetails INV with(nolock)''
+if(@where<>'''')
+	set @query=@query+'' join com_docccdata d with(nolock) on INV.INVDocDetailsid=d.INVDocDetailsid''	
+
+set @query=@query+'' ,#TblUsrWF WF
+WHERE WF.WID=INV.WorkflowID and (WF.LevelID>INV.WorkFlowLevel or (WF.LevelID+1=INV.WorkFlowLevel and INV.StatusID=372)) and (INV.StatusID=371 or INV.StatusID=372 or INV.StatusID=441) AND (WF.Type=1 or (INV.WorkFlowLevel+1=WF.LevelID and INV.StatusID!=372) or (WF.LevelID+1=INV.WorkFlowLevel and INV.StatusID=372) or (WF.CtWef is not null and INV.WorkFlowLevel>=WF.LvWef
+and INV.CreatedDate+WF.CtWef<=convert(float,getdate()))) ''+@where+''
+GROUP BY INV.CostCenterID,INV.VoucherNo
+UNION ALL
+SELECT ACC.CostCenterID
+FROM ACC_DocDetails ACC with(nolock)''
+if(@where<>'''')
+	set @query=@query+'' join com_docccdata d with(nolock) on ACC.ACCDocDetailsid=d.ACCDocDetailsid''	
+
+set @query=@query+'',#TblUsrWF WF
+WHERE ACC.LinkedAccDocDetailsID is null and ACC.InvDocDetailsID is null and WF.WID=ACC.WorkflowID and (WF.LevelID>ACC.WorkFlowLevel or (WF.LevelID+1=ACC.WorkFlowLevel and ACC.StatusID=372)) and (ACC.StatusID=371 or ACC.StatusID=372 or ACC.StatusID=441) AND (WF.Type=1 or (ACC.WorkFlowLevel+1=WF.LevelID and ACC.StatusID!=372) or (WF.LevelID+1=ACC.WorkFlowLevel and ACC.StatusID=372) or (WF.CtWef is not null and ACC.WorkFlowLevel>=WF.LvWef
+and ACC.CreatedDate+WF.CtWef<=convert(float,getdate())))''+@where+''
+GROUP BY ACC.CostCenterID,ACC.VoucherNo  ) AS T
+JOIN ADM_DocumentTypes DT with(nolock) ON T.CostCenterID=DT.CostCenterID
+GROUP BY DT.CostCenterID,DT.DocumentName,DT.DocumentType,DT.IsInventory  
+UNION ALL
+SELECT DT.FeatureID CostCenterID,DT.Name DocumentName,-DT.FeatureID DocumentType,0 IsInventory,count(*) CNT
+FROM (
+SELECT INV.CostCenterID FROM REN_Contract INV WITH(NOLOCK),#TblUsrWF WF
+WHERE  WF.WID=INV.WorkflowID and WF.LevelID>INV.WorkFlowLevel and (INV.StatusID=440 or INV.StatusID=470 or INV.StatusID=466) AND (WF.Type=1 or (INV.WorkFlowLevel+1=WF.LevelID and INV.StatusID!=470)  or (WF.CtWef is not null and INV.WorkFlowLevel>=WF.LvWef
+ and INV.CreatedDate+WF.CtWef<=convert(float,getdate()))) AND INV.RefContractID=0 ) AS T
+JOIN ADM_Features DT with(nolock) ON T.CostCenterID=DT.FeatureID
+GROUP BY DT.FeatureID,DT.Name 
+ORDER BY DocumentName''
+exec(@query)
+
+DROP TABLE #TblUsrWF
+'
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:19:45.044 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:19:45.247 | General Service|:: CompanyIndex:0 SpName: spADM_GetClientUserDetails2C 
+ 'admin'
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:19:45.263 | General Service|:: CompanyIndex:53 SpName: spADM_GetClientUserDetails 
+ 'admin'
+ ,1
+ ,'26.1.9'
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:19:45.294 | General Service|:: CompanyIndex:53 SpName: spADM_GetGlobalPreferences 
+ 1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:19:45.294 | General Service|:: CompanyIndex:53 SpName: spADM_GetPrintLayout 
+ 41018
+ ,0
+ ,520230
+ ,1
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:19:45.341 | General Service|:: CompanyIndex:53 SpName: spADM_GetPrintLayouts 
+ 1
+ ,41018
+ ,0
+ ,0
+ ,1
+ ,1
+ ,110961
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:19:45.778 | General Service|:: CompanyIndex:53 SpName: spADM_GetPrintLayouts 
+ 2
+ ,41018
+ ,0
+ ,'520230'
+ ,1
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:19:45.809 | General Service|:: CompanyIndex:53 SpName: spDOC_GetVPTDocumentsData 
+ 41018
+ ,110961
+ ,NULL
+ ,''
+ ,0
+ ,0
+ ,0
+ ,True
+ ,-1
+ ,''
+ ,1
+ ,'admin'
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:19:49.356 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:19:49.387 | General Service|:: CompanyIndex:53 SpName: spDOC_GetVPTPrintCopies 
+ 5
+ ,41018
+ ,110961
+ ,520230
+ ,1
+ ,'admin'
+ ,'admin'
+ ,1
+[System: 192.168.1.77] DEBUG | 07-25-2025 11:19:49.387 | General Service|:: CompanyIndex:53 SpName: spADM_GetDataSet 
+ 'select * from COM_TokenHistory WITH(NOLOCK) where JwtToken=''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluLDEsNTMsMSIsIm5iZiI6MTc1MzQyMjQ0OSwiZXhwIjoxNzUzNDUxMjQ5LCJpYXQiOjE3NTM0MjI0NDl9.IU6tK50xa_9GmVu4xQoWYDxQFMuBW97XkwsDqnuKRXY'''
+ ,1
+ ,1
